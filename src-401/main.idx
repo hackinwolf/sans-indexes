@@ -516,10 +516,15 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Know your Environment|book{1}}{17}
 \indexentry{Network!Architecture|book{1}}{17}
 \indexentry{Know Thy Systems|book{1}}{17}
-\indexentry{Conceptual Design \goto Network|comment}{0}
-\indexentry{Network!Coneptual Design|book{1}}{19}
+\indexentry{Conceptual Design \goto Network \goto Know Thy Network|comment}{0}
+\indexentry{Network!Know Thy Network!Coneptual Design|book{1}}{19}
 \indexentry{Criticality|book{1}}{19}
-\indexentry{closed-box diagramming \goto Conceptual Design|comment}{0}
+\indexentry{closed-box diagramming \goto Network \goto Know Thy Network \goto Conceptual Design|comment}{0}
+\indexentry{Logical Design \goto Network \goto Know Thy Network|comment}{0}
+\indexentry{Network!Know Thy Network!Logical Design|book{1}}{21}
+\indexentry{Network!Know Thy Network!Physical Design|book{1}}{22}
+\indexentry{Physical Design \goto Network \goto Know Thy Network|comment}{0}
+
 
 % \indexentry{Mobility|book{1}}{7}
 % \indexentry{Unauthorized Access|book{1}}{7}
