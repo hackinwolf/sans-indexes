@@ -530,10 +530,8 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Data Loss Prevention (DLP)|book{1}}{26}
 \indexentry{Exfiltration|book{1}}{27}
 \indexentry{Network!Attacks|book{1}}{29}
-\indexentry{Network!Router|book{1}}{29}
-\indexentry{Router \goto Network|comment}{0}
-\indexentry{Network!Switch|book{1}}{29}
-\indexentry{Switch \goto Network|comment}{0}
+\indexentry{Router|book{1}}{29}
+\indexentry{Switch|book{1}}{29}
 \indexentry{Criticality|book{1}}{29}
 \indexentry{Threat Enumeration|book{1}}{31}
 \indexentry{Defensible Network Architecture|book {1}}{31}
@@ -558,22 +556,42 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Threat Agents!Advanced Persistent Threat (APT)|book {1}}{32}
 \indexentry{Nation State Actors \goto Threat Agents|comment}{0}
 \indexentry{Advnaced Persistent Threat (APT) \goto Threat Agents|comment}{0}
-\indexentry{Network!Router|book{1}}{34}
-\indexentry{Network!Router!Attacks!Denial of Service (DoS)|book {1}}{34}
-\indexentry{Network!Router!Attacks!Distributed Denial of Service (DDoS)|book {1}}{34}
-\indexentry{Network!Router!Attacks!Packet Sniffing|book {1}}{34}
-\indexentry{Network!Router!Attacks!Packet Misrouting|book {1}}{34}
-\indexentry{Network!Router!Attacks!Routing Table Poisioning|book {1}}{34}
-\indexentry{Denial of Services (DoS) \goto Network \goto Router \goto Attacks|comment}{0}
-\indexentry{Distributed Denial of Services (DDoS) \goto Network \goto Router \goto Attacks|comment}{0}
-\indexentry{Packet Sniffing \goto Network \goto Router \goto Attacks|comment}{0}
-\indexentry{Packet Misrouting \goto Network \goto Router \goto Attacks|comment}{0}
-\indexentry{Routing Table Poisoning \goto Network \goto Router \goto Attacks|comment}{0}
+\indexentry{Router|book{1}}{34}
+\indexentry{Router!Attacks!Denial of Service (DoS)|book {1}}{34}
+\indexentry{Router!Attacks!Distributed Denial of Service (DDoS)|book {1}}{34}
+\indexentry{Router!Attacks!Packet Sniffing|book {1}}{34}
+\indexentry{Router!Attacks!Packet Misrouting|book {1}}{34}
+\indexentry{Router!Attacks!Routing Table Poisioning|book {1}}{34}
+\indexentry{Denial of Services (DoS) \goto Router \goto Attacks|comment}{0}
+\indexentry{Distributed Denial of Services (DDoS) \goto Router \goto Attacks|comment}{0}
+\indexentry{Packet Sniffing \goto Router \goto Attacks|comment}{0}
+\indexentry{Packet Misrouting \goto Router \goto Attacks|comment}{0}
+\indexentry{Routing Table Poisoning \goto Router \goto Attacks|comment}{0}
 \indexentry{Productivity Impact Loss|book {1}}{34}
 \indexentry{Content Delivery Network (CDN)|book {1}}{35}
-\indexentry{}
-
-
+\indexentry{Man in the Middle (MiTM)|book {1}}{35}
+\indexentry{Switch!Attacks!CDP Information Disclosure|book {1}}{36}
+\indexentry{Switch!Attacks!MAC Flooding|book {1}}{36}
+\indexentry{Switch!Attacks!DHCP Manipulation|book {1}}{36}
+\indexentry{Switch!Attacks!STP Manipulation|book {1}}{36}
+\indexentry{Switch!Attacks!VLAN Hopping|book {1}}{36}
+\indexentry{CDP Infomation Disclosure \goto Switch \goto Attacks|comment}{36}
+\indexentry{MAC Flooding \goto Switch \goto Attacks|comment}{36}
+\indexentry{DHCP Manipulation \goto Switch \goto Attacks|comment}{36}
+\indexentry{STP Manipulation \goto Switch \goto Attacks|comment}{36}
+\indexentry{VLAN Hopping \goto Switch \goto Attacks|comment}{36}
+\indexentry{Cisco Discovery Protocol (CDP)|book {1}}{36}
+\indexentry{Discovery Protocol|book {1}}{36}
+\indexentry{Media Access Control (MAC)|book {1}}{37}
+\indexentry{Downgrade Attack|book {1}}{37}
+\indexentry{Hub|book {1}}{37}
+\indexentry{Dynamic Host Configuration Protocol (DHCP)|book {1}}{38}
+\indexentry{Spanning Tree Protocol (STP)|book {1}}{38}
+\indexentry{Virtual Local Area Network (VLAN)|book {1}}{38}
+\indexentry{Topologies!Physical|book {1}}{41}
+\indexentry{Topologies!Logical|book {1}}{41}
+\indexentry{Physical Topology \goto Topologies|comment}{0}
+\indexentry{Logical Topology \goto Topologies|comment}{0}
 
 
 \comment{********************************************************************************************
