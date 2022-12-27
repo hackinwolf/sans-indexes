@@ -35,34 +35,42 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{1a@\textbf{Network Security and Cloud Essentials}!2@Defensible Network Architecture|book{1}}{14-53}
 \indexentry{1a@\textbf{Network Security and Cloud Essentials}!3@Protocols and Packet Analysis|book{1}}{54-107}
 \indexentry{1a@\textbf{Network Security and Cloud Essentials}!4@Virtualization and Cloud Essentials|book{1}}{108-165}
-\indexentry{1a@\textbf{Network Security and Cloud Essentials}!4@Securing Wireless Networks|book{1}}{166-235}
+\indexentry{1a@\textbf{Network Security and Cloud Essentials}!5@Securing Wireless Networks|book{1}}{166-235}
 
 \indexentry{1b@\blankline|comment}{0}
 
-\indexentry{2a@\textbf{Defense-in-Depth}!1@Hotspots|book{2}}{3-30}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@WiFi Client|book{2}}{31-62}
-\indexentry{2a@\textbf{Defense-in-Depth}!3@WEP|book{2}}{63-83}
-\indexentry{2a@\textbf{Defense-in-Depth}!4@DoS|book{2}}{84-122}
-\indexentry{2a@\textbf{Defense-in-Depth}!5@WiFi Fuzzing|book{2}}{123-147}
+\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-30}
+\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{31-62}
+\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{63-83}
+\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{84-122}
+\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{123-147}
+\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{123-147}
 
 \indexentry{2b@\blankline|comment}{0}
 
-\indexentry{3a@\textbf{Vulnerability Management and Response}!1@WPA2 PSK|book{3}}{3-49}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!2@WPA2 Enterprise|book{3}}{50-77}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!3@DECT|book{3}}{78-105}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Zigbee|book{3}}{106-149}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-49}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{50-77}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{78-105}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{106-149}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{106-149}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{106-149}
 
 \indexentry{3b@\blankline|comment}{0}
 
-\indexentry{4a@\textbf{Data Security Technologies}!1@Bluetooth|book{4}}{3-49}
-\indexentry{4a@\textbf{Data Security Technologies}!2@Bluetooth Low Energy|book{4}}{50-95}
-\indexentry{4a@\textbf{Data Security Technologies}!3@SDR|book{4}}{96-132}
+\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-49}
+\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{50-95}
+\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{96-132}
+\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{96-132}
+\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{96-132}
 
 \indexentry{4b@\blankline|comment}{0}
 
-\indexentry{5a@\textbf{Windows and Azure Security}!1@RFID|book{5}}{3-67}
-\indexentry{5a@\textbf{Windows and Azure Security}!2@Smart Cards|book{5}}{68-115}
-\indexentry{5a@\textbf{Windows and Azure Security}!3@NFC|book{5}}{116-137}
+\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-67}
+\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{68-115}
+\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{116-137}
+\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{116-137}
+\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{116-137}
+\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{116-137}
 
 \indexentry{5b@\blankline|comment}{0}
 
@@ -592,16 +600,894 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Topologies!Logical|book {1}}{41}
 \indexentry{Physical Topology \goto Topologies|comment}{0}
 \indexentry{Logical Topology \goto Topologies|comment}{0}
+\indexentry{Network!Design!Segmentation|book {1}}{43}
+\indexentry{Segmentation \goto Network \goto Design|comment}{0}
+\indexentry{Principle of Least Privilege|book {1}}{43}
+\indexentry{Network!Softward Defined Networking (SDN)|book {1}}{43-44}
+\indexentry{Softward Defined Networking (SDN) \goto Network|comment}{0}
+\indexentry{Criticality|book {1}}{43}
+\indexentry{NotPetya|book {1}}{43}
+\indexentry{IPsec|book {1}}{44}
+\indexentry{Virtualization|book {1}}{44}
+\indexentry{Network!Security!Virtual LAN (VLAN)|book {1}}{45}
+\indexentry{Virtual LAN (VLAN) \goto Network \goto Security|comment}{0}
+\indexentry{Access Control List (ACL)|book {1}}{45}
+\indexentry{Segmentation|book {1}}{45}
+\indexentry{Criticality|book {1}}{45}
+\indexentry{Network!Security!802/1X|book {1}}{46}
+\indexentry{802.1X \goto Network \goto Security}
+\indexentry{Network Access Control|book {1}}{46}
+\indexentry{eXtensible|book {1}}{46}
+\indexentry{Network!Authentication|book {1}}{46}
+\indexentry{Network-based Security Control|book {1}}{46}
+\indexentry{Supplicant|book {1}}{46}
+\indexentry{Extensible Authentication Protocol over LAN (EAPOL)|book {1}}{46}
+\indexentry{Defense-in-Depth (DiD)|book {1}}{47}
+\indexentry{Web Application|book {1}}{47}
+\indexentry{Network!Design Objectives|book {1}}{47}
+\indexentry{Firewall|book {1}}{48}
+\indexentry{Demilitarized Zone (DMZ)|book {1}}{48}
+\indexentry{Domain Name Service (DNS)|book {1}}{48}
+\indexentry{Trust|book {1}}{48}
+\indexentry{Risk|book {1}}{48}
+\indexentry{Application tier|book {1}}{49}
+\indexentry{Proxy|book {1}}{48-49}
+\indexentry{Segmentation| book{1}}{48-49}
+\indexentry{Firewall|book {1}}{49}
+\indexentry{Tiered Architecture|book {1}}{50}
+\indexentry{Demilitarized Zone (DMZ)|book {1}}{51}
+\indexentry{Firewall|book {1}}{51}
+\indexentry{Network Architecture!Benefits|book {1}}{52}
+\indexentry{Criticality|book {1}}{52-53}
+\indexentry{Principle of Least Privilege|book {1}}{52}
+\indexentry{Network Protocol|book {1}}{55}
+\indexentry{Network Protocol!Internet Protocol (IP)|book {1}}{55}
+\indexentry{IP \goto Network Protocol \goto Internet Protocol (IP)|comment}{0}
+\indexentry{Network Protocol!Internet Control Message Protocol (ICMP)|book {1}}{55}
+\indexentry{ICMP \goto Network Protocol \goto Internet Control Message Protocol (ICMP)|comment}{0}
+\indexentry{Network Protocol!Transmission Control Protocol (TCP)|book {1}}{55}
+\indexentry{TCP \goto Network Protocol \goto Transmission Control Protocol (TCP)|comment}{0}
+\indexentry{Sniffing|book {1}}{55}
+\indexentry{Protocol!Stacks|book {1}}{55}
+\indexentry{IPv4|book {1}}{55}
+\indexentry{IPv6|book {1}}{55}
+\indexentry{Network Protocol|book {1}}{57}
+\indexentry{Network!Communication|book{1}}{57-58}
+\indexentry{Protocol!Stack|book {1}}{57-59}
+\indexentry{Communication Protocols|book {1}}{58}
+\indexentry{Packet|book {1}}{58}
+\indexentry{Open Systems Interconnect (OSI)|book {1}}{58-59}
+\indexentry{OSI \goto Open Systems Interconnect (OSI)|comment}{0}
+\indexentry{International Organization for Standardization (ISO)|book {1}}{59}
+\indexentry{ISO \goto International Organization for Standardization (ISO)|comment}{0}
+\indexentry{Open Systems Interconnect (OSI)!Layer 7(Application)|book {1}}{59}
+\indexentry{Open Systems Interconnect (OSI)!Layer 6(Presentation)|book {1}}{59}
+\indexentry{Open Systems Interconnect (OSI)!Layer 5(Session)|book {1}}{60}
+\indexentry{Open Systems Interconnect (OSI)!Layer 4(Transport)|book {1}}{60}
+\indexentry{Open Systems Interconnect (OSI)!Layer 3(Network)|book {1}}{60}
+\indexentry{Open Systems Interconnect (OSI)!Layer 2(Data Link)|book {1}}{60}
+\indexentry{Open Systems Interconnect (OSI)!Layer 1(Physical)|book {1}}{60}
+\indexentry{Protocol!Stack!Communication|book {1}}{61}
+\indexentry{Protocol!Headers|book {1}}{62}
+\indexentry{Headers \goto Protocol \goto Headers|comment}{0}
+\indexentry{Layer Independence|book {1}}{62}
+\indexentry{Spoofing|boo {1}}{62}
+\indexentry{Encapsulation|book {1}}{62}
+\indexentry{Decapsulation|book {1}}{62}
+\indexentry{Open Systems Interconnect (OSI)|book {1}}{63}
+\indexentry{TCP/IP|book {1}}{63-65}
+\indexentry{Protocol!Stack!TCP/IP|book {1}}{63-65}
+\indexentry{TCP/IP!Layer 4 (Application)|book {1}}{63-65}
+\indexentry{TCP/IP!Layer 43(Transport (TCP))|book {1}}{63-65}
+\indexentry{TCP/IP!Layer 4 (Internet (IP))|book {1}}{63-65}
+\indexentry{TCP/IP!Layer 4 (Network)|book {1}}{63-65}
+\indexentry{TCP/IP!Communication|book {1}}{65}
+\indexentry{Network Protocol!Internet Protocol (IP)|book {1}}{67}
+\indexentry{Internet Protocol \goto Network Protocol (IP) \goto Internet Protocol (IP)|comment}{0}
+\indexentry{IP \goto Network Protocol (IP) \goto Internet Protocol (IP)|comment}{0}
+\indexentry{Time to Live (TTL)|book {1}}{67}
+\indexentry{TTL \goto Time to Live (TTL)|comment}{0}
+\indexentry{Type of Service|book {1}}{67}
+\indexentry{IPv4|book {1}}{68-72}
+\indexentry{IPv4!Address Space|book {1}}{68}
+\indexentry{IPv6|book {1}}{68-70}
+\indexentry{IPv6!Address Space|book {1}}{68}
+\indexentry{ARPANET|book {1}}{68}
+\indexentry{Network Address Translation (NAT)|book {1}}{68}
+\indexentry{NAT \goto Network Address Translation (NAT)|comment}{0}
+\indexentry{Classless Inter-Domain Routing (CIDR)|book {1}}{68}
+\indexentry{CIDR \goto Classless Inter-Domain Routing (CIDR)|comment}{0}
+\indexentry{IPv6!Ouality of Service (QoS)|book {1}}{70}
+\indexentry{QoS \goto IPv6 \goto Quality of Service (QoS)|commnet}{0}
+\indexentry{ARPANET|book {1}}{70}
+\indexentry{IPv4!Address Space|book {1}}{70}
+\indexentry{IPv6!Address Space|book {1}}{70}
+\indexentry{IPsec|book {1}}{70}
+\indexentry{IPv4!Header|book {1}}{71-72}
+\indexentry{IPv4!Header!Time-to-live (TTL)|book {1}}{72}
+\indexentry{IPv4!Fragmentation|book {1}}{72}
+\indexentry{IPv6|book {1}}{74}
+\indexentry{IPv6!Header|book {1}}{74}
+\indexentry{IPv6!Header!Traffic Class|book {1}}{74}
+\indexentry{IPv6!Header!Flow Label|book {1}}{74}
+\indexentry{IPv6!Tunneling|book {1}}{76}
+\indexentry{IPv6!Translation|book {1}}{76}
+\indexentry{Network Protocol!Internet Control Message Protocol (ICMP)|book {1}}{79-82}
+\indexentry{ICMP \goto Network Protocol \goto Internet Control Message Protocol (ICMP)|comment}{0}
+\indexentry{Network Protocol!Internet Control Message Protocol (ICMP)!Header|book {1}}{81}
+\indexentry{Network Protocol!Internet Control Message Protocol (ICMP)!Common Types and Codes|book {1}}{81-82}
+\indexentry{Ping|book {1}}{82}
+\indexentry{Network Protocol!Transmission Control Protocol (TCP)|book {1}}{85-99}
+\indexentry{TCP \goto Network Protocol \goto Transmission Control Protocol (TCP)|comment}{0}
+\indexentry{Session|book {1}}{85}
+\indexentry{Layer 4|book {1}}{85}
+\indexentry{Layer 3|book {1}}{85}
+\indexentry{Internet Protocol (IP)|book {1}}{85}
+\indexentry{Flow Control|book {1}}{85}
+\indexentry{Retransmission|book {1}}{85}
+\indexentry{HyperText Transfter Protocol (HTTP)|book {1}}{85-86}
+\indexentry{HTTP \goto HyperText Transfer Protocol (HTTP)|comment}{0}
+\indexentry{HyperText Transfer Protocol Secure (HTTPS)|book {1}}{85-86}
+\indexentry{HTTPS \goto HyperText Transfer Protocol (HTTPS)|comment}{0}
+\indexentry{Secure Shell (SSH)|book {1}}{85}
+\indexentry{SSH \goto Secure Shell (SSH)|comment}{0}
+\indexentry{Ports!TCP!FTP Data (20)|book {1}}{86}
+\indexentry{Ports!TCP!FTP (21)|book {1}}{86}
+\indexentry{Ports!TCP!SSH (22)|book {1}}{86}
+\indexentry{Ports!TCCP!Telnet (23)|book {1}}{86}
+\indexentry{Ports!TCP!SMTP (25)|book {1}}{86}
+\indexentry{Ports!TCP!DNS (53)|book {1}}{86}
+\indexentry{Ports!TCP!HTTP (80)|book {1}}{86}
+\indexentry{Ports!TCP!HTTPS (443)|book {1}}{86}
+\indexentry{Initial Sequence Number (ISN)|book {1}}{89}
+\indexentry{ISN \goto Initial Sequence Number (ISN)}
+\indexentry{Network Protocol!Transmission Control Protocol (TCP)!Header|book {1}}{90-91}
+\indexentry{Network Protocol!User Datagram Protocol (UDP)|book {1}}{94-97}
+\indexentry{UDP \goto Network Protocol \goto User Datagram Protocol (UDP)|comment}{0}
+\indexentry{Ports!UDP!DNS (53)|book {1}}{96-97}
+\indexentry{Ports!UDP!BOOTP/DHCP (67 and 68)|book {1}}{96-97}
+\indexentry{Ports!UDP!TFTP (69)|book {1}}{96-97}
+\indexentry{Ports!UDP!NTP (123)|book {1}}{96-97}
+\indexentry{Ports!UDP!SNMP (161 and 162)|book {1}}{96-97}
+\indexentry{Ports!UDP!NFS (2049)|book {1}}{96-97}
+\indexentry{Network Protocol!User Datagram Protocol (UDP)!Header|book {1}}{98-99}
+\indexentry{Ports!Numbers|book {1}}{98}
+\indexentry{Sniffing|book {1}}{101-104}
+\indexentry{Sniffer|book {1}}{101-104}
+\indexentry{Network Interface Card (NIC)|book {1}}{101}
+\indexentry{NIC \goto Network Interface Card (NIC)|comment}{0}
+\indexentry{Promiscuous mode|book {1}}{101}
+\indexentry{Intrusion Detection System (IDS)|book {1}}{101}
+\indexentry{Sniffer!tcpdump|book {1}}{102}
+\indexentry{Sniffer!Wireshark|book {1}}{102}
+\indexentry{Sniffer!Snort|book {1}}{102}
+\indexentry{Sniffer!Kismet|book {1}}{102}
+\indexentry{Sniffer!BetterCAP|book {1}}{102}
+\indexentry{Intrusion Detection System (IDS)|book {1}}{102}
+\indexentry{Virtualization|book {1}}{111-122}
+\indexentry{Abstraction|book {1}}{111}
+\indexentry{Virtual Machine (VM)|book {1}}{111-114}
+\indexentry{Hypervisor|book {1}}{111-113}
+\indexentry{Virtualization!Security|book {1}}{116}
+\indexentry{Virtualization!Security!Isolation|book {1}}{117}
+\indexentry{Containerization|book {1}}{117}
+\indexentry{Disaster Recovery|book {1}}{118}
+\indexentry{Virtualization!Security!Virtual Desktop Infrastructure (VID)|book {1}}{118}
+\indexentry{Virtualization!Security!Malware and Forensic Analyses|book {1}}{119}
+\indexentry{Virtualization!Risk!Hypervisor|book {1}}{120}
+\indexentry{Hypervisor|book {1}}{120}
+\indexentry{Virtualization!Risk!Isolation Violation|book {1}}{121}
+\indexentry{Virtualization!Defense|book {1}}{122}
+\indexentry{Cloud|book {1}}{124}
+\indexentry{Virtualization|book {1}}{124}
+\indexentry{Cloud!Types|book {1}}{125}
+\indexentry{Cloud!Benefits|book {1}}{127}
+\indexentry{Cloud!Services!Types|book {1}}{129}
+\indexentry{Infrastructure-as-a-Service (IaaS)|book {1}}{129}
+\indexentry{Platform-as-a-Service (PaaS)|book {1}}{129}
+\indexentry{Software-as-a-Service (SaaS)|book {1}}{129}
+\indexentry{Cloud Service Provier (CSP)|book {1}}{129}
+\indexentry{Serverless Computing|book {1}}{130}
+\indexentry{Function-as-a-Service (FaaS)|book {1}}{130}
+\indexentry{Event-triggered computing|book {1}}{130}
+\indexentry{Ephemeral environment|book {1}}{130}
+\indexentry{Infrastructure-as-Code (IaC)|book {1}}{131}
+\indexentry{Softward Defined Networking (SDN)|book {1}}{131}
+\indexentry{Continueous Integration / Continueous Delivery (CICD)|book {1}}{131}
+\indexentry{Cloud!Providers|book {1}}{134-136}
+\indexentry{Cloud!Providers!Comparison|book {1}}{136}
+\indexentry{Cloud!Security|book {1}}{138}
+\indexentry{Cloud!Shared Responsibility|book {1}}{138-140}
+\indexentry{Service Level Agreements (SLAs)|book {1}}{139}
+\indexentry{Shared Security Models|book {1}}{138-140}
+\indexentry{Security and Privacy Frameworks|book {1}}{142}
+\indexentry{ISO 27000|book {1}}{142}
+\indexentry{NIST 800-53R4|book {1}}{142}
+\indexentry{CIS Controls Cloud Companion Guide|book {1}}{142}
+\indexentry{Audit Reports|book {1}}{142}
+\indexentry{Cloud Security Alliance (CSA)|book {1}}{143-145}
+\indexentry{Governance, Risk Management and Compliance (GRC)|book {1}}{143}
+\indexentry{Amazon Web Services (AWS)|book {1}}{147}
+\indexentry{Regions|book {1}}{147}
+\indexentry{Availability Zones|book {1}}{147}
+\indexentry{Virtual Private Cloud (VPC)|book {1}}{148}
+\indexentry{Internet Gateway (IGW)|book {1}}{149}
+\indexentry{Network Access Control List (NACL)|book {1}}{149-150}
+\indexentry{Network Address Translation (NAT)|book {1}}{149}
+\indexentry{Subnets|book {1}}{150}
+\indexentry{Network Address Translation (NAT)!Gateway|book {1}}{151}
+\indexentry{Network Access Control List (NACL)!Subnets|book {1}}{149-150}
+\indexentry{Elastic Compute Cloud (EC2)|book {1}}{153}
+\indexentry{Elastic Compute Cloud (EC2)!Amazon Machine Images (AMIs)|book {1}}{154}
+\indexentry{Elastic Compute Cloud (EC2)!Security Groups|book {1}}{155}
+\indexentry{Management Subnets|book {1}}{156}
+\indexentry{Bastion Host|book {1}}{156}
+\indexentry{VPC Peering|book {1}}{156}
+\indexentry{Serverless!Security|book {1}}{157-159}
+\indexentry{Cloud!Security|book {1}}{160}
+\indexentry{Cloud!Logging|book {1}}{160-162}
+\indexentry{Virtualization|book {1}}{163}
+\indexentry{Wireless|book {1}}{166-170}
+\indexentry{Wireless Local Area Network (WLAN)|book {1}}{167}
+\indexentry{Wireless!Pervasiveness|book {1}}{169-170}
+\indexentry{802.11|book {1}}{171-186}
+\indexentry{Institute of Electrial and Electronic Engineers (IEEE)|book {1}}{172}
+\indexentry{Wireless Local Area Network (WLAN)|book {1}}{172}
+\indexentry{Wi-Fi Alliance|book {1}}{172}
+\indexentry{802.11i|book {1}}{186}
+\indexentry{Wired Equivalent Privacy (WEP)|book {1}}{188-191}
+\indexentry{RC4|book {1}}{188-190}
+\indexentry{Wi-Fi Alliance|book {1}}{192}
+\indexentry{Wi-Fi Protected Access (WPA)|book {1}}{192-195}
+\indexentry{Temporal Key Integrity Protocol (TKIP)|book {1}}{195}
+\indexentry{Message Integrity Check (MIC)|book {1}}{196}
+\indexentry{802.11i|book {1}}{197}
+\indexentry{Advanced Entryption Standard (AES)|book {1}}{197}
+\indexentry{Wi-Fi Protected Access (WPA)!Version 2 (WPA2)|book {1}}{197-199}
+\indexentry{KRACK|book {1}}{198}
+\indexentry{Wi-Fi Protected Access (WPA)!version 3 (WPA3)|book {1}}{200-202}
+\indexentry{Pre-shared Key (PSK)|book {1}}{202}
+\indexentry{Simultaneous Authentication of Equals (SAE)|book {1}}{202-203}
+\indexentry{Dragonfly|book {1}}{202-203}
+\indexentry{Opportunistic Wireless Encryption (OWE)|book {1}}{202-204}
+\indexentry{Protected Management Frames (PMF)|book {1}}{203}
+\indexentry{Wi-Fi Protected Access (WPA)!version 3 (WPA3)!Attacks|book {1}}{205}
+\indexentry{Dragonblood|book {1}}{205}
+\indexentry{Downgrade Attack|book {1}}{205-206}
+\indexentry{Rogue Access Point|book {1}}{206}
+\indexentry{Password Cracking and Denial of Service (DoS)|book {1}}{207}
+\indexentry{Side-channel attack|book {1}}{207}
+\indexentry{Timing attack|book {1}}{207}
+\indexentry{802.11!Security!Rogue Access Point|book {1}}{209-210}
+\indexentry{Masquerading AP|book {1}}{209-210}
+\indexentry{Evil Twin|book {1}}{209-210}
+\indexentry{802.1X|book {1}}{210}
+\indexentry{802.11!Security!Denial of Service (DoS)|book {1}}{211}
+\indexentry{Denial of Service (DoS)!802.11|book {1}}{211}
+\indexentry{802.11!Signal to Noise Ratio (SNR)|book {1}}{211-212}
+\indexentry{Signal to Noise Ratio (SNR)|book {1}}{211-212}
+\indexentry{Personal Area Network (PAN)|book {1}}{213-214}
+\indexentry{802.15|book {1}}{214}
+\indexentry{Personal Area Network (PAN)!Bluetooth|book {1}}{216}
+\indexentry{Personal Area Network (PAN)!Bluetooth|book {1}}{216}
+\indexentry{Personal Area Network (PAN)!Bluetooth!Special Interest Group (SIG)|book {1}}{216}
+\indexentry{Personal Area Network (PAN)!Bluetooth!Attack: BlueBorne|book {1}}{218-219}
+\indexentry{Personal Area Network (PAN)!Bluetooth!Protections|book {1}}{220-221}
+\indexentry{Personal Area Network (PAN)!Zigbee|book {1}}{222-223}
+\indexentry{Zigbee Alliance|book {1}}{222-223}
+\indexentry{Personal Area Network (PAN)!Near Field Communications (NFC)|book {1}}{224-225}
+\indexentry{NFC Forum|book {1}}{224}
+\indexentry{Personal Area Network (PAN)!Radio Frequency Identification (RFID)|book {1}}{226-227}
+\indexentry{5G|book {1}}{229-230}
+\indexentry{Cellular|book {1}}{229}
+\indexentry{Mobile|book {1}}{229}
+\indexentry{International Telecommunication Union (ITU)|book {1}}{229}
+\indexentry{Internet of Things (IoT)|book {1}}{231-232}
+
+
 
 
 \comment{********************************************************************************************
                                       SECOND BOOK SECTION
 *****************************************************************************************************}
+\indexentry{Defense-in-Depth (DiD)|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Types!Detection|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Types!Prevention|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Types!Deterrent|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Layers!Perimeter Security|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Layers!Network Security|book {2}}{5}
+\indexentry{Defense-in-Depth (DiD)!Layers!Host Security|book {2}}{6}
+\indexentry{Defense-in-Depth (DiD)!Layers!Application Security|book {2}}{6}
+\indexentry{Defense-in-Depth (DiD)!Layers!Data Security|book {2}}{6}
+\indexentry{Risk|book {2}}{7-12}
+\indexentry{Threat|book {2}}{7}
+\indexentry{Vulnerability|book {2}}{7}
+\indexentry{Confidentiality|book {2}}{9-11}
+\indexentry{Integrity|book {2}}{9-11}
+\indexentry{Availability|book {2}}{9-11}
+\indexentry{Defense-in-Depth (DiD)!Strategies|book {2}}{13}
+\indexentry{Defense-in-Depth (DiD)!Strategies!Filtering|book {2}}{14-15}
+\indexentry{Firewall|book {2}}{14}
+\indexentry{Anti-DDoS|book {2}}{14}
+\indexentry{Distributed Denial of Service (DDoS)|book {2}}{14}
+\indexentry{SYN Flooding|book {2}}{14}
+\indexentry{Proxy Server|book {2}}{14}
+\indexentry{Anti-malware software|book {2}}{15}
+\indexentry{Application control|book {2}}{15}
+\indexentry{Endpoint Detection and Response (EDR)|book {2}}{15}
+\indexentry{Defense-in-Depth (DiD)!Approaches|book {2}}{16}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Uniform Proection|book {2}}{16-17}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Protected enclaves|book {2}}{16}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Information-centric|book {2}}{16}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Threat vector analysis|book {2}}{16}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Protected enclaves|book {2}}{18}
+\indexentry{Virtual Local Area Network (VLAN)|book {2}}{18}
+\indexentry{Network Access Control List (NACL)|book {2}}{18}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Information-centric|book {2}}{19}
+\indexentry{Defense-in-Depth (DiD)!Approaches!Threat vector analysis|book {2}}{20}
+\indexentry{Systems Security Layer|book {2}}{21-22}
+\indexentry{Configuration hardening|book {2}}{21}
+\indexentry{Hardening|book {2}}{21}
+\indexentry{Baseline|book {2}}{21-23}
+\indexentry{Configuration Management|book {2}}{23-24}
+\indexentry{Hardening|book {2}}{23}
+\indexentry{Defense-in-Depth!Fixing the Problem|book {2}}{25}
+\indexentry{Defense-in-Depth!Cloud|book {2}}{26-27}
+\indexentry{Defense-in-Depth!Cloud!Firewall|book {2}}{26-27}
+\indexentry{Defense-in-Depth!Cloud!Web Application Firewall (WAF)|book {2}}{26-27}
+\indexentry{Web Application Firewall (WAF)|book {2}}{27}
+\indexentry{Network Security Groups|book {2}}{27}
+\indexentry{Defense-in-Depth!Cloud!IPS/IDS|book {2}}{28}
+\indexentry{Intrusion Prevention System (IPS)|book {2}}{28}
+\indexentry{Intrustion Detection System (IDS)|book {2}}{28}
+\indexentry{Defense-in-Depth!Cloud!E-mail Protection|book {2}}{28}
+\indexentry{Defense-in-Depth!Cloud!VPN|book {2}}{28}
+\indexentry{Defense-in-Depth!Cloud!IAM|book {2}}{28}
+\indexentry{Identity and Access Management (IAM)!Cloud|book {2}}{28}
+\indexentry{Identity Lifecycle|book {2}}{28}
+\indexentry{Defense-in-Depth!Cloud!Centralized Logging|book {2}}{29}
+\indexentry{Defense-in-Depth!Cloud!Container Security|book {2}}{29}
+\indexentry{Identity and Access Management (IAM)!On-Premise|book {2}}{30}
+\indexentry{802.1X|book {2}}{30}
+\indexentry{Identity and Access Management (IAM)!Azure|book {2}}{31}
+\indexentry{Ruleset-Based Access Control|book {2}}{31}
+\indexentry{Conditional Access|book {2}}{31}
+\indexentry{Identity and Access Management (IAM)!AWS|book {2}}{32-33}
+\indexentry{Roles|book {2}}{34}
+\indexentry{Members|book {2}}{34}
+\indexentry{Policy|book {2}}{34}
+\indexentry{Context|book {2}}{34}
+\indexentry{Role-Based Access Control (RBAC)|book {2}}{34}
+\indexentry{Network Segmentation!On-Premise|book {2}}{35}
+\indexentry{Virtual Local Area Network (VLAN)|book {2}}{35}
+\indexentry{Network Segmentation!Azure|book {2}}{36}
+\indexentry{Network Security Group (NSG)|book {2}}{36}
+\indexentry{Application Security Group (ASG)|book {2}}{36}
+\indexentry{Network Segmentation!AWS|book {2}}{37}
+\indexentry{Network Segmentation!GCP|book {2}}{38}
+\indexentry{Zero-Trust|book {2}}{39-44}
+\indexentry{Zero-Trust!Variable Trust|book {2}}{42-43}
+\indexentry{Zero-Trust!Log Inspection|book {2}}{44}
+\indexentry{Defense-in-Depth (DiD)!Summary|book {2}}{45}
+\indexentry{Identity & Access Management|book {2}}{46-}
+\indexentry{Identity Mangement|book {2}}{47}
+\indexentry{Access Control|book {2}}{47}
+\indexentry{Digital identity|book {2}}{48}
+\indexentry{Authentication|book {2}}{48}
+\indexentry{Authorization|book {2}}{48}
+\indexentry{Accountability|book {2}}{48}
+\indexentry{Authentication!Types|book {2}}{48}
+\indexentry{Identity Access Mangement (IAM)|book {2}}{50}
+\indexentry{Enrollment|book {2}}{51}
+\indexentry{Identity Proofing|book {2}}{52}
+\indexentry{Identity Assurance Levels (IAL)|book {2}}{51}
+\indexentry{Credentials|book {2}}{51}
+\indexentry{Subscriber|book {2}}{51}
+\indexentry{Resolution|book {2}}{52}
+\indexentry{Validation|book {2}}{52}
+\indexentry{Verification|book {2}}{52}
+\indexentry{Identity Assurance Levels (IAL)|book {2}}{53}
+\indexentry{NIST 800-63|book {2}}{53}
+\indexentry{Authentication|book {2}}{55}
+\indexentry{Claimant|book {2}}{55}
+\indexentry{Verifier|book {2}}{55}
+\indexentry{Authenticator Assurance Levels (AAL)|book {2}}{56}
+\indexentry{Single Sign-On (SSO)|book {2}}{57}
+\indexentry{Centralized User Management|book {2}}{57}
+\indexentry{Single Sign-On (SSO)!SAML 2.0|book {2}}{59}
+\indexentry{SAML|book {2}}{59}
+\indexentry{Single Sign-On (SSO)!OAuth 2.0|book {2}}{57}
+\indexentry{OAuth|book {2}}{60}
+\indexentry{Authroization code|book {2}}{60}
+\indexentry{Access Token|book {2}}{60}
+\indexentry{Refresh Token|book {2}}{60}
+\indexentry{Access Control|book {2}}{61}
+\indexentry{Controlling Access|book {2}}{62}
+\indexentry{Principle of Least Privilege|book {2}}{62}
+\indexentry{Need to Know|book {2}}{62}
+\indexentry{Separation of Duties|book {2}}{62}
+\indexentry{Rotation of Duties|book {2}}{62}
+\indexentry{Access Control!Techniques|book {2}}{64-65}
+\indexentry{Discretnionary Access Control (DAC)|book {2}}{64}
+\indexentry{Mandatory Access Control (MAC)|book {2}}{64}
+\indexentry{Role-Based Access Control (RBAC)|book {2}}{65}
+\indexentry{Lattice-Based Access Control (LBAC)|book {2}}{65}
+\indexentry{Access Control!Managing and Monitoring Acces|book {2}}{66}
+\indexentry{Access Management|book {2}}{66}
+\indexentry{Account Administration|book {2}}{66}
+\indexentry{Maintenance|book {2}}{66}
+\indexentry{Monitoring|book {2}}{66}
+\indexentry{Revocation|book {2}}{66}
+\indexentry{Privileged access|book {2}}{68}
+\indexentry{Superuser|book {2}}{68}
+\indexentry{Administrator|book {2}}{68}
+\indexentry{Privileged Access Management (PAM)|book {2}}{69-71}
+\indexentry{Password Vault|book {2}}{69-71}
+\indexentry{Policy Enforcement Point (PEP)|book {2}}{69}
+\indexentry{CyberArk|book {2}}{71}
+\indexentry{HashiCorp Vault|book {2}}{71}
+\indexentry{Azure Acrive Directory|book {2}}{71}
+\indexentry{Privileged Identity Management (PIM)|book {2}}{72}
+\indexentry{Authentication!Types|book {2}}{78-79}
+\indexentry{Secrets|book {2}}{79}
+\indexentry{Cryptographic devices|book {2}}{80}
+\indexentry{YubiKey|book {2}}{80}
+\indexentry{Password!Storage|book {2}}{81}
+\indexentry{Key Derivation Function|book {2}}{81-82}
+\indexentry{Hasing|book {2}}{81}
+\indexentry{Salt|book {2}}{82}
+\indexentry{Pepper|book {2}}{82}
+\indexentry{Digest|book {2}}{82}
+\indexentry{Key Stretching|book {2}}{82}
+\indexentry{Password!Hash|book {2}}{84}
+\indexentry{Key Derivation Function!Quality|book {2}}{84}
+\indexentry{Confusion|book {2}}{84}
+\indexentry{Diffusion|book {2}}{84}
+\indexentry{PBKDF2|book {2}}{84-85}
+\indexentry{SHA256|book {2}}{84}
+\indexentry{SHA512|book {2}}{84}
+\indexentry{bcrypt|book {2}}{84}
+\indexentry{scrypt|book {2}}{84}
+\indexentry{Argon2|book {2}}{84}
+\indexentry{MD5|book {2}}{87}
+\indexentry{Message Digest (MD)|book {2}}{87}
+\indexentry{Collision|book {2}}{87}
+\indexentry{SHA|book {2}}{88}
+\indexentry{Secure Hash Algroithm (SHA)|book {2}}{88}
+\indexentry{SHA256|book {2}}{88}
+\indexentry{SHA512|book {2}}{88}
+\indexentry{LM/NTLM Hashes|book {2}}{89}
+\indexentry{LAN Manager (LM)|book {2}}{89}
+\indexentry{NT LAN Manager (NTLM)|book {2}}{90-91}
+\indexentry{Password!Dumps|book {2}}{92}
+\indexentry{Password!Cracking|book {2}}{93-95}
+\indexentry{Password!Specialized Attacks!Brute-force|book {2}}{96}
+\indexentry{Password!Specialized Attacks!Dictionary|book {2}}{96}
+\indexentry{Password!Specialized Attacks!Hybrid|book {2}}{96-97}
+\indexentry{Password!Specialized Attacks!Precomputation|book {2}}{96-97}
+\indexentry{Password!Cracking!Speeding up|book {2}}{93-95}
+\indexentry{Data Parallelism|book {2}}{98}
+\indexentry{GPU Acceleration|book {2}}{98}
+\indexentry{Rainbow tables|book {2}}{98}
+\indexentry{Password!Policy|book {2}}{99}
+\indexentry{Password!Specialized Attacks!Precomputation|book {2}}{101}
+\indexentry{Salt|book {2}}{101-102}
+\indexentry{Pepper|book {2}}{101}
+\indexentry{Password!Cracking!Tools|book {2}}{103}
+\indexentry{Hashcat|book {2}}{103-104}
+\indexentry{Mimikatz|book {2}}{103}
+\indexentry{Password!Specialized Attacks!Dictionary|book {2}}{104}
+\indexentry{Password!Specialized Attacks!Combinator|book {2}}{104}
+\indexentry{Password!Specialized Attacks!Brute-force|book {2}}{105}
+\indexentry{Password!Specialized Attacks!Hybrid|book {2}}{105}
+\indexentry{Mimikatz|book {2}}{106}
+\indexentry{Multi-Factor Authentication (MFA)|book {2}}{108}
+\indexentry{Adaptive Authentication|book {2}}{109}
+\indexentry{Identity Assurance Levels (IAL)|book {2}}{109}
+\indexentry{Authenticator Assurance Levels (AAL)|book {2}}{109}
+\indexentry{Zero-Trust!Adaptive Authentication|book {2}}{109}
+\indexentry{Security Frameworks|book {2}}{109-110}
+\indexentry{CIS Controls|book {2}}{114}
+\indexentry{NIST Framework|book {2}}{114-115}
+\indexentry{MITRE ATT&CK Framework|book {2}}{116}
+\indexentry{CIS Controls!Guiding Principles|book {2}}{117-118}
+\indexentry{CIS Controls!Critical Security Controls (CSC)|book {2}}{116-117}
+\indexentry{CIS Controls!Summary|book {2}}{119}
+\indexentry{CIS Controls!Controls|book {2}}{120-121}
+\indexentry{CIS Controls!Sample Control #2|book {2}}{122}
+\indexentry{Attacks!SolarWinds|book {2}}{123}
+\indexentry{SolarWindws|book {2}}{125}
+\indexentry{Core Evaluation Test|book {2}}{125}
+\indexentry{AppLocker|book {2}}{126}
+\indexentry{CIS Controls!Sample Control #2!Measures|book {2}}{126}
+\indexentry{NIST Framework|book {2}}{127}
+\indexentry{NIST Framework!Functions|book {2}}{127-128}
+\indexentry{NIST Framework!Core|book {2}}{128}
+\indexentry{NIST Framework!Implementation Tiers|book {2}}{130-131}
+\indexentry{NIST Framework!Profiles|book {2}}{132}
+\indexentry{MITRE ATT&CK Framework|book {2}}{133-135}
+\indexentry{Tactics|book {2}}{133}
+\indexentry{Security Frameworks!Other|book {2}}{137}
+\indexentry{Australian Signal Directive (ASD) controls|book {2}}{137}
+\indexentry{NIST 800-53|book {2}}{137}
+\indexentry{ISO 27001|book {2}}{137}
+\indexentry{GDPR|book {2}}{137}
+\indexentry{PCI|book {2}}{137}
+\indexentry{SOC 2|book {2}}{137}
+\indexentry{Security Frameworks!Summary|book {2}}{139}
+\indexentry{Data Loss Prevention (DLP)|book {2}}{142}
+\indexentry{Data Loss|book {2}}{143-144}
+\indexentry{Data Leakage|book {2}}{143}
+\indexentry{Ransomware|book {2}}{145}
+\indexentry{Data Loss Prevention (DLP)!Strategies|book {2}}{146}
+\indexentry{Redundancy|book {2}}{146-147}
+\indexentry{Backups|book {2}}{146}
+\indexentry{Access Control|book {2}}{146}
+\indexentry{Error-Correction Code (ECC) memory|book {2}}{147}
+\indexentry{RAID configuration|book {2}}{147}
+\indexentry{Journaling|book {2}}{147}
+\indexentry{Redundancy!Cloud|book {2}}{146-147}
+\indexentry{CAP theorem|book {2}}{148}
+\indexentry{Backups!Methods|book {2}}{150}
+\indexentry{Full System Imaging|book {2}}{150}
+\indexentry{Incremental Backups|book {2}}{150}
+\indexentry{Continuous Backups|book {2}}{150}
+\indexentry{Differential Backups|book {2}}{150}
+\indexentry{Backups!Common Pitfalls|book {2}}{151}
+\indexentry{Data Recovery|book {2}}{152}
+\indexentry{Data Leakage|book {2}}{153}
+\indexentry{Data Leakage!Prevention|book {2}}{154}
+\indexentry{General Data Protection Regulation (GDPR)|book {2}}{155}
+\indexentry{California Consumer Privacy Act (CCPA)|book {2}}{155-156}
+\indexentry{Data Leakage!Prevention|book {2}}{158}
+\indexentry{Data Leakage!Storing Sensitive Data|book {2}}{159}
+\indexentry{Sensitive Data|book {2}}{159}
+\indexentry{Data Loss Prevention (DLP)!Policies|book {2}}{160}
+\indexentry{Data Loss Prevention (DLP)!Policies!Data Classification Labels|book {2}}{161}
+\indexentry{Data Classification Labels|book {2}}{161}
+\indexentry{Data Loss Prevention (DLP)!Policies!Examples|book {2}}{162-163}
+\indexentry{Data Loss Prevention (DLP)!Tools|book {2}}{164}
+\indexentry{Intrustion Detection and Prevention|book {2}}{168}
+\indexentry{Intrustion Detection System (IDS)|book {2}}{168}
+\indexentry{Intrustion Detection System (IDS)!Network IDS|book {2}}{168}
+\indexentry{Intrustion Detection System (IDS)!Host IDS|book {2}}{168}
+\indexentry{Data Exfiltration|book {2}}{169-170}
+\indexentry{Data Exfiltration!Defense|book {2}}{171-172}
+\indexentry{Honeypot|book {2}}{173}
+\indexentry{Honeynet|book {2}}{173}
+\indexentry{Insider Threats|book {2}}{174-175}
+\indexentry{User Activity Monitoring (UAM)|book {2}}{176}
+\indexentry{Digital Watermarking|book {2}}{177}
+\indexentry{Printer Dots|book {2}}{177}
+\indexentry{Document Watermarks|book {2}}{177}
+\indexentry{Third-Party Risk Mangement|book {2}}{178}
+\indexentry{Data Loss Prevention (DLP)!Summary|book {2}}{179}
+\indexentry{Mobile!Device Security|book {2}}{182}
+\indexentry{Mobile!Operating System!Market Share|book {2}}{184}
+\indexentry{Android vs. iOS|book {2}}{185}
+\indexentry{Android!Security|book {2}}{186-190}
+\indexentry{Open Handset Alliance (OHA)|book {2}}{188-190}
+\indexentry{Apple iOS!Security|book {2}}}{191-194}
+\indexentry{Mobile!Problems and Opportunities|book {2}}{195}
+\indexentry{Mobile!Threats|book {2}}{196-198}
+\indexentry{Mobile Device Management (MDM)|book {2}}{198}
+\indexentry{Mobile!Malware|book {2}}{200-204}
+\indexentry{User Credential Theft|book {2}}{201}
+\indexentry{Zitmo|book {2}}{201}
+\indexentry{ZeuS Trojan|book {2}}{201}
+\indexentry{Mobile!Summary|book {2}}{205}
+
+
+
+
+
+
+\comment{error on page 100; second sentence}
+
+
+
+
+
+
+
 
 
 \comment{********************************************************************************************
                                      THIRD BOOK SECTION
 *****************************************************************************************************}
+
+\indexentry{Vulnerability Assessments|book {3}}{3}
+\indexentry{Vulnerability Assessments!Need at Scale|book {3}}{6}
+\indexentry{Vulnerability|book{3}}{8}
+\indexentry{Security Audit|book {3}}{8}
+\indexentry{Vulnerability!Assessment|book {3}}{8-10}
+\indexentry{Vulnerability!Management|book {3}}{8}
+\indexentry{Vulnreability!Assessment Framework|book {3}}{11}
+\indexentry{Vulnerablity!Assessment Framework!Modules|book {3}}{12}
+\indexentry{Vulnerability!Assessment Framework!Steps|book {3}}{13}
+\indexentry{Vulnerability!Assessment Framework!Step 1: Engagement Planning|book {3}}{14}
+\indexentry{Vulnerability!Assessment Framework!Step 2: Intelligence and Threat Modeling|book {3}}{15}
+\indexentry{Vulnerability!Assessment Framework!Step 3: Discovery|book {3}}{16}
+\indexentry{Vulnerability!Assessment Framework!Step 4: Scanning|book {3}}{17}
+\indexentry{Vulnerability!Assessment Framework!Step 5: Valication|book {3}}{18}
+\indexentry{Vulnerability!Assessment Framework!Step 6: Remediation|book {3}}{19}
+\indexentry{Vulnerability!Assessment Framework!Step 7: Reporting|book {3}}{20}
+\indexentry{Vulnerablity!Criticality|book {3}}{22}
+\indexentry{Criticality|book {3}}{22}
+\indexentry{Risk|book {3}}{22}
+\indexentry{Vulnerability!Risk|book {3}}{22}
+\indexentry{Heartbleed|book {3}}{23}
+\indexentry{Common Vulnerability Scoring System (CVSS)|book {3}}{23-26}
+\indexentry{Risk!Ratings!Dangers|book {3}}{27}
+\indexentry{DREAD|book {3}}{27}
+\indexentry{Security Development Lifecycle (SDL)|book {3}}{27}
+\indexentry{Risk!Customized Calculation|book {3}}{28}
+\indexentry{Risk!Analysis|book {3}}{28}
+\indexentry{Risk!Assessment!Quantitative|book {3}}{28}
+\indexentry{Risk!Assessment!Qualitative|book {3}}{28}
+\indexentry{MS17-010|book {3}}{29}
+\indexentry{Server Message Block (SMB)|book {3}}{29}
+\indexentry{Shadow Brokers|book {3}}{29}
+\indexentry{ETERNALBLUE|book {3}}{29}
+\indexentry{WannaCry|book {3}}{29}
+\indexentry{Meltdown and Spectre|book {3}}{30}
+\indexentry{Dynamic Trunking Protocol (DTP)|book {3}}{31}
+\indexentry{Penetration Testing|book {3}}{33-36}
+\indexentry{Red Team|book {3}}{37}
+\indexentry(TTPs|book {3}){37}
+\indexentry{TTP \goto Threat Enumeration|comment}{0}
+\indexentry{Blue Team|book {3}}{37}
+\indexentry{Adversary Emulation|book {3}}{38}
+\indexentry{Purple Team|book {3}}{39}
+\indexentry{Penetration Testing|book {3}}{40}
+\indexentry{Penetration Testing!Rules of Engagement|book {3}}{41}
+\indexentry{Penetration Testing!Scoping|book {3}}{42}
+\indexentry{Penetration Testing!Types|book {3}}{43}
+\indexentry{Penetration Testing!Types!External|book {3}}{44}
+\indexentry{Penetration Testing!Types!Internal|book {3}}{45}
+\indexentry{Assumed breach|book {3}}{45}
+\indexentry{Penetration Testing!Types!Web Application|book {3}}{46}
+\indexentry{Open Web Application Security Project (OWASP)|book {3}}{46}
+\indexentry{Penetration Testing!Types!Social Engineering|book {3}}{47-48}
+\indexentry{Phishing|book {3}}{48}
+\indexentry{Penetration Testing!Types!Other|book {3}}{49}
+\indexentry{Penetration Testing!Process|book {3}}{51}
+\indexentry{Penetration Testing!Phases|book {3}}{52}
+\indexentry{Open-Source Intelligence (OSINT) Gathering|book {3}}{53}
+\indexentry{Reconaissance|book {3}}{53}
+\indexentry{Scanning and Enumeration|book {3}}{54}
+\indexentry{Vulnerability Identification|book {3}}{55}
+\indexentry{Nessus|book {3}}{55}
+\indexentry{OpenVAS|book {3}}{55}
+\indexentry{Exploitation|book {3}}{56}
+\indexentry{Post-Exploitation|book {3}}{57}
+\indexentry{Pivoting|book {3}}{57}
+\indexentry{Lateral Movement|book {3}}{57}
+\indexentry{Privilege escalation|book {3}}{57}
+\indexentry{Data Exfiltration|book {3}}{57}
+\indexentry{Maintaining Access|book {3}}{57}
+\indexentry{Reporting|book {3}}{57}
+\indexentry{Penetration Testing!Tools|book {3}}{60}
+\indexentry{Port Scanning|book {3}}{61}
+\indexentry{Nmap|book {3}}{61-65}
+\indexentry{Nmap!OS Identification|book {3}}{65}
+\indexentry{Operating System Identification|book {3}}{65}
+\indexentry{Metasploit|book {3}}{66}
+\indexentry{Exploitation Framework|book {3}}{66}
+\indexentry{Meterpreter|book {3}}{67}
+\indexentry{C2 Frameworks and Implants|book {3}}{68}
+\indexentry{Empire|book {3}}{68}
+\indexentry{Cobalt Strike|book {3}}{68}
+\indexentry{Covenant|book {3}}{68}
+\indexentry{Sliver|book {3}}{68}
+\indexentry{C2 Matrix|book {3}}{69}
+\indexentry{Password!Compromise|book {3}}{70}
+\indexentry{Password!Reuse and Stuffing|book {3}}{71}
+\indexentry{Password!Spraying|book {3}}{72}
+\indexentry{Responder|book {3}}{73}
+\indexentry{Poisoning|book {3}}{73}
+\indexentry{Penetration Testing!Summary|book {3}}{74}
+\indexentry{Attacks!Marriott Data Breach|book {3}}{80-85}
+\indexentry{Attacks!Marriott Data Breach!Impact|book {3}}{83}
+\indexentry{Attacks!Marriott Data Breach!Fallout|book {3}}{84-85}
+\indexentry{Attacks!Equifax|book {3}}{86}
+\indexentry{Attacks!WannaCry|book {3}}{87-89}
+\indexentry{Attacks!WannaCry!Impact|book {3}}{89}
+\indexentry{Attacks!WannCry!Root Cause|book {3}}{90}
+\indexentry{Attacks!WannCry!Tools|book {3}}{91}
+\indexentry{Server Message Block (SMB)|book {3}}{89-91}
+\indexentry{Eternal Blue|book {3}}{91}
+\indexentry{DoublePulsar|book {3}}{91}
+\indexentry{Attacks!WannCry!Gaining Access|book {3}}{92}
+\indexentry{Attacks!WannCry!Attack Summary|book {3}}{93}
+\indexentry{Attacks!Current|book {3}}{94}
+\indexentry{Ransomware as a Service (RaaS)|book {3}}{95}
+\indexentry{RaaS \goto Ransomware as a Service (RaaS)|comment}{0}
+\indexentry{Ransomware as a Service (RaaS)!Example|book {3}}{96}
+\indexentry{Attack Techniques!Input Attacks|book {3}}{98}
+\indexentry{Input Attacks|book {3}}{98}
+\indexentry{Attack Techniques!Input Attacks!OS Command Injection|book {3}}{99-100}
+\indexentry{Command Injection|book {3}}{99-100}
+\indexentry{Attack Techniques!Input Attacks!Buffer Overflow|book {3}}{101-106}
+\indexentry{Buffer Overflow|book {3}}{101-106}
+\indexentry{Segmentation Fault|book {3}}{104}
+\indexentry{Attack Techniques!Input Attacks!SQL Injection|book {3}}{107-109}
+\indexentry{SQL Injection|book {3}}{107-109}
+\indexentry{Attack Techniques!Input Attacks!Cross-Site Scripting (XSS)|book {3}}{110-111}
+\indexentry{Cross-Site Scripting (XSS)|book {3}}{110-111}
+\indexentry{Attack Techniques!Input Attacks!Defenses|book {3}}{112}
+\indexentry{Allowlist|book {3}}{112}
+\indexentry{Denylisting|book {3}}{112}
+\indexentry{Malware|book {3}}{114}
+\indexentry{Malware!Viruses and Worms|book {3}}{115-116}
+\indexentry{Virus|book {3}}{115-116}
+\indexentry{Worm|book {3}}{115-116}
+\indexentry{Malware!Trojans|book {3}}{117}
+\indexentry{Trojan|book {3}}{117}
+\indexentry{Malware!Rootkits|book {3}}{118}
+\indexentry{Rootkit|book {3}}{118}
+\indexentry{Malware!Adware and Spyware|book {3}}{119}
+\indexentry{Adware|book {3}}{119}
+\indexentry{Spyware|book {3}}{119}
+\indexentry{Malware!Analysis|book {3}}{120}
+\indexentry{Malware!Analysis!Fully Automated|book {3}}{121}
+\indexentry{Malware!Analysis!Static|book {3}}{122}
+\indexentry{Malware!Analysis!Behavior|book {3}}{123}
+\indexentry{Malware!Analysis!Code Reversing|book {3}}{124}
+\indexentry{Disassembler|book {3}}{124}
+\indexentry{Decompiler|book {3}}{124}
+\indexentry{Web Communication Basics|book {3}}{132-133}
+\indexentry{Cookies|book {3}}{134-136}
+\indexentry{TLS|book {3}}{137-138}
+\indexentry{SSL|book {3}}{137-138}
+\indexentry{OWASP Top 10|book {3}}{140-141}
+\indexentry{Sofware Development Lifecycle (SDLC)|book {3}}{142}
+\indexentry{Secure Development Practices|book {3}}{142-144}
+\indexentry{Development|book {3}}{142}
+\indexentry{Testing|book {3}}{142}
+\indexentry{Peer review|book {3}}{142}
+\indexentry{Secure Coding|book {3}}{144}
+\indexentry{Error handling|book {3}}{144}
+\indexentry{Authentication!Web App|book {3}}{147-149}
+\indexentry{Access Control!Web App|book {3}}{150}
+\indexentry{Directory traversal|book {3}}{150}
+\indexentry{Session!Tracking|book {3}}{151-153}
+\indexentry{State|book {3}}{151}
+\indexentry{Session!Hacking|book {3}}{152}
+\indexentry{Cookies|book {3}}{152}
+\indexentry{Session!Protection|book {3}}{153}
+\indexentry{Monitoring!Web App|book {3}}{154-155}
+\indexentry{Web Application Firewall (WAF)|book {3}}{156}
+\indexentry{Monolithic Architecture!Security Controls|book {3}}{157}
+\indexentry{Trust Boundary|book {3}}{157}
+\indexentry{Microservice Architecture|book {3}}{158}
+\indexentry{Command Query Responsibility Segregation (CQRS)|book {3}}{158}
+\indexentry{Microservice Architecture!Attack Surface|book {3}}{159}
+\indexentry{Trust Boundary|book {3}}{159}
+\indexentry{Web App!Summary|book {3}}{160}
+\indexentry{Logging|book {3}}{166}
+\indexentry{Message|book {3}}{166}
+\indexentry{Log file|book {3}}{166}
+\indexentry{Alert|book {3}}{166}
+\indexentry{Auditing|book {3}}{166}
+\indexentry{Monitoring|book {3}}{166}
+\indexentry{Debug traces|book {3}}{166}
+\indexentry{Logs!Server|book {3}}{168}
+\indexentry{Logs!Ports|book {3}}{168}
+\indexentry{Syslog|book {3}}{168}
+\indexentry{Logs!Agent|book {3}}{168}
+\indexentry{Parsing|book {3}}{168}
+\indexentry{Logs!Parsing|book {3}}{168}
+\indexentry{Logs!Augmentation|book {3}}{168}
+\indexentry{Logs!Collection Architecture|book {3}}{169}
+\indexentry{Windows Event Collector (WEC)|book {3}}{169}
+\indexentry{Windows Event Forwarding (WEF)|book {3}}{169}
+\indexentry{Logs!Push|book {3}}{169}
+\indexentry{Logs!Pull|book {3}}{169}
+\indexentry{Logs!Lack of Accepted Standards|book {3}}{170}
+\indexentry{Common Event Format (CEF)|book {3}}{170}
+\indexentry{Log Event Extended Format (LEEF)|book {3}}{170}
+\indexentry{Logs!Management|book {3}}{171}
+\indexentry{Logs!Key Points|book {3}}{172}
+\indexentry{Logs!Filtering|book {3}}{173}
+\indexentry{Logs!Reports|book {3}}{174-176}
+\indexentry{Logs!Analysis Tools|book {3}}{178-180}
+\indexentry{syslog-ng|book {3}}{178}
+\indexentry{NXLog|book {3}}{178}
+\indexentry{Winlogbeat|book {3}}{178}
+\indexentry{Fluentd|book {3}}{178}
+\indexentry{Logs!Encryption|book {3}}{178}
+\indexentry{Logs!Pre-processing|book {3}}{178}
+\indexentry{SEC|book {3}}{178}
+\indexentry{OSSEC|book {3}}{178}
+\indexentry{OSSIM|book {3}}{179}
+\indexentry{Swatch|book {3}}{179}
+\indexentry{Elastic Stack|book {3}}{179}
+\indexentry{Logs!Monitoring!Strategy|book {3}}{181}
+\indexentry{Logs!Monitoring!Setup|book {3}}{182-183}
+\indexentry{Logs!Management!Challenges|book {3}}{184}
+\indexentry{Logs!Aggregation|book {3}}{185}
+\indexentry{Logs!Centralize|book {3}}{185}
+\indexentry{Logs!Correlation|book {3}}{185-186}
+\indexentry{Logs!SIEM|book {3}}{185-186}
+\indexentry{Security Information and Event Management (SIEM)|book {3}}{185-186}
+\indexentry{Splunk|book {3}}{186}
+\indexentry{AlienVault|book {3}}{186}
+\indexentry{LogRhythm|book {3}}{186}
+\indexentry{QRadar|book {3}}{186}
+\indexentry{Logstash|book {3}}{186}
+\indexentry{Graylog2|book {3}}{186}
+\indexentry{Elastic Stack|book {3}}{186}
+\indexentry{Sigma|book {3}}{187-190}
+\indexentry{Sigma!Format|book {3}}{188}
+\indexentry{Sigma!Conversion|book {3}}{189}
+\indexentry{Sigma!Sharing|book {3}}{190}
+\indexentry{MISP|book {3}}{190-191}
+\indexentry{Sigma!Orchestration|book {3}}{191}
+\indexentry{Logs!Tasks!Real-Time|book {3}}{193}
+\indexentry{Logs!Tasks!Daily|book {3}}{194}
+\indexentry{Logs!Tasks!Weekly|book {3}}{195}
+\indexentry{Logs!Tasks!Monthly|book {3}}{196}
+\indexentry{Logs!Tasks!Quarterly|book {3}}{197}
+\indexentry{Logs!Tasks!Annual|book {3}}{198}
+\indexentry{Logs!Benefits|book {3}}{199}
+\indexentry{Logs!Summary|book {3}}{200}
+\indexentry{Digital Forensics|book {3}}{204}
+\indexentry{Incident Response|book {3}}{204}
+\indexentry{Digital Forensics!In Practice|book {3}}{205}
+\indexentry{Digital Forensics!Investigative Process|book {3}}{206}
+\indexentry{Digital Forensics!Follow the Evidence|book {3}}{207}
+\indexentry{Chain of Custody (CoC)|book {3}}{208-209}
+\indexentry{Digital Forensics!Artifacts|book {3}}{210-211}
+\indexentry{Digital Forensics!Artifacts!Filesystem Timestamps|book {3}}{211}
+\indexentry{Filesystem Timestamps|book {3}}{211}
+\indexentry{NTFS|book {3}}{211}
+\indexentry{MACB|book {3}}{211}
+\indexentry{Ditital Forensics!Time|book {3}}{212}
+\indexentry{Digital Forensics!Subdisciplines|book {3}}{213}
+\indexentry{Digital Forensics!Subdisciplines!Endpoint|book {3}}{213}
+\indexentry{Digital Forensics!Subdisciplines!Network|book {3}}{213}
+\indexentry{Netflow|book {3}}{213}
+\indexentry{Digital Forensics!Subdisciplines!Threat Intelligence|book {3}}{213}
+\indexentry{Threat Intelligence (IT)|book {3}}{213}
+\indexentry{TTP|book {3}}{213}
+\indexentry{Digital Forensics!Subdisciplines!Reverse Engineering|book {3}}{214}
+\indexentry{Digital Forensics!Tools|book {3}}{215}
+\indexentry{EnCase|book {3}}{215}
+\indexentry{SIFT Workstation|book {3}}{216-217}
+\indexentry{SANS Investigative Forensic Toolkit (SIFT)|book {3}}{216-217}
+\indexentry{Incident Handling|book {3}}{219}
+\indexentry{Incident|book {3}}{220}
+\indexentry{Event|book {3}}{220}
+\indexentry{Incident Handling!Process|book {3}}{221}
+\indexentry{PICERL|book {3}}{220-221}
+\indexentry{Incident Handling!Common Problems|book {3}}{221}
+\indexentry{Incident Handling!Preparation|book {3}}{224-225}
+\indexentry{Incident Handling!Identification|book {3}}{226}
+\indexentry{Incident Handling!Detection|book {3}}{226}
+\indexentry{Incident Handling!Verification|book {3}}{226}
+\indexentry{Incident Handling!Triage|book {3}}{226}
+\indexentry{Incident Handling!Containment|book {3}}{228}
+\indexentry{Incident Handling!Eradication|book {3}}{229}
+\indexentry{Incident Handling!Recovery|book {3}}{230}
+\indexentry{Incident Handling!Remediation|book {3}}{231}
+\indexentry{Incident Handling!Lessons Learned|book {3}}{232}
+\indexentry{Incident Handling!Key Mistakes|book {3}}{233}
+\indexentry{Incident Handling!Taking Notes|book {3}}{234}
+\indexentry{Incident Handling!Process!Putting it all together|book {3}}{235}
+\indexentry{Incident Response!Threat Hunting|book {3}}{236}
+\indexentry{Threat Hunting|book {3}}{236}
+\indexentry{Digital Forensics and Incident Response!Summary|book {3}}{237}
+
+
+
+
+
+
+\comment{Error on page 39, paragraph 3}
+\comment{Error on page 46, link to OWASP Top 10 is incorrect}
+
+
 
 
 
@@ -609,11 +1495,567 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
                                      FOURTH BOOK SECTION
 *****************************************************************************************************}
 
+\indexentry{Cryptosystem!Fundamentals|book {4}}{5}
+\indexentry{Cryptology|book {4}}{6}
+\indexentry{Cryptography|book {4}}{6}
+\indexentry{Cryptanalysis|book {4}}{6}
+\indexentry{Algroithm|book {4}}{7}
+\indexentry{Encryption|book {4}}{7-8}
+\indexentry{Cipher|book {4}}{7}
+\indexentry{Cryptography!Core Components|book {4}}{8}
+\indexentry{Decryption|book {4}}{8}
+\indexentry{Plaintext|book {4}}{8}
+\indexentry{Ciphertext|book {4}}{8}
+\indexentry{Cryptosystem|book {4}}{9}
+\indexentry{Keys|book {4}}{10}
+\indexentry{Keyspace|book {4}}{10}
+\indexentry{Keys!Protection|book {4}}{12}
+\indexentry{Enterprise Crypto|book {4}}{13}
+\indexentry{Symmetric stream cipher|book {4}}{13}
+\indexentry{Cryptography!Chart|book {4}}{13}
+\indexentry{Cryptography!The Challenge|book {4}}{14}
+\indexentry{Cryptography!Goals|book {4}}{15}
+\indexentry{Cryptography!Goals!Authenticaiton|book {4}}{15}
+\indexentry{Authentication|book {4}}{15}
+\indexentry{Cryptography!Goals!Ingetrity|book {4}}{15}
+\indexentry{Integrity|book {4}}{15}
+\indexentry{Cryptography!Goals!Non-repudiation|book {4}}{15}
+\indexentry{Non-repudiation|book {4}}{15}
+\indexentry{Substitution|book {4}}{16}
+\indexentry{Permutation|book {4}}{16}
+\indexentry{XOR|book {4}}{17}
+\indexentry{Boolean exclusive|book {4}}{17}
+\indexentry{Substitution!Rotation|book {4}}{18}
+\indexentry{Caesar Cipher|book {4}}{18}
+\indexentry{ROT-13|book {4}}{18}
+\indexentry{Substitution!Arbitrary|book {4}}{20}
+\indexentry{Frequency Analysis|book {4}}{21}
+\indexentry{Permutation|book {4}}{22}
+\indexentry{Transposition|book {4}}{22}
+\indexentry{Cryptosystem!Types|book {4}}{24}
+\indexentry{Cryptosystem!Types!Symmetric|book {4}}{25}
+\indexentry{Symmetric Key Cryptography|book {4}}{25}
+\indexentry{Cryptosystem!Types!Symmetric|book {4}}{24}
+\indexentry{Advanced Encryption Standard (AES)|book {4}}{25}
+\indexentry{Blowfish|book {4}}{25}
+\indexentry{International Data Encryption Algorithm (IDEA)|book {4}}{25}
+\indexentry{Asymmetric Cryptography|book {4}}{26}
+\indexentry{Cryptosystem!Types!Asymmetric|book {4}}{26}
+\indexentry{Public Key Encryption|book {4}}{26}
+\indexentry{Secure Channel|book {4}}{26-27}
+\indexentry{Diffie-Helman Key Exchange|book {4}}{27}
+\indexentry{Key Exchange|book {4}}{27}
+\indexentry{Asymmetric Key Cryptosystems|book {4}}{29}
+\indexentry{Public Key Encryption|book {4}}{29}
+\indexentry{Trapdoor function|book {4}}{29}
+\indexentry{Intractable|book {4}}{29}
+\indexentry{Authenticaiton|book {4}}{29}
+\indexentry{Non-repudiation|book {4}}{29}
+\indexentry{Hash Functions|book {4}}{30}
+\indexentry{Message Digest|book {4}}{30}
+\indexentry{One-way encryption|book {4}}{30}
+\indexentry{Integrity!Hash|book {4}}{30}
+\indexentry{Digital fingerprint|book {4}}{30}
+\indexentry{Collision|book {4}}{30}
+\indexentry{Message Digest 2 (MD2)|book {4}}{30}
+\indexentry{MD4|book {4}}{30}
+\indexentry{MD5|book {4}}{30}
+\indexentry{Secure Hash Algroithm (SHA)|book {4}}{30}
+\indexentry{Secure Hash Standard (SHS)|book {4}}{30}
+\indexentry{Collision|book {4}}{32}
+\indexentry{Bit length|book {4}}{32}
+\indexentry{Integrity|book {4}}{33}
+\indexentry{Digital Signature|book {4}}{34}
+\indexentry{Non-repudiation|book {4}}{34}
+\indexentry{RSA|book {4}}{34}
+\indexentry{Digital Signature!Example|book {4}}{36}
+\indexentry{Steganography|book {4}}{39}
+\indexentry{Carrier File|book {4}}{39}
+\indexentry{Crypto v Stego|book {4}}{40}
+\indexentry{Secrecy|book {4}}{40}
+\indexentry{Cryptography!Detecting|book {4}}{41}
+\indexentry{Histograms|book {4}}{42}
+\indexentry{Steganography!How it works|book {4}}{43}
+\indexentry{Carrier file|book {4}}{43}
+\indexentry{Steganography!Types|book {4}}{44}
+\indexentry{Steganography!Types!Injection|book {4}}{45}
+\indexentry{Steganography!Types!Substitution|book {4}}{46}
+\indexentry{Steganography!Types!File generation|book {4}}{47}
+\indexentry{Least Significant Bit (LSB)|book {4}}{46}
+\indexentry{Steganography!Detecting|book {4}}{48}
+\indexentry{Least Significant Bit (LSB)|book {4}}{48}
+\indexentry{Encryption!Summary|book {34}}{49-50}
+\indexentry{Cryptography!Concepts|book {4}}{57-60}
+\indexentry{Computational Complexity|book {4}}{57-58}
+\indexentry{Tractable Problems|book {4}}{57-58}
+\indexentry{Intractable Problems|book {4}}{57-58}
+\indexentry{Polynomial Time|book {4}}{57}
+\indexentry{Constant Time|book {4}}{57}
+\indexentry{Linear Time|book {4}}{57}
+\indexentry{Quadratic Time|book {4}}{57}
+\indexentry{Factoring Integers|book {4}}{59}
+\indexentry{Discrete Logarithm|book {4}}{60-61}
+\indexentry{Finite Fields|book {4}}{60}
+\indexentry{Elliptic Curves|book {4}}{61}
+\indexentry{Data Encryption Standard (DES)|book {4}}{63}
+\indexentry{Electronic codebook (ECB)|book {4}}{63}
+\indexentry{Cipher block chaining (CBC)|book {4}}{63}
+\indexentry{Output Feedback (OFB)|book {4}}{63}
+\indexentry{Cipher feedback|book {4}}{63}
+\indexentry{Data Encryption Standard (DES)!Weaknesses|book {4}}{64}
+\indexentry{Data Encryption Standard (DES)!Not a group|book {4}}{65}
+\indexentry{Data Encryption Standard (DES)!MitM Attack|book {4}}{66}
+\indexentry{3DES|book {4}}{67}
+\indexentry{Advanced Encryption Standard (AES)|book {4}}{68}
+\indexentry{Advanced Encryption Standard (AES)!Algorithm|book {4}}{69-70}
+\indexentry{Advanced Encryption Standard (AES)!Usage|book {4}}{71}
+\indexentry{Advanced Encryption Standard (AES)!Vulnerabliities|book {4}}{71}
+\indexentry{RSA|book {4}}{72}
+\indexentry{RSA!Usage|book {4}}{72}
+\indexentry{RSA!Vulnerabilities|book {4}}{72}
+\indexentry{Eliptic Curve Cryptosystem (ECC)|book {4}}{73}
+\indexentry{Key Length!Comparison|book {4}}{74}
+\indexentry{Secure Hashing Algorithm|book {4}}{75}
+\indexentry{Cryptanalysis!Attacks|book {4}}{77-78}
+\indexentry{The Birthday Attack|book {4}}{78}
+\indexentry{Birthday Paradox|book {4}}{78}
+\indexentry{Cryptography!Summary|book {4}}{79}
+\indexentry{Data in Transit|book {4}}{83}
+\indexentry{Confidentiality!In Transit|book {4}}{84}
+\indexentry{Private Network|book {4}}{84}
+\indexentry{Leased Line|book {4}}{85}
+\indexentry{Virtual Private Network (VPN)|book {4}}{86}
+\indexentry{Virtual Private Network (VPN)!Flexibility|book {4}}{87}
+\indexentry{Virtual Private Network (VPN)!Breakdown|book {4}}{88}
+\indexentry{Remote Access|book {4}}{89}
+\indexentry{Virtual Private Network (VPN)!Types|book {4}}{89}
+\indexentry{IPsec|book {4}}{91}
+\indexentry{IETF!RFC 2401|book {4}}{91}
+\indexentry{IPsec!Headers|book {4}}{92}
+\indexentry{Authentication Header (AH)|book {4}}{92}
+\indexentry{Encapsulating Security Payload (ESP)|book {4}}{92-93}
+\indexentry{Integrity Check Value (ICV)|book {4}}{92-93}
+\indexentry{Keyed hash|book {4}}{93}
+\indexentry{NULL algorithm|book {4}}{93}
+\indexentry{IPsec!Modes|book {4}}{95}
+\indexentry{Encapsulating Security Payload (ESP)!Confidentiality|book {4}}{95}
+\indexentry{Security Associations|book {4}}{96}
+\indexentry{IPsec!Security Associations|book {4}}{96}
+\indexentry{Internet Key Exchange (IKE)|book {4}}{96}
+\indexentry{Internet Security Assocaition and Key Management Protocol (ISAKMP)|book {4}}{96}
+\indexentry{Oakley Key Determination Protocol (Oakley)|book {4}}{96}
+\indexentry{Secure Key Exchange Mechanism (SKEME)|book {4}}{96}
+\indexentry{SSL VPN|book {4}}{97-98}
+\indexentry{Virtual Private Network (VPN)!SSL|book {4}}{97-98}
+\indexentry{Virtual Private Network (VPN)!Security Implications|book {4}}{99}
+\indexentry{Data at Rest|book {4}}{100}
+\indexentry{Full Disk Encryption|book {4}}{101}
+\indexentry{On-The-Fly Encryption|book {4}}{101}
+\indexentry{GNU Privacy Guard (GPG)|book {4}}{102-103}
+\indexentry{GNU Privacy Guard (GPG)!Key and Passphrase|book {4}}{104}
+\indexentry{GNU Privacy Guard (GPG)!Use|book {4}}{105}
+\indexentry{Public Key Infrastructure (PKI)|book {4}}{107}
+\indexentry{Certificate|book {4}}{108-110}
+\indexentry{Certificate!Authorities|book {4}}{110}
+\indexentry{Registration Authorities|book {4}}{110}
+\indexentry{Public Key Infrastructure (PKI)!Operational Goals|book {4}}{112}
+\indexentry{Public Key Infrastructure (PKI)!Lifecycle|book {4}}{112}
+\indexentry{Public Key Infrastructure (PKI)!Lifecycle!Registration|book {4}}{112-114}
+\indexentry{Distinguished Name (DN)|book {4}}{112}
+\indexentry{Certificate Signing Request (CSR)|book {4}}{112}
+\indexentry{Certificate!Revocation|book {4}}{113}
+\indexentry{Cretificate!Expiration|book {4}}{114}
+\indexentry{Certificate Revocation List (CRL)|book {4}}{115}
+\indexentry{Online Certificate Status Protocol (OCSP)|book {4}}{116}
+\indexentry{Digital Certificates|book {4}}{118}
+\indexentry{Certificate!Digital|book {4}}{118}
+\indexentry{X509|book {4}}{118}
+\indexentry{International Telecommunications Union (ITU)|book {4}}{118}
+\indexentry{Certificate!Extensions|book {4}}{118-119}
+\indexentry{Certificate!Policies document|book {4}}{118}
+\indexentry{HTTPS|book {4}}{120}
+\indexentry{Secure Socket Layer (SSL)|book {4}}{120}
+\indexentry{Ports!TCP!SSL (443)|book {4}}{120}
+\indexentry{Transport Layer Security (TLS)|book {4}}{120}
+\indexentry{Ports!TCP!TLS (443)|book {4}}{120}
+\indexentry{HTTPS!Illustration|book {4}}{122}
+\indexentry{Public Key Infrastructure (PKI)!Problems|book {4}}{124}
+\indexentry{Public Key Infrastructure (PKI)!Benefits|book {4}}{125}
+\indexentry{Public Key Infrastructure (PKI)!Summary|book {4}}{127}
+\indexentry{Network Security!Objectives|book {4}}{131}
+\indexentry{Network Security!Devices|book {4}}{132}
+\indexentry{Network Security!Big Picture|book {4}}{133}
+\indexentry{Firewall|book {4}}{135}
+\indexentry{Firewall!Benefits|book {4}}{136}
+\indexentry{Firewall!Shortcomings|book {4}}{136}
+\indexentry{Firewall!Deafult Rule|book {4}}{137}
+\indexentry{Firewall!Filtering|book {4}}{138}
+\indexentry{Anti-Spoofing|book {4}}{139}
+\indexentry{Firewall!Anti-Spoofing|book {4}}{139}
+\indexentry{Firewall!Types|book {4}}{140}
+\indexentry{Stateful Filtering|book {4}}{140}
+\indexentry{Stateless Packet Filter|book {4}}{141}
+\indexentry{Starefull Firewall|book {4}}{142-143}
+\indexentry{Proxy Gateway|book {4}}{144}
+\indexentry{Application Gateway|book {4}}{144}
+\indexentry{Intrusion Detection System (IDS)|book {4}}{146}
+\indexentry{Intrusion Detection System (IDS)!Is Not|book {4}}{147}
+\indexentry{Intrusion Detection System (IDS)!Alerts|book {4}}{148-149}
+\indexentry{Event of Interest (EOI)|book {4}}{148}
+\indexentry{Network Intrustion Detection System (NIDS)|book {4}}{150}
+\indexentry{Network Intrustion Detection System (NIDS)!Analysis Types|book {4}}{150}
+\indexentry{Signature Analysis|book {4}}{151}
+\indexentry{Pattern matching|book {4}}{151}
+\indexentry{Signature Analysis!Rules and Signature Criteria|book {4}}{152}
+\indexentry{Anomaly Analysis|book {4}}{153}
+\indexentry{Application Analysis|book {4}}{155}
+\indexentry{Protocol Analysis|book {4}}{155}
+\indexentry{Packet Inspection|book {4}}{157}
+\indexentry{Network Intrusion Detection System (NIDS)!Packet Inspection|book {4}}{157}
+\indexentry{Data Normalization|book {4}}{158}
+\indexentry{Intrusion Detection System (IDS)!Data Normalization|book {4}}{158}
+\indexentry{Network Intrusion Detection System (NIDS)!Advantages|book {4}}{159}
+\indexentry{Honeytoken|book {4}}{160}
+\indexentry{Network Intrusion Detection System (NIDS)!Challenges|book {4}}{161}
+\indexentry{Snort|book {4}}{163}
+\indexentry{Snort!Rule Flexibility|book {4}}{164}
+\indexentry{Snort!Writing Rules|book {4}}{165}
+\indexentry{Snort!Siimple Rules|book {4}}{166}
+\indexentry{Snort!Advanced Rules|book {4}}{167}
+\indexentry{Network Intrusion Detection System (NIDS)!Key Points|book {4}}{168}
+\indexentry{Network Intrusion Detection System (NIDS)!Developments|book {4}}{169-170}
+\indexentry{Network Intrusion Detection System (NIDS)!Developments!Fingerprinting|book {4}}{169}
+\indexentry{Wireless Intrusion Detection System (WIDS)|book {4}}{170}
+\indexentry{Intrusion Detection System (IDS)!Wireless|book {4}}{170}
+\indexentry{Intrusion Pervention System (IPS)|book {4}}{172}
+\indexentry{Intrusion Pervention System (IPS)!Is Not|book {4}}{173}
+\indexentry{Network Intrusion Prevention System (NIPS)|book {4}}{174}
+\indexentry{Network Intrusion Prevention System (NIPS)!Detail|book {4}}{175-176}
+\indexentry{Zero Power High Availability (ZPHA)|book {4}}{175}
+\indexentry{Custom Application-Specific Integrated Circuit (ASIC)|book {4}}{176}
+\indexentry{Network Intrusion Prevention System (NIPS)!Challenges|book {4}}{177}
+\indexentry{Network Intrusion Prevention System (NIPS)!Developments|book {4}}{178-179}
+\indexentry{Passive Analysis|book {4}}{180}
+\indexentry{Network Intrusion Prevention System (NIPS)!Passive Analysis|book {4}}{180}
+\indexentry{Intrusion Prevention System (IPS)!Referenced Architecture|book {4}}{181}
+\indexentry{Intrusion Detection System (IDS)!Referenced Architecture|book {4}}{181}
+\indexentry{Network Security!Referenced Architecture|book {4}}{181}
+\indexentry{Network Security!Summary|book {4}}{182}
+\indexentry{Endpoint Security!Objectives|book {4}}{186}
+\indexentry{Endpoint Security!Core Components|book {4}}{188}
+\indexentry{Endpoint Security!Enhancing|book {4}}{189}
+\indexentry{Endpoint Security!Baselines|book {4}}{190}
+\indexentry{Endpoint Security!Baselines!Establish|book {4}}{191}
+\indexentry{Endpoint Security!Anomalies|book {4}}{192-193}
+\indexentry{Endpoint Security!Solutions|book {4}}{194}
+\indexentry{Antivirus Software|book {4}}{195}
+\indexentry{Antivirus Software!Types|book {4}}{196}
+\indexentry{Endpoint Security!Firewall|book {4}}{197}
+\indexentry{Firewall!Endpoint|book {4}}{197}
+\indexentry{Endpoint Security!Firewall!Types|book {4}}{198}
+\indexentry{Application Control Firewall|book {4}}{198}
+\indexentry{Firewall!Application Control|book {4}}{198}
+\indexentry{Endpoint Security!File Integrity Checking|book {4}}{199}
+\indexentry{File Integrity Checking (FIC)|book {4}}{199}
+\indexentry{Endpoint Security!File Integrity Checking!Steps|book {4}}{200}
+\indexentry{File Integrity Checking (FIC)!Steps|book {4}}{200}
+\indexentry{Endpoint Security!Log Monitoring|book {4}}{201}
+\indexentry{Logs!Endpoint|book {4}}{201}
+\indexentry{Endpoint Security!Application Control|book {4}}{203}
+\indexentry{Application Control|book {4}}{203}
+\indexentry{Host Intrustion Detection System (HIDS)|book {4}}{205}
+\indexentry{Host Intrustion Detection System (HIDS)!Network Monitoring|book {4}}{206}
+\indexentry{Host Intrustion Detection System (HIDS)!Advantages|book {4}}{207}
+\indexentry{Host Intrustion Detection System (HIDS)!Challenges|book {4}}{208-209}
+\indexentry{Host Intrustion Detection System (HIDS)!Developments|book {4}}{210}
+\indexentry{Host Intrustion Detection System (HIDS)!Recommendations|book {4}}{210}
+\indexentry{Host Intrustion Prevention System (HIPS)|book {4}}{212}
+\indexentry{Host Intrustion Prevention System (HIPS)!Advantages|book {4}}{213}
+\indexentry{Host Intrustion Prevention System (HIPS)!Challenges|book {4}}{214}
+\indexentry{Host Intrustion Prevention System (HIPS)!Application Behavior Monitoring|book {4}}{215}
+\indexentry{Host Intrustion Prevention System (HIPS)!Recommendations|book {4}}{216}
+\indexentry{Host Intrustion Prevention System (HIPS)!Developments|book {4}}{212}
+\indexentry{Advanced Application Shielding|book {4}}{217}
+\indexentry{Host Intrustion Prevention System (HIPS)!Summary|book {4}}{218}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \comment{********************************************************************************************
                                      FIFTH BOOK SECTION
 *****************************************************************************************************}
+
+
+\indexentry{Windows Operating Systems|book {5}}{5}
+\indexentry{Windows Operating Systems!Client|book {5}}{6-7}
+\indexentry{Windows Operating Systems!Server|book {5}}{8-9}
+\indexentry{Windows Operating Systems!Server!Roles|book {5}}{10}
+\indexentry{PowerShell!Get-WindowsFeature|book {5}}{10}
+\indexentry{Windows Operating Systems!Embedded|book {5}}{11-12}
+\indexentry{Windows Operating Systems!IoT|book {5}}{11-12}
+\indexentry{Windows!Workgroups|book {5}}{14-15}
+\indexentry{Windows!Workgroups!Benefits|book {5}}{16}
+\indexentry{Windows!Workgroups!Drawbacks|book {5}}{17}
+\indexentry{Windows!Local Accounts!Manage|book {5}}{18}
+\indexentry{PowerShell!Get-Help LocalUser|book {5}}{18}
+\indexentry{Windows!Security ID Numbers (SID)|book {5}}{19}
+\indexentry{Windows!Security Access Token (SAT)|book {5}}{21}
+\indexentry{PowerShell!whoami|book {5}}{21}
+\indexentry{Debug Programs|book {5}}{21}
+\indexentry{Windows!Workgroups!More Perfect|book {5}}{22}
+\indexentry{Windows!Active Directory|book {5}}{24}
+\indexentry{Windows!Active Directory!Domain Controller|book {5}}{24}
+\indexentry{Domain Controller|book {5}}{24}
+\indexentry{Access Control List (ACL)|book {5}}{24}
+\indexentry{Multi-master Replication|book {5}}{24}
+\indexentry{Read-Only Domain Controller (RODC)|book {5}}{25}
+\indexentry{Windows!Active Directory!Registry|book {5}}{25}
+\indexentry{Windows!Active Directory!Group Policy|book {5}}{25}
+\indexentry{Windows!Active Directory!Authentication Protocols|book {5}}{25-29}
+\indexentry{Windows!Security Access Token (SAT)|book {5}}{27}
+\indexentry{Kerberos|book {5}}{28}
+\indexentry{Kerberos!Key Distribution Centers (KDCs)|book {5}}{28}
+\indexentry{Kerberos!Risks|book {5}}{29}
+\indexentry{Kerberos!Golden Tickets|book {5}}{29}
+\indexentry{Mimikatz|book {5}}{29}
+\indexentry{Kerberos!Example|book {5}}{30}
+\indexentry{NT LAN Manager (NTML)|book {5}}{31}
+\indexentry{Cain|book {5}}{31}
+\indexentry{Windows!Active Directory!Forests and Trusts|book {5}}{32}
+\indexentry{Inter-Domain Replication|book {5}}{32}
+\indexentry{Global Catalog Servers|book {5}}{32}
+\indexentry{Two-Way Transitive Trusts|book {5}}{33}
+\indexentry{Windows!Active Directory!Forests and Trusts|book {5}}{34-35}
+\indexentry{Windows!Active Directory!Group Policy|book {5}}{37-39}
+\indexentry{Group Policy Object (GPO)|book {5}}{37-39}
+\indexentry{Windows!Summary|book {5}}{40-41}
+\indexentry{Windows as a Service|book {5}}{44}
+\indexentry{Windows as a Service!End of Support|book {5}}{44}
+\indexentry{Windows as a Service!Fixed Lifecycle Policy|book {5}}{46}
+\indexentry{Windows as a Service!Modern Lifecycle Policy|book {5}}{47}
+\indexentry{Windows as a Service!Updates|book {5}}{48-50}
+\indexentry{Windows as a Service!Servicing Channels|book {5}}{48-51}
+\indexentry{Windows as a Service!Servicing Channels!Updates|book {5}}{52}
+\indexentry{Windows as a Service!Servicing Channels!Rings|book {5}}{53}
+\indexentry{Windows as a Service!Servicing Channels!Configuration|book {5}}{54-55}
+\indexentry{Windows as a Service!Servicing Channels!Long-Term|book {5}}{56}
+\indexentry{Windows as a Service!Servicing Channels!Windows Insider Program|book {5}}{56-57}
+\indexentry{Windows as a Service!Windows Update|book {5}}{58-59}
+\indexentry{Windows as a Service!Windows Server Update Service (WSUS)|book {5}}{60-62}
+\indexentry{Windows as a Service!Autopilot|book {5}}{63-65}
+\indexentry{Windows as a Service!Azure Virtual Desktop|book {5}}{66}
+\indexentry{Virtual Desktop Infrastructure (VDI)|book {5}}{66}
+\indexentry{Desktop as a Service (DaaS)|book {5}}{66}
+\indexentry{Azure Virtual Desktop (AVD)|book {5}}{66-67}
+\indexentry{Azure Virtual Desktop (AVD)!Management and Requirements|book {5}}{68-69}
+\indexentry{Azure Virtual Desktop (AVD)!Pool|book {5}}{68}
+\indexentry{Windows as a Service!Summary|book {5}}{70}
+\indexentry{Windows Access Controls|book {5}}{71-72}
+\indexentry{NT File System (NTFS)|book {5}}{73-74}
+\indexentry{Resilient File System (ReFS)|book {5}}{74}
+\indexentry{PowerShell!fsutil|book {5}}{74}
+\indexentry{NT File System (NTFS)!DACLs|book {5}}{76}
+\indexentry{NT File System (NTFS)!Access Control Entry (ACE)|book {5}}{76}
+\indexentry{PowerShell!Set-ACL|book {5}}{76}
+\indexentry{NT File System (NTFS)!Access Control Entry (ACE)!Advanced Security Settings|book {5}}{77-78}
+\indexentry{NT File System (NTFS)!Owners|book {5}}{79}
+\indexentry{Creator Owner|book {5}}{79-80}
+\indexentry{Principle of Least Privilege|book {5}}{81-82}
+\indexentry{NT File System (NTFS)!Principle of Least Privilege|book {5}}{81-82}
+\indexentry{NT File System (NTFS)!AGULP|book {5}}{83-84}
+\indexentry{Windows!Active Directory (AD)!AGULP|book {5}}{83-84}
+\indexentry{Windows!Active Directory (AD)!Accounts and Group|book {5}}{85}
+\indexentry{Windows!Active Directory (AD)!Groups|book {5}}{85-87}
+\indexentry{Windows!Active Directory (AD)!Domain Admins|book {5}}{86}
+\indexentry{Windows!Active Directory (AD)!Enterprise Admins|book {5}}{86}
+\indexentry{Windows!Active Directory (AD)!Domain Local|book {5}}{87}
+\indexentry{Windows!Shared Folder Permissions|book {5}}{88-90}
+\indexentry{NT File System (NTFS)!Shared Folder Permissions|book {5}}{88-90}
+\indexentry{Server Message Block (SMB)|book {5}}{88}
+\indexentry{Common Internet File System (CIFS)|book {5}}{88}
+\indexentry{PowerShell!New-SmbShare|book {5}}{89}
+\indexentry{Windows!Shared Folder Permissions!Hidden and Administrative|book {5}}{91-92}
+\indexentry{PowerShell!Get-SmbShare|book {5}}{91}
+\indexentry{Universal Naming Convention (UNC)|book {5}}{91}
+\indexentry{NT File System (NTFS)!Share DACLs|book {5}}{93-94}
+\indexentry{REGEDIT.exe|book {5}}{95}
+\indexentry{Windows!Registry|book {5}}{95}
+\indexentry{PowerShell!Set-ItemProperty|book {5}}{95}
+\indexentry{Windows!Registry!Remote Registry Service|book {5}}{96-97}
+\indexentry{Windows!winreg|book {5}}{96-97}
+\indexentry{REGEDIT.exe!Permissions|book {5}}{98}
+\indexentry{Windows!Registry!Permissions|book {5}}{98}
+\indexentry{Windows!Active Directory (AD)!Permissions|book {5}}{99-100}
+\indexentry{Windows!Privileges|book {5}}{101-106}
+\indexentry{CMD!whoamii.exe /priv|book {5}}{101}
+\indexentry{Windows!Privileges!Take Ownership|book {5}}{104}
+\indexentry{Windows!Privileges!Backup and Restore|book {5}}{105}
+\indexentry{Windows!Debugger|book {5}}{106}
+\indexentry{Windows!Privileges!Debug|book {5}}{106}
+\indexentry{Cain|book {5}}{106}
+\indexentry{Windows!BitLocker|book {5}}{107-116}
+\indexentry{Full Disk Encryption|book {5}}{107}
+\indexentry{Trusted Platform Module (TPM)|book {5}}{107-114}
+\indexentry{Trusted Platform Module (TPM)!Options|book {5}}{111-112}
+\indexentry{Windows!BitLocker!Emergency Recovery|book {5}}{113}
+\indexentry{Windows!Active Directory (AD)!BitLocker Key|book {5}}{114}
+\indexentry{Windows!BitLocker!UEFI Secure Boot|book {5}}{115}
+\indexentry{Unified Extensible Firmware Interface (UEFI)|book {5}}{115-116}
+\indexentry{Windows Access Controls!Summary|book {5}}{117}
+\indexentry{Windows!Security Policy Enforcement!Security Templates|book {5}}{122-125}
+\indexentry{Windows!Security Policy Enforcement!Microsoft Managment Console (MMC)|book {5}}{123}
+\indexentry{Windows!Security Policy Enforcement!Federal Desktop Cor Configuration (FDCC)|book {5}}{125}
+\indexentry{Windows!Security Policy Enforcement!United States Government Configuration Baseline (USGCB)|book {5}}{125}
+\indexentry{Windows!Security Policy Enforcement!Defense Information Systems Agency Security Technical Implementation Guides (DISA STIG)|book {5}}{125}
+\indexentry{Windows!Security Policy Enforcement!Center for Internet Security (CIS)|book {5}}{125}
+\indexentry{Windows!Security Policy Enforcement!Security Configuration and Analysis (SCA) tool|book {5}}{126-127}
+\indexentry{Windows!Security Policy Enforcement!SECEDIT.EXE|book {5}}{128}
+\indexentry{Windows!Security Policy Enforcement!Local Group Policy Objects|book {5}}{129-133}
+\indexentry{Windows!Security Policy Enforcement!Security Configuration and Analysis (SCA) tool|book {5}}{130}
+\indexentry{REGEDIT.exe!Security Policy Enforcement|book {5}}{98}
+\indexentry{Windows!Security Policy Enforcement!REGEDIT.EXE|book {5}}{132}
+\indexentry{INF templates|book {5}}{132-136}
+\indexentry{ADM templates |book {5}}{133}
+\indexentry{Windows!Security Policy Enforcement!Domain Group Policy Objects|book {5}}{134}
+\indexentry{Windows!Security Policy Enforcement!Group Policy Management Console (GPMC)|book {5}}{135}
+\indexentry{Windows!Security Policy Enforcement!GPO Settings Checklist|book {5}}{136-139}
+\indexentry{Windows!Security Policy Enforcement!Passwords|book {5}}{140-141}
+\indexentry{Windows!Security Policy Enforcement!Account Lockout|book {5}}{142}
+\indexentry{Windows!Security Policy Enforcement!Anonymous Access|book {5}}{142-144}
+\indexentry{null user session|book {5}}{143}
+\indexentry{Windows!Security Policy Enforcement!Kerberos and NTLM|book {5}}{145-147}
+\indexentry{Windows!Security Policy Enforcement!Credential Guard|book {5}}{148-149}
+\indexentry{PowerShell!Credential Guard|book {5}}{149}
+\indexentry{Windows!Security Policy Enforcement!Protect Admin Accounts|book {5}}{150-152}
+\indexentry{Windows!Security Policy Enforcement!Guest Account|book {5}}{153}
+\indexentry{Windows!Security Policy Enforcement!AppLocker|book {5}}{154-155}
+\indexentry{Windows!Security Policy Enforcement!Controlled Folder Access|book {5}}{156-157}
+\indexentry{Windows!Security Policy Enforcement!User Account Control (UAC)|book {5}}{158-159}
+\indexentry{Windows!Security Policy Enforcement!Windows Sandbox for Malware Isolation|book {5}}{160-161}
+\indexentry{Windows!Security Policy Enforcement!Key Protocols|book {5}}{162}
+\indexentry{Protocol!SMB (TCP/139/445)|book {5}}{162}
+\indexentry{Protocol!RPC (TCP/135)|book {5}}{162}
+\indexentry{Protocol!LDAP (TCP/389/636/3268/3269)|book {5}}{162-163}
+\indexentry{Protocol!Kerberos (TCP/UDP/88)|book {5}}{162-163}
+\indexentry{Server Message Block (SMB)|book {5}}{162}
+\indexentry{Remote Procedure Call (RPC)|book {5}}{162}
+\indexentry{Common Internet File System (CIFS)|book {5}}{162}
+\indexentry{Lightweight Directory Access Protocol (LDAP)|book {5}}{162-163}
+\indexentry{Kerberos|book {5}}{162-163}
+\indexentry{Protocol!DNS (TCP/UDP/53)|book {5}}{164}
+\indexentry{Protocol!RDP (TCP/UDP/3389)|book {5}}{164}
+\indexentry{Protocol!SQL Server (TCP/UDP/1433/1434)|book {5}}{164}
+\indexentry{Prococol!NetBIOS (TCP/UDP/137;UDP/138;TCP/139;TCP/UDP/1512;TCP/42)|book {5}}{164}
+\indexentry{Protocol!IPsec (UDP/500/4500 for IKE; Protocols 50 and 51 for ESP and AH)|book {5}}{164}
+\indexentry{NetBIOS and WINS|book {5}}{164}
+\indexentry{Remoted Desktop Protocol (RDP)|book {5}}{164}
+\indexentry{SQL Server|book {5}}{164}
+\indexentry{Secure Sockets Layer (SSL)|book {5}}{165}
+\indexentry{Transport Layer Security (TLS)|book {5}}{165}
+\indexentry{Point-to-Point Tunneling Protocol (PPTP)|book {5}}{165}
+\indexentry{Windows!Security Policy Enforcement!Firewall|book {5}}{166-173}
+\indexentry{Windows!Firewall|book {5}}{166-173}
+\indexentry{PowerShell!wf|book {5}}{166}
+\indexentry{Logs!Windows Firewall|book {5}}{169}
+\indexentry{NETSH.exe|book {5}}{172}
+\indexentry{PowerShell!Get-Command -Module NetSecurity|book {5}}{173}
+\indexentry{IPsec|book {5}}{175-178}
+\indexentry{Windows!IPsec|book {5}}{175-178}
+\indexentry{Windows!IPsec!Mutual Authenticaiton|book {5}}{175}
+\indexentry{PowerShell!Get-Help|book {5}}{176}
+\indexentry{NETSH.exe!IPsec|book {5}}{176}
+\indexentry{IPsec!Group Policy|book {5}}{177-178}
+\indexentry{Windows!Remote Desktop Services (RDS)|book {5}}{180-181}
+\indexentry{Remote Desktop Services (RDS)|book {5}}{180-181}
+\indexentry{MSTSC.exe|book {5}}{182}
+\indexentry{Thin Client|book {5}}{182-183}
+\indexentry{PowerShell!MSTSC.exe|book {5}}{182}
+\indexentry{Windows!Remote Assistance|book {5}}{184-185}
+\indexentry{Windows!Remote Desktop|book {5}}{184}
+\indexentry{Remote Desktop|book {5}}{184}
+\indexentry{Remote Desktop Protocol (RDP)|book {5}}{187-190}
+\indexentry{Windows!Remote Desktop Protocol (RDP)|book {5}}{187-190}
+\indexentry{Protocol!RDP (TCP/UDP/3389)|book {5}}{187-190}
+\indexentry{Remote Desktop Protocol (RDP)!Authentication|book {5}}{188}
+\indexentry{Remote Desktop Protocol (RDP)!Group Policy|book {5}}{188}
+\indexentry{Windows!Remote Desktop Services (RDS)!Best Practives|book {5}}{189}
+\indexentry{Remote Desktop Services (RDS)!Best Practices|book {5}}{189}
+\indexentry{Windws!Windows!Security Policy Enforcement!Summary|book {5}}{191}
+\indexentry{Microsoft!Cloud Computing|book {5}}{196}
+\indexentry{Cloud Computing!Desktop as a Service (DaaS)|book {5}}{198}
+\indexentry{Cloud Computing!Software as a Service (SaaS)|book {5}}{198}
+\indexentry{Cloud Computing!Platform as a Service (PaaS)|book {5}}{197}
+\indexentry{Cloud Computing!Infrastructure as a Service (IaaS)|book {5}}{197}
+\indexentry{Microsoft!Cloud Computing|book {5}}{199-202}
+\indexentry{Microsoft!Azure|book {5}}{199}
+\indexentry{Microsoft!OneDrive|book {5}}{200}
+\indexentry{Microsoft!365|book {5}}{200}
+\indexentry{Microsoft Azure Active Directory (MAAD)|book {5}}{203}
+\indexentry{Microsoft Azure!Active Directory (AD)|book {5}}{203}
+\indexentry{Azure Active Directory  Domain Services (AADDS)|book {5}}{204}
+\indexentry{Microsoft Azure!Active Directory Domain Services (ADDS)}{204}
+\indexentry{Microsoft Azure!Active Directory (AD)!Sync|book {5}}{205-206}
+\indexentry{Microsoft Azure!Active Directory (AD)!Connect tool|book {5}}{205-206}
+\indexentry{Microsoft Azure!Active Directory (AD)!Federation Services|book {5}}{206}
+\indexentry{Active Directory Federation Services (ADFS)|book {5}}{206}
+\indexentry{Microsoft Azure!Active Directory (AD)!Single Sign-On|book {5}}{207-208}
+\indexentry{Microsoft Azure!Active Directory (AD)!Administative Roles|book {5}}{209-210}
+\indexentry{Microsoft Azure!Endpoint Security|book {5}}{211-215}
+\indexentry{Mobile Device Management (MDM)|book {5}}{211}
+\indexentry{Microsoft Azure!Endpoint Security!Microsoft 365 Defender|book {5}}{212-214}
+\indexentry{Microsoft!Defender|book {5}}{212-214}
+\indexentry{Microsoft Azure!Endpoint Security!Multifactor Authentication|book {5}}{215}
+\indexentry{Microsoft Azure!Endpoint Security!Intune|book {5}}{21-220}
+\indexentry{Microsoft Azure!Endpoint Security!Conditional Access|book {5}}{221-226}
+\indexentry{App Protection Policies (APP)|book {5}}{224}
+\indexentry{Microsoft Azure Management (MAM)|book {5}}{226}
+\indexentry{Microsoft Azure!Policy|book {5}}{227-233}
+\indexentry{Microsoft Azure!Policy!Initiative|book {5}}{228-230}
+\indexentry{Microsoft Azure!Policy!Key Vault|book {5}}{231-233}
+\indexentry{PowerShell!Az.KeyVault|book {5}}{232}
+\indexentry{Microsoft Azure!Monitor|book {5}}{234-238}
+\indexentry{Logs!Azure Monitor|book {5}}{234-238}
+\indexentry{Microsoft Azure!Monitor!Agents and Workspaces|book {5}}{236-237}
+\indexentry{Application Insight|book {5}}{236-238}
+\indexentry{Microsoft Azure!Monitor!metrics|book {5}}{237}
+\indexentry{Microsoft Azure!Monitor!tracing|book {5}}{237}
+\indexentry{Microsoft Azure!Monitor!telemetry|book {5}}{237}
+\indexentry{Microsoft Azure!Monitor!logging|book {5}}{237}
+\indexentry{Microsoft Azure!Monitor!Activity Log|book {5}}{238}
+\indexentry{Microsoft Azure!Sentinel|book {5}}{239-243}
+\indexentry{Logs!Azure Sentinel|book {5}}{239-243}
+\indexentry{Wookbook|book {5}}{238-239}
+\indexentry{Workspace|book {5}}{238-239}
+\indexentry{Security Information Event Mangement (SIEM)|book {5}}{239}
+\indexentry{Security Orchestration Automated Response (SOAR)|book {5}}{239}
+\indexentry{Microsoft Azure!Logic Apps|book {5}}{239}
+\indexentry{Microsoft Azure!Sentinel!Data Connectors|book {5}}{240-241}
+\indexentry{Microsoft Azure!Sentinel!Playbooks|book {5}}{242-243}
+\indexentry{Microsoft Azure!Security Center|book {5}}{244-246}
+\indexentry{Microsoft Azure!Security Center!Auto-Provisioning|book {5}}{245}
+\indexentry{Qualys|book {5}}{245}
+\indexentry{Microsoft!Cloud Computing!Summary|book {5}}{247}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
