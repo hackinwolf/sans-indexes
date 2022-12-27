@@ -2045,11 +2045,52 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Microsoft Azure!Security Center!Auto-Provisioning|book {5}}{245}
 \indexentry{Qualys|book {5}}{245}
 \indexentry{Microsoft!Cloud Computing!Summary|book {5}}{247}
-
-
-
-
-
+\indexentry{Auditing|book {5}}{248}
+\indexentry{Automation|book {5}}{251}
+\indexentry{Windows!PowerShell|book {5}}{252-257}
+\indexentry{PowerShell!Detailed|book {5}}{252-257}
+\indexentry{Windows!PowerShell!Just Enough Admin (JEA)|book {5}}{253}
+\indexentry{Windows!PowerShell!Transcription Logging|book {5}}{253}
+\indexentry{Windows!PowerShell!Core|book {5}}{254-255}
+\indexentry{Windows!PowerShell!Examples|book {5}}{256}
+\indexentry{PowerShell!get-process|book {5}}{256}
+\indexentry{PowerShell!format-list|book {5}}{256}
+\indexentry{PowerShell!export-csv|book {5}}{256}
+\indexentry{PowerShell!get-service|book {5}}{257}
+\indexentry{PowerShell!get-winevent|book {5}}{257}
+\indexentry{PowerShell!get-ciminstance|book {5}}{257}
+\indexentry{PowerShell!get-help|book {5}}{257}
+\indexentry{Microsoft!Command Line Tools|book {5}}{258}
+\indexentry{Sysinternals|book {5}}{258}
+\indexentry{PATH|book {5}}{258}
+\indexentry{PowerShell!PATH|book {5}}{258}
+\indexentry{Windows!CMD!Tools|book {5}}{259-263}
+\indexentry{WMIC.exe|book {5}}{264}
+\indexentry{Windows Management Instrumentation (WMI)|book {5}}{264}
+\indexentry{PowerShell!Get-WmiObject|book {5}}{264}
+\indexentry{Windows!Network Configuration Tools|book {5}}{265}
+\indexentry{Windows!PowerShell!Network Configuration|book {5}}{266}
+\indexentry{Windows!Subsystem for Linux (WSL)|book {5}}{267-269}
+\indexentry{Windwos!Task Scheduler|book {5}}{270}
+\indexentry{PowerShell!get-scheduledtask|book {5}}{270}
+\indexentry{Microsoft Azure!Tools|book {5}}{272}
+\indexentry{Microsoft Azure!Tools!Web Portal|book {5}}{272}
+\indexentry{Microsoft Azure!Tools!PowerShell|book {5}}{272}
+\indexentry{Microsoft Azure!Tools!CLI|book {5}}{273}
+\indexentry{Microsoft Azure!Tools!Cloud Shell|book {5}}{273-276}
+\indexentry{Microsoft Azure!Tools!Resource Manager (ARM) Templates|book {5}}{274}
+\indexentry{Microsoft Azure!Automation|book {5}}{277-279}
+\indexentry{Microsoft Azure!Automation!Worker|book {5}}{277}
+\indexentry{Microsoft Azure!Automation!Runbook|book {5}}{277}
+\indexentry{Microsoft Azure!Automation!Jobs|book {5}}{277}
+\indexentry{Microsoft Azure!Automation!Power Automate|book {5}}{278}
+\indexentry{Microsoft Azure!Functions|book {5}}{279}
+\indexentry{Microsoft Azure!Automation!Graphical Runbooks|book {5}}{280}
+\indexentry{Logs!Windows!Configuration|book {5}}{281}
+\indexentry{Windows!Logging!Configuration|book {5}}{281}
+\indexentry{PowerShell!Show-EventLog|book {5}}{281}
+\indexentry{Windows!Logging!Security Events|book {5}}{283}
+\indexentry{Windows!Logging!Audit Policies|book {5}}{283}
 
 
 
