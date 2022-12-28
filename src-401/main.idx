@@ -74,9 +74,13 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 \indexentry{5b@\blankline|comment}{0}
 
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@RFID|book{5}}{3-67}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Smart Cards|book{5}}{68-115}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@NFC|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@Linux Fundamentals|book{5}}{3-67}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Linux Security Enhancements and Infrastructure|book{5}}{68-115}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@Containerized Security|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!4@AWS Fundamentals|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!5@AWS Security Controls|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!6@AWS Hardening|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!7@macOS Security|book{5}}{116-137}
 
 \indexentry{6b@\blankline|comment}{0}
 
@@ -1163,7 +1167,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Third-Party Risk Mangement|book {2}}{178}
 \indexentry{Data Loss Prevention (DLP)!Summary|book {2}}{179}
 \indexentry{Mobile!Device Security|book {2}}{182}
-\indexentry{Mobile!Operating System!Market Share|book {2}}{184}
+\indexentry{Mobile!Operating System (OS)!Market Share|book {2}}{184}
 \indexentry{Android vs. iOS|book {2}}{185}
 \indexentry{Android!Security|book {2}}{186-190}
 \indexentry{Open Handset Alliance (OHA)|book {2}}{188-190}
@@ -2089,13 +2093,90 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Logs!Windows!Configuration|book {5}}{281}
 \indexentry{Windows!Logging!Configuration|book {5}}{281}
 \indexentry{PowerShell!Show-EventLog|book {5}}{281}
-\indexentry{Windows!Logging!Security Events|book {5}}{283}
+\indexentry{Windows!Logging!Security Events|book {5}}{283-285}
 \indexentry{Windows!Logging!Audit Policies|book {5}}{283}
+\indexentry{Windows!Logging!Security Event IDs|book {5}}{285}
+\indexentry{System Access Control List (SACL)|book {5}}{287}
+\indexentry{NT File System (NTFS)!Logging|book {5}}{287-289}
+\indexentry{Windows!Logging!Size and Wrapping|book {5}}{290-291}
+\indexentry{Logs!Windows!Size and Wrapping|book {5}}{290-291}
+\indexentry{Windows!Logging!What should be logged?|book {5}}{292-293}
+\indexentry{Logs!Windows!What should be logged?|book {5}}{292-293}
 
 
 
 
 
+
+
+
+\comment{********************************************************************************************
+                                     SIXTH BOOK SECTION
+*****************************************************************************************************}
+
+
+\indexentry{Linux!Objectives|book {6}}{4}
+\indexentry{Operating System (OS)!Market Share|book {6}}{5}
+\indexentry{Linux!Criticality|book {6}}{6}
+\indexentry{Linux!vs Windows|book {6}}{7-8}
+\indexentry{Linux!Types|book {6}}{10}
+\indexentry{Linux!Distros|book {6}}{10-11}
+\indexentry{Linux|book {6}}{12}
+\indexentry{Windows Subsystem for Linux (WSL)|book {6}}{13}
+\indexentry{Linux!Vulnerabilities|book {6}}{14-15}
+\indexentry{macOS (BSD)|book {6}}{16}
+\indexentry{Operating System (OS)!Best?|book {6}}{17}
+\indexentry{Operating System (OS)!Overview|book {6}}{18}
+\indexentry{Operating System (OS)!!Kernel|book {6}}{18-19}
+\indexentry{Operating System (OS)!Userland|book {6}}{18}
+\indexentry{Operating System (OS)!Hardware|book {6}}{18}
+\indexentry{Linux!Shell|book {6}}{20-21}
+\indexentry{Linux!Console|book {6}}{20}
+\indexentry{Linux!Terminal|book {6}}{20}
+\indexentry{Linux!Logical Filesystem|book {6}}{22}
+\indexentry{Linux!Physical Filesystem|book {6}}{23-24}
+\indexentry{Linux!Physical Filesystem!Partitions|book {6}}{23-24}
+\indexentry{Linux!Physical Filesystem!Security|book {6}}{24}
+\indexentry{Linux!Disk Monitoring (df)|book {6}}{25}
+\indexentry{Linux!swap space|book {6}}{25}
+\indexentry{Linux!Filesystem!Security|book {6}}{26-27}
+\indexentry{Linux!Unified Key Setup (LUKS)|book {6}}{28}
+\indexentry{Linux!Hard Disk Encryption|book {6}}{28}
+\indexentry{Linux!File Attributes|book {6}}{29}
+\indexentry{Linux!File Attributes!ls -l|book {6}}{29}
+\indexentry{Linux!File Permissions|book {6}}{30}
+\indexentry{Linux!File Permissions!chmod (change mode)|book {6}}{30}
+\indexentry{Linux!File Permissions!flags/bits|book {6}}{31}
+\indexentry{Linux!File Permissions!other bits|book {6}}{32}
+\indexentry{Linux!File Permissions!set-UID|book {6}}{32}
+\indexnetry{Linux!File Permissions!set-GID|book {6}}{32}
+\indexentry{Linux!File Permissions!sticky|book {6}}{32}
+\indexentry{Linux!File Permissions!other bits in absolute mode|book {6}}{33}
+\indexentry{Linux!Files versus Directories|book {6}}{34-35}
+\indexentry{Linux!World-Writable Directories|book {6}}{36}
+\indexentry{Linux!SUID/SGID Programs|book {6}}{37}
+\indexentry{Linux!Find command|book {6}}{37}
+\indexentry{Linux!File Permissions!Umask and Chmod|book {6}}{38-39}
+\indexentry{Linux!File Permissions!chown and chgrp|book {6}}{40}
+\indexentry{Linux!User Accounts and Groups|book {6}}{41}
+\indexentry{Linux!User Accounts and Groups!UID and GID|book {6}}{41}
+\indexentry{Linux!Superuser|book {6}}{42}
+\indexentry{Linux!Privilege Elecation|book {6}}{43}
+\indexentry{Linux!Commands!su|book {6}}{43-44}
+\indexentry{Linux!Commands!sudo|book {6}}{43-44}
+\indexentry{Linux!System Accounts|book {6}}{45}
+\indexentry{Linux!Passwd File|book {6}}{46}
+\indexentry{Linux!Shadow File|book {6}}{47}
+\indexentry{Linux!Pluggable Authentication Modules (PAM)|book {6}}{48}
+
+
+
+
+
+
+
+
+\comment{Pages 32 and 33 are the same}
 
 
 
