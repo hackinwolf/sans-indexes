@@ -2167,7 +2167,160 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Linux!System Accounts|book {6}}{45}
 \indexentry{Linux!Passwd File|book {6}}{46}
 \indexentry{Linux!Shadow File|book {6}}{47}
-\indexentry{Linux!Pluggable Authentication Modules (PAM)|book {6}}{48}
+\indexentry{Linux!Pluggable Authentication Modules (PAM)|book {6}}{48-49}
+\indexentry{Linux!Policy Enforcement!Passwords|book {6}}{50}
+\indexentry{Linux!Policy Enforcement!User lockout|book {6}}{51}
+\indexentry{Linux!Threat hunting|book {6}}{52}
+\indexentry{Linux!Commands!ls|book {6}}{52}
+\indexentry{Linux!Commands!ps|book {6}}{52}
+\indexentry{Linux!Commands!netstat|book {6}}{52}
+\indexentry{Linux!Commands!tail|book {6}}{53}
+\indexentry{Linux!Commands!grep|book {6}}{54}
+\indexentry{Linux!Logs!Parsing|book {6}}{54}
+\indexentry{Linux!Services|book {6}}{55}
+\indexentry{Linux!daemons|book {6}}{55}
+\indexentry{Linux!Commands!List services|book {6}}{55}
+\indexentry{Linux!Commands!List active services|book {6}}{55}
+\indexentry{Linux!initd|book {6}}{56}
+\indexentry{Linux!initd!runlevels|book {6}}{56}
+\indexentry{Linux!Ststemd|book {6}}{57-60}
+\indexentry{Linux!Cron|book {6}}{61}
+\indexentry{Linux!Package Management|book {6}}{62}
+\indexentry{Linux!Package Management!Features|book {6}}{63}
+\indexentry{Linux!Package Management!Advanced Packaging Tool (APT)|book {6}}{64-65}
+\indexentry{Linux!Summary|book {6}}{66}
+\indexentry{Linux!Security!SELinux|book {6}}{68-69}
+\indexentry{SELinux|book {6}}{68-69}
+\indexentry{Linux!Security!AppArmor|book {6}}{70-71}
+\indexentry{AppArmor|book {6}}{70-71}
+\indexentry{Linux!Security!AppArmor and SELinux Comparison|book {6}}{72}
+\indexentry{Linux!Security!Sysctl Hardening|book {6}}{73-74}
+\indexentry{Linux!Security!Modprobe|book {6}}{75}
+\indexentry{Linux!Security!Disable Dynamic Loading|book {6}}{76}
+\indexentry{Linux!Security!SSH Hardening|book {6}}{77}
+\indexentry{Secure Shell (SSH)!Hardening|book {6}}{77}
+\indexentry{Linux!Security!SSH MFA|book {6}}{78}
+\indexentry{Secure Shell (SSH)!MFA|book {6}}{78}
+\indexentry{Linux!Security!SSH/TLS Key Management|book {6}}{79}
+\indexentry{Secure Shell (SSH)!Key Management|book {6}}{79}
+\indexentry{Transport Layer Security (TLS)!Key Management|book {6}}{79}
+\indexentry{Linux!Security!Hardening Scripts|book {6}}{80-81}
+\indexentry{Linux!Security!CIS Hardening Guides|book {6}}{82}
+\indexentry{Linux!Security!Lynis|book {6}}{83}
+\indexentry{Linux!Security!OpenSCAP|book {6}}{84-85}
+\indexentry{Security Content Automation Protocol (SCAP)|book {6}}{84-85}
+\indexentry{Linux!Security!InSpec|book {6}}{86}
+\indexentry{Linux!Logs!Key Log Files|book {6}}{87-90}
+\indexentry{Linux!Logs!Syslog|book {6}}{91-96}
+\indexentry{Logs!Linux!Syslog|book {6}}{91-96}
+\indexentry{Linux!Logs!Syslog-NG|book {6}}{97}
+\indexentry{Logs!Linux!Syslog-NG|book {6}}{97}
+\indexentry{Linux!Logs!Rsyslog|book {6}}{98}
+\indexentry{Logs!Linux!Rsyslog|book {6}}{98}
+\indexentry{Linux!Logs!Logrotate|book {6}}{99-101}
+\indexentry{Logs!Linux!Logrotate|book {6}}{99-101}
+\indexentry{Linux!Logs!Centralized Logging|book {6}}{102-103}
+\indexentry{Linux!Logs!auditd|book {6}}{104-110}
+\indexentry{Logs!Linux!auditd|book {6}}{104-110}
+\indexentry{Linux!Firewalls|book {6}}{111}
+\indexentry{Linux!Firewalls!Iptables|book {6}}{112-115}
+\indexentry{Linux!Rootkit Detectors|book {6}}{116}
+\indexentry{Linux!Rootkit Detectors!rkhunter|book {6}}{117}
+\indexentry{Linux!Rootkit Detectors!chkrootkit|book {6}}{118}
+\indexentry{Linux!Configuration Management Tools|book {6}}{119}
+\indexentry{Linux!Configuration Management Tools!Ansible|book {6}}{120}
+\indexentry{Ansible|book {6}}{120}
+\indexentry{Linux!Security!Summary|book {6}}{121}
+\indexentry{Linux!Containerization!chroot|book {6}}{124-125}
+\indexentry{Containerization!Linux!chroot|book {6}}{124-125}
+\indexentry{Containerization|vs. Virtual Machines|book {6}}{126-127}
+\indexentry{Linux!Containerization!LXC|book {6}}{128}
+\indexentry{Containerization!Linux!LXC|book {6}}{128}
+\indexentry{Containerization!cgroups|book {6}}{129}
+\indexentry{Containerization!namespaces|book {6}}{129}
+\indexentry{Kernal!Containerization|book {6}}{129}
+\indexentry{Containerization!LXC vs. Docker|book {6}}{130}
+\indexentry{Containerization!Docker|book {6}}{131}
+\indexentry{Containerization!Docker!Images|book {6}}{132}
+\indexentry{Containerization!Docker!Swarm Mode|book {6}}{133}
+\indexentry{Containerization!Kubernetes|book {6}}{134}
+\indexentry{Containerization!Kubernetes!Pods|book {6}}{134}
+\indexentry{Containerization!Security|book {6}}{135}
+\indexentry{Containerization!Docker!Security|book {6}}{136}
+\indexentry{Containerization!Docker!Vulnerability Management|book {6}}{137}
+\indexentry{Clair|book {6}}{137}
+\indexentry{Anchore|book {6}}{137}
+\indexentry{Containerization!CIS Benchmarks|book {6}}{138}
+\indexentry{Terraform|book {6}}{139-141}
+\indexentry{Containerization!Terraform|book {6}}{139-141}
+\indexentry{Terraform!Lifecycle|book {6}}{140-141}
+\indexentry{Containerization!Terraform!Lifecycle|book {6}}{140-141}
+\indexentry{Terraform!Security|book {6}}{142}
+\indexentry{Containerization!Terraform!Security|book {6}}{142}
+\indexentry{Containerization!Summary|book {6}}{143}
+\indexentry{AWS!Objectives|book {6}}{145}
+\indexentry{AWS!Identity and Access Management (IAM)|book {6}}{146}
+\indexentry{AWS!Identity and Access Management (IAM)!Key Concepts|book {6}}{147-148}
+\indexentry{AWS!Identity and Access Management (IAM)!Access Analyzer|book {6}}{149}
+\indexentry{AWS!Identity and Access Management (IAM)!Identity Federations|book {6}}{149}
+\indexentry{AWS!Identity and Access Management (IAM)!External Access|book {6}}{149}
+\indexentry{AWS!Cognito|book {6}}{150}
+\indexentry{AWS!Management Console|book {6}}{151}
+\indexentry{AWS!Command Line Interface (CLI)|book {6}}{152}
+\indexentry{AWS!Access Keys|book {6}}{153}
+\indexentry{AWS!Components|book {6}}{154-160}
+\indexentry{AWS!Infrastructure|book {6}}{154}
+\indexentry{AWS!Infrastructure!Regions|book {6}}{154}
+\indexentry{AWS!Infrastructure!Availability Zones (AZ)|book {6}}{154}
+\indexentry{AWS!Infrastructure!Point of Presences|book {6}}{154}
+\indexentry{AWS!High Availability (HA)|book {6}}{155}
+\indexentry{AWS!Networking|book {6}}{156}
+\indexentry{AWS!Virtual Private Cloud (VPC)|book {6}}{156}
+\indexentry{AWS!Network Security!Network Access Control Lists (NACLs)|book {6}}{156}
+\indexentry{AWS!Network Security!Security Groups (SGs)|book {6}}{156}
+\indexentry{AWS!Key Services|book {6}}{157-160}
+\indexentry{AWS!Elastic Cloud Compute (EC2)|book {6}}{157}
+\indexentry{AWS!Elastic Cloud Compute (EC2)!Amazon Machine Images (AMIs)|book {6}}{157}
+\indexentry{AWS!Simple Storage Server (S3) buckets|book {6}}{157-158}
+\indexentry{AWS!Elastic Container Registry (ECR)|book {6}}{158}
+\indexentry{AWS!Lambda|book {6}}{159}
+\indexentry{AWS!Config|book {6}}{159}
+\indexentry{AWS!CloudFront|book {6}}{159}
+\indexentry{AWS!Relational Database Services (RDS)|book {6}}{160}
+\indexentry{AWS!Summary|book {6}}{161}
+\indexentry{AWS!Network Security!Network Access Control Lists (NACLs)|book {6}}{163}
+\indexentry{AWS!Network Security!Security Groups (SGs)|book {6}}{163}
+\indexentry{AWS!Network Security!Network Firewall|book {6}}{164}
+\indexentry{AWS!Network Security!AWS Shield|book {6}}{165}
+\indexentry{AWS!Network Security!AWS WAF|book {6}}{165-166}
+\indexentry{AWS!Data Protection!Macie|book {6}}{167}
+\indexentry{AWS!Data Protection!Key Management Service (KMS)|book {6}}{168-169}
+\indexentry{AWS!Data Protection!S3 Bucket Encryption|book {6}}{170}
+\indexentry{AWS!CloudWatch|book {6}}{171}
+\indexentry{AWS!CloudTrail|book {6}}{172-173}
+\indexentry{AWS!Config|book {6}}{174}
+\indexentry{AWS!GuardDuty|book {6}}{175}
+\indexentry{AWS!Security Hub|book {6}}{175}
+\indexentry{AWS!CloudFront!Web Application Security|book {6}}{176-177}
+\indexentry{AWS!Network Security!AWS WAF|book {6}}{176}
+\indexentry{Field-Level Encryption|book {6}}{176}
+\indexentry{AWS!Security!Summary|book {6}}{178}
+\indexentry{AWS!Hardening!Well-Architected Framework|book {6}}{180}
+\indexentry{AWS!Hardening!Strong Identity Foundation|book {6}}{181-184}
+\indexentry{AWS!Organizational Unit (OU)|book {6}}{183}
+\indexentry{AWS!Resource Access Manager (RAM)|book {6}}{184}
+\indexentry{AWS!Hardening!Traceability|book {6}}{185-186}
+\indexentry{AWS!Hardening!Defense-in-depth|book {6}}{187-188}
+\indexentry{AWS!Defenst-in-depth|book {6}}{187-188}
+
+
+
+
+
+
+
+
+
 
 
 
