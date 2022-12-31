@@ -39,54 +39,68 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 \indexentry{1b@\blankline|comment}{0}
 
-\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-30}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{31-62}
-\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{63-83}
-\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{84-122}
-\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{123-147}
-\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{123-147}
+\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
+\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{46-76}
+\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
+\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
+\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
+\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{182-205}
 
 \indexentry{2b@\blankline|comment}{0}
 
-\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-49}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{50-77}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{78-105}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{106-149}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{106-149}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{106-149}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-32}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{33-76}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{77-128}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{129-162}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{162-200}
+\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{201-239}
 
 \indexentry{3b@\blankline|comment}{0}
 
-\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-49}
-\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{50-95}
-\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{96-132}
-\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{96-132}
-\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{96-132}
+\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-52}
+\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{53-80}
+\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{81-129}
+\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{130-184}
+\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{185-220}
 
 \indexentry{4b@\blankline|comment}{0}
 
-\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-67}
-\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{68-115}
-\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{116-137}
-\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{116-137}
-\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{116-137}
-\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{116-137}
+\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-43}
+\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{44-70}
+\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{71-119}
+\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{120-193}
+\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{194-247}
+\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{248-296}
 
 \indexentry{5b@\blankline|comment}{0}
 
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@Linux Fundamentals|book{5}}{3-67}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Linux Security Enhancements and Infrastructure|book{5}}{68-115}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@Containerized Security|book{5}}{116-137}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!4@AWS Fundamentals|book{5}}{116-137}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!5@AWS Security Controls|book{5}}{116-137}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!6@AWS Hardening|book{5}}{116-137}
-\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!7@macOS Security|book{5}}{116-137}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!1@Linux Fundamentals|book{5}}{3-66}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!2@Linux Security Enhancements and Infrastructure|book{5}}{67-121}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!3@Containerized Security|book{5}}{122-143}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!4@AWS Fundamentals|book{5}}{144-161}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!5@AWS Security Controls|book{5}}{162-178}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!6@AWS Hardening|book{5}}{179-200}
+\indexentry{6a@\textbf{Linux, AWS, and Mac Security}!7@macOS Security|book{5}}{201-215}
 
 \indexentry{6b@\blankline|comment}{0}
 
-\indexentry{7a@\textbf{Workbook}!1@RFID|book{5}}{3-67}
-\indexentry{7a@\textbf{Workbook}!2@Smart Cards|book{5}}{68-115}
-\indexentry{7a@\textbf{Workbook}!3@NFC|book{5}}{116-137}
+\indexentry{7a@\textbf{Workbook}!1@tcpdump|book{5}}{26-37}
+\indexentry{7a@\textbf{Workbook}!2@Wireshark|book{5}}{38-50}
+\indexentry{7a@\textbf{Workbook}!3@Aircrack-ng|book{5}}{51-57}
+\indexentry{7a@\textbf{Workbook}!3@Hashcat|book{5}}{58-69}
+\indexentry{7a@\textbf{Workbook}!3@Cain and Abel|book{5}}{70-94}
+\indexentry{7a@\textbf{Workbook}!3@AppLocker|book{5}}{95-123}
+\indexentry{7a@\textbf{Workbook}!3@Nmap|book{5}}{124-139}
+\indexentry{7a@\textbf{Workbook}!3@Malicious Software|book{5}}{140-147}
+\indexentry{7a@\textbf{Workbook}!3@Command Injection|book{5}}{148-153}
+\indexentry{7a@\textbf{Workbook}!3@hping3|book{5}}{154-163}
+\indexentry{7a@\textbf{Workbook}!3@Image Steganography|book{5}}{164-184}
+\indexentry{7a@\textbf{Workbook}!3@GNU Privacy Guard (GPG)|book{5}}{184-203}
+\indexentry{7a@\textbf{Workbook}!3@Snort|book{5}}{204-227}
+\indexentry{7a@\textbf{Workbook}!3@Process Hacker|book{5}}{228-244}
+\indexentry{7a@\textbf{Workbook}!3@NTFS Permissions Reporter|book{5}}{245-258}
+\indexentry{7a@\textbf{Workbook}!3@SECEDIT.EXE|book{5}}{259-266}
+\indexentry{7a@\textbf{Workbook}!3@PowerShell Scripting|book{5}}{267-}
 
 \indexentry{7b@\blankline|comment}{0}
 
