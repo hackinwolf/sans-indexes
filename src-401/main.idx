@@ -87,20 +87,20 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{7a@\textbf{Workbook}!1@tcpdump|book{5}}{26-37}
 \indexentry{7a@\textbf{Workbook}!2@Wireshark|book{5}}{38-50}
 \indexentry{7a@\textbf{Workbook}!3@Aircrack-ng|book{5}}{51-57}
-\indexentry{7a@\textbf{Workbook}!3@Hashcat|book{5}}{58-69}
-\indexentry{7a@\textbf{Workbook}!3@Cain and Abel|book{5}}{70-94}
-\indexentry{7a@\textbf{Workbook}!3@AppLocker|book{5}}{95-123}
-\indexentry{7a@\textbf{Workbook}!3@Nmap|book{5}}{124-139}
-\indexentry{7a@\textbf{Workbook}!3@Malicious Software|book{5}}{140-147}
-\indexentry{7a@\textbf{Workbook}!3@Command Injection|book{5}}{148-153}
-\indexentry{7a@\textbf{Workbook}!3@hping3|book{5}}{154-163}
-\indexentry{7a@\textbf{Workbook}!3@Image Steganography|book{5}}{164-184}
-\indexentry{7a@\textbf{Workbook}!3@GNU Privacy Guard (GPG)|book{5}}{184-203}
-\indexentry{7a@\textbf{Workbook}!3@Snort|book{5}}{204-227}
-\indexentry{7a@\textbf{Workbook}!3@Process Hacker|book{5}}{228-244}
-\indexentry{7a@\textbf{Workbook}!3@NTFS Permissions Reporter|book{5}}{245-258}
-\indexentry{7a@\textbf{Workbook}!3@SECEDIT.EXE|book{5}}{259-266}
-\indexentry{7a@\textbf{Workbook}!3@PowerShell Scripting|book{5}}{267-}
+\indexentry{7a@\textbf{Workbook}!4@Hashcat|book{5}}{58-69}
+\indexentry{7a@\textbf{Workbook}!5@Cain and Abel|book{5}}{70-94}
+\indexentry{7a@\textbf{Workbook}!6@AppLocker|book{5}}{95-123}
+\indexentry{7a@\textbf{Workbook}!7@Nmap|book{5}}{124-139}
+\indexentry{7a@\textbf{Workbook}!8@Malicious Software|book{5}}{140-147}
+\indexentry{7a@\textbf{Workbook}!9@Command Injection|book{5}}{148-153}
+\indexentry{7a@\textbf{Workbook}!10@hping3|book{5}}{154-163}
+\indexentry{7a@\textbf{Workbook}!11@Image Steganography|book{5}}{164-184}
+\indexentry{7a@\textbf{Workbook}!12@GNU Privacy Guard (GPG)|book{5}}{184-203}
+\indexentry{7a@\textbf{Workbook}!13@Snort|book{5}}{204-227}
+\indexentry{7a@\textbf{Workbook}!14@Process Hacker|book{5}}{228-244}
+\indexentry{7a@\textbf{Workbook}!15@NTFS Permissions Reporter|book{5}}{245-258}
+\indexentry{7a@\textbf{Workbook}!16@SECEDIT.EXE|book{5}}{259-266}
+\indexentry{7a@\textbf{Workbook}!17@PowerShell Scripting|book{5}}{267-}
 
 \indexentry{7b@\blankline|comment}{0}
 
@@ -2326,6 +2326,38 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{AWS!Hardening!Traceability|book {6}}{185-186}
 \indexentry{AWS!Hardening!Defense-in-depth|book {6}}{187-188}
 \indexentry{AWS!Defenst-in-depth|book {6}}{187-188}
+\indexentry{AWS!Defenst-in-depth!Networking|book {6}}{187-188}
+\indexentry{AWS!Defenst-in-depth!Compute|book {6}}{189-190}
+\indexentry{AWS!Inspector|book {6}}{189}
+\indexentry{AWS!ECR Image Scanning|book {6}}{189}
+\indexentry{AWS!EC2 Image Builder|book {6}}{189}
+\indexentry{AWS!CloudFormation|book {6}}{189-191}
+\indexentry{AWS!System Manager|book {6}}{189}
+\indexentry{AWS!InfrastructureDeployment Automation|book {6}}{191}
+\indexentry{Terraform|book {6}}{191}
+\indexentry{AWS!Automate Security|book {6}}{192}
+\indexentry{AWS!CloudFormation|book {6}}{189-191}
+\indexentry{Infrastructure as Code (IaC)|book {6}}{192}
+\indexentry{AWS!Data Protection|book {6}}{193-195}
+\indexentry{AWS!Macie|book {6}}{193}
+\indexentry{AWS!Summary|book {6}}{198}
+\indexentry{Tokenization|book {6}}{194}
+\indexentry{Data Protection!Tokenization|book {6}}{194}
+\indexentry{AWS!Key Management|book {6}}{194}
+\indexentry{AWS!Certificate Manager|book {6}}{195}
+\indexentry{AWS!Incident Response|book {6}}{196-198}
+\indexentry{800-61|book {6}}{196}
+\indexentry{AWS!Well Architected Framework|book {6}}{196}
+\indexentry{AWS!Well Architected Framework!Educate|book {6}}{196}
+\indexentry{AWS!Well Architected Framework!Preparation|book {6}}{196}
+\indexentry{Security Incident Response Simulations (SIRS)|book {6}}{198}
+\indexentry{AWS!Summary|book {6}}{199}
+\indexentry{macOS|book {6}}{203}
+\indexentry{macOS!Security Features|book {6}}{204-211}
+\indexentry{macOS!Hardening|book {6}}{212}
+\indexentry{macOS!Vulnerabilities|book {6}}{213}
+\indexentry{macOS!Malware|book {6}}{214}
+\indexentry{macOS!Summary|book {6}}{215}
 
 
 
