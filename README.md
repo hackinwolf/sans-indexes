@@ -1,8 +1,80 @@
 # SANS Course Indexes
 
-Indexes for the SANS Courses I followed.
+## Setup Instructions
 
-To build the index for 508, `./make.sh 508`.
+This guide will walk you through the initial setup required to start working with this repository.
+
+### Step 1: Update Package List
+
+First, update your package list to ensure you have access to the latest versions:
+
+```bash
+sudo apt update
+```
+
+### Step 2: Install Git
+
+Install Git, a version control system for tracking changes in source code:
+
+```bash
+sudo apt install git
+```
+
+### Step 3: Configure Git
+
+Set up your Git user information. Replace `Mona Lisa` with your name and `user@example.com` with your email address:
+
+```bash
+git config --global user.name "Mona Lisa"
+git config --global user.email "user@example.com"
+```
+
+### Step 4: Install TeX Live
+
+Install `texlive-full` for working with TeX/LaTeX documents:
+
+```bash
+sudo apt-get install texlive-full
+```
+
+### Step 5: Clone the repo
+
+```bash
+git clone <repo-url>
+```
+
+### Step 5: Build the Index for 508
+
+To build the index for 401, run:
+
+```bash
+./make.sh 401
+```
+
+## Connecting to GitHub
+
+To connect this repository with GitHub, follow these steps:
+
+### Step 1: Access GitHub Developer Settings
+
+Navigate to your GitHub account settings:
+
+- Go to **Settings**
+- Select **Developer settings**
+- Click on **Personal access tokens**
+- Choose **Fine-grained tokens**
+- Click **Generate new token**
+
+### Step 2: Use Access Token
+
+The generated access token will be used as your password when prompted in the command line during operations that require GitHub authentication.
+
+---
+
+**Note:** Always keep your access token secure and never share it in your code or public repositories.
+
+---
+
 
 | Badge | Course | Certification | Index |
 | -- | -- | -- | -- |
