@@ -539,8 +539,8 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{p0f|book {1}}{9}
 \indexentry{American Fuzzy Lop|book {1}}{9}
 \indexentry{Tim Berners-Lee|book {1}}{9}
-\indexentry{HTTP!History|book {1}}{9}
-\indexentry{HTTP!History!0.9|book {1}}{9}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History|book {1}}{9}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History!0.9|book {1}}{9}
 \indexentry{vulnerability mailing lists|book {1}}{10}
 \indexentry{NIST National Vulnerability Database|book {1}}{10}
 \indexentry{Exploit Database (EDB)|book {1}}{10}
@@ -548,26 +548,443 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Mailing Lists|book {1}}{10}
 \indexentry{Mailing Lists!Full Disclosure|book {1}}{10}
 \indexentry{Mailing Lists!Bugtraq|book {1}}{10}
-\indexnetry{Full Disclosure|book {1}}{10}
+\indexentry{Full Disclosure|book {1}}{10}
 \indexentry{Bugtraq|book {1}}{10}
 \indexentry{Offensive Security|book {1}}{10}
-\indexnetry{Application Security|book {1}}{10}
-\indexnetry{Application Security!Assessing|book {1}}{12-13}
-\indexnetry{Application Security!Improving|book {1}}{12}
+\indexentry{Application Security|book {1}}{10}
+\indexentry{Application Security!Assessing|book {1}}{12-13}
+\indexentry{Application Security!Improving|book {1}}{12}
 \indexentry{Threat modeling|book {1}}{13}
 \indexentry{Code review|book {1}}{13}
 \indexentry{Static Application Security Testing (SAST)|book {1}}{13}
 \indexentry{Dynamic Application Security Testing (DAST)|book {1}}{13}
 \indexentry{Interactive Application Security Testing (IAST)|book {1}}{13}
 \indexentry{Out-of-Band Application Secuirty Testing|book {1}}{13}
-\indexentry{Full Knowledge|book {1}}{13}
-\indexentry{Zero Knowledge|book {1}}{13}
+\indexentry{Full-Knowledge|book {1}}{13}
+\indexentry{Zero-Knowledge|book {1}}{13}
+\indexentry{Assessments!Full-Knowledge|book {1}}{13}
+\indexentry{Assessments!Zero-Knowledge|book {1}}{13}
 \indexentry{Application Security!Static Application Security Testing (SAST)|book {1}}{13}
 \indexentry{Application Security!Dynamic Application Security Testing (DAST)|book {1}}{13}
 \indexentry{Application Security!Interactive Application Security Testing (IAST)|book {1}}{13}
 \indexentry{Application Security!Out-of-Band Application Security Testing (OAST)|book {1}}{13}
 \indexentry{Application Security!Testing!Full Knowledge|book {1}}{13}
 \indexentry{Application Security!Testing!Zero-Knowledge|book {1}}{13}
+\indexentry{Runtime Application Self-Protection (RASP)|book {1}}{13}
+\indexentry{Burp Suite!Infiltrator|book {1}}{13}
+\indexentry{Threat Modeling|textbf|book {1}|}{14}
+\indexentry{NIST!800-30!Appendix D|book {1}}{14}
+\indexentry{Threat Modeling!Advantages|book {1}}{14}
+\indexentry{Threat Modeling!Disadvantages|book {1}}{14}
+\indexentry{Threat Modeling!NIST 800-30|book {1}}{14}
+\indexentry{Software Engineering Institute (SEI)|book {1}}{14}
+\indexentry{Security Posture|book {1}}{14}
+\indexentry{Source Code Review|book {1}}{15}
+\indexentry{Source Code Review!Advantages|book {1}}{15}
+\indexentry{Source Code Review!Disadvantages|book {1}}{15}
+\indexentry{concurrency problems|book {1}}{15}
+\indexentry{flawed business logic|book {1}}{15}
+\indexentry{access control problems|book {1}}{15}
+\indexentry{cryptographic weaknesses|book {1}}{15}
+\indexentry{backdoors|book {1}}{15}
+\indexentry{Trojans|book {1}}{15}
+\indexentry{Easter eggs|book {1}}{15}
+\indexentry{time bombs|book {1}}{15}
+\indexentry{logic bombs|book {1}}{15}
+\indexentry{Static Application Security Testing (SAST)|book {1}}{16}
+\indexentry{Application Security!Static Application Security Testing (SAST)|book {1}}{16}
+\indexentry{Dynamic Application Security Testing (DAST)|book {1}}{17-18}
+\indexentry{Penetration Testing|book {1}}{17}
+\indexentry{Software Development Lifecycle (SDLC)|book {1}}{17}
+\indexentry{Application Security!Dynamic Application Security Testing (DAST)|book {1}}{17-18}
+\indexentry{Dynamic Application Security Testing (DAST)!Tools|book {1}}{17-18}
+\indexentry{Push Button Pen Testing|book {1}}{18}
+\indexentry{Manual Inspection and Reviews|book {1}}{19}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{19}
+\indexentry{Software Development Lifecycle (SDLC)|book {1}}{19}
+\indexentry{Documentation|book {1}}{19}
+\indexentry{Automated Scanning|book {1}}{20}
+\indexentry{Manual Assessments|book {1}}{20}
+\indexentry{Assessments!Manual|book {1}}{20}
+\indexentry{Assessments!Automated|book {1}}{20}
+\indexentry{Best|book {1}}{20}
+\indexentry{Full-Knowledge|book {1}}{21}
+\indexentry{Zero-Knowledge|book {1}}{21}
+\indexentry{Assessments!Full-Knowledge|book {1}}{21}
+\indexentry{Assessments!Zero-Knowledge|book {1}}{21}
+\indexentry{Methodology|book {1}}{22}
+\indexentry{Assessments!Methodology|book {1}}{22}
+\indexentry{Assessments!Full-Knowledge|book {1}}{21}
+\indexentry{Assessments!Frameworks|book {1}}{22}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{22}
+\indexentry{Assessments!Frameworks!OWASP Web Security Testing Guide|book {1}}{22}
+\indexentry{Penetration Testing Execution Standard (PTES)|book {1}}{22}
+\indexentry{Assessments!Frameworks!Penetration Testing Execution Standard (PTES)|book {1}}{22}
+\indexentry{Testing Techniques|book {1}}{22}
+\indexentry{Assessments!Testing Techniques|book {1}}{22}
+\indexentry{Reconaissance|book {1}}{22}
+\indexentry{Scanning|book {1}}{22}
+\indexentry{Vulnerability assessment|book {1}}{22}
+\indexentry{Post-exploitation|book {1}}{22}
+\indexentry{Reporting|book {1}}{22}
+\indexentry{OWASP|book {1}}{24}
+\indexentry{OWASP!Top 10|book {1}}{25-26}
+\indexentry{OWASP!Web Application Penetration Testing Methodology|book {1}}{27}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Web Application Penetration Testing Methodology|book {1}}{27}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Testing Categories|book {1}}{27}
+\indexentry{Information Gathering (INFO)|book {1}}{28}
+\indexentry{Configuration and Deployment Management (CONF)|book {1}}{28}
+\indexentry{Identity Management (IDNT)|book {1}}{28}
+\indexentry{Authentication (ATHN)|book {1}}{28}
+\indexentry{Authorization (ATHZ)|book {1}}{28}
+\indexentry{Session Management (SESS)|book {1}}{28}
+\indexentry{Input Validation (INPV)|book {1}|boldmain}{28}
+\indexentry{Error Handling (ERRH)|book {1}}{28}
+\indexentry{Cryptography (CRYP)|book {1}}{28}
+\indexentry{Business Logic (BUSL)|book {1}}{28}
+\indexentry{Client Side (CLNT)|book {1}}{28}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)|book {1}}{29}
+\indexentry{Checklist|book {1}}{29}
+\indexentry{Web Application PenTester's Toolkit|book {1}}{32}
+\indexentry{Attack platform|book {1}}{32}
+\indexentry{Dynamic web application security scanners|book {1}}{32}
+\indexentry{Browser|book {1}}{32}
+\indexentry{Interception proxies|book {1}}{32}
+\indexentry{Tookkit|book {1}}{32}
+\indexentry{Attack Platform|book {1}}{33-34}
+\indexentry{Kali|book {1}}{33-34}
+\indexentry{Kali!Update Command|book {1}}{34}
+\indexentry{Kali!metapackages|book {1}}{34}
+\indexentry{Dynamic Application Security Testing (DAST)|book {1}}{35}
+\indexentry{Dynamic Application Security Testing (DAST)!Scanners|book {1}}{35}
+\indexentry{ZAP Active Scan|book {1}}{35}
+\indexentry{Arachni Scanner|book {1}}{35}
+\indexentry{Nikto|book {1}}{35}
+\indexentry{Acunetix Vulnerability Scanner|book {1}}{35}
+\indexentry{BuprSuite Pro Active/Live Scan|book {1}}{35}
+\indexentry{Fortify WebInspect|book {1}}{35}
+\indexentry{HCL AppScan|book {1}}{35}
+\indexentry{Qualys WAS|book {1}}{35}
+\indexentry{Rapid7 AppSpider|book {1}}{35}
+\indexentry{Whitehat Sentinel|book {1}}{35}
+\indexentry{Invicti (formerly Netsparker)|book {1}}{35}
+\indexentry{Network Vulnerability Scanner|book {1}}{35}
+\indexentry{Browsers|book {1}}{36}
+\indexentry{Interception Proxies|book {1}}{38}
+\indexentry{forward proxy|book {1}}{38}
+\indexentry{Man-in-the-middle (MITM)|book {1}}{38}
+\indexentry{Zed Attack Proxy (ZAP)|book {1}}{38}
+\indexentry{Burp Suite Professional|book {1}}{38}
+\indexentry{Zed Attack Proxy (ZAP)|book {1}}{39}
+\indexentry{Interception Proxies!Zed Attack Proxy (ZAP)|book {1}}{39}
+\indexentry{Paros Proxy|book {1}}{39}
+\indexentry{Zed Attack Proxy (ZAP)!Interface|book {1}}{40}
+\indexentry{Zed Attack Proxy (ZAP)!Attack Menu|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Active Scan|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Forced browsing|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Spider and AJAX spider|book {1}}{41}
+\indexentry{Zed Attack Proxy (ZAP)!Functions!Fuzzing|book {1}}{41}
+\indexentry{Burp Suite Professional|book {1}}{42}
+\indexentry{Burp Suite Professional!Dashboard|book {1}}{43}
+\indexentry{Burp Suite Professional!Heads-Up Dispaly|book {1}}{43}
+\indexentry{Burp Suite Professional!Target!Scope|book {1}}{44}
+\indexentry{Burp Suite Professional!Target!Site Map|book {1}}{45}
+\indexentry{Burp Suite Professional!Target!Site Map - Filter|book {1}}{46}
+\indexentry{Burp Suite Professional!Proxy|book {1}}{47}
+\indexentry{Burp Suite Professional!Intruder|book {1}}{48}
+\indexentry{Grep|book {1}}{48}
+\indexentry{Burp Suite Professional!Repeater|book {1}}{49}
+\indexentry{Burp Suite Professional!Repeater!Inspector|book {1}}{49}
+\indexentry{Burp Suite Professional!Sequencer|book {1}}{50}
+\indexentry{Session Analysis|book {1}}{50}
+\indexentry{Burp Suite Professional!Decoder|book {1}}{51}
+\indexentry{Encoding|book {1}}{51}
+\indexentry{Decoding|book {1}}{51}
+\indexentry{Hashing|book {1}}{51}
+\indexentry{Burp Suite Professional!Comparer|book {1}}{52}
+\indexentry{Burp Suite Professional!Extender|book {1}}{53}
+\indexentry{BApp Store|book {1}}{53}
+\indexentry{Burp Suite Professional!BApp Store|book {1}}{53}
+\indexentry{Burp Suite Professional!Crawling/Auditing|book {1}}{54}
+\indexentry{Auditing|book {1}}{54}
+\indexentry{Burp Suite Professional!Engagement Tools|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Search|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Find Commment / Find Scripts|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Target Analyzer|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Content Discovery|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Cenerage CSRF PoC|book {1}}{55}
+\indexentry{Burp Suite Professional!Engagement Tools!Simulate Manual Testing|book {1}}{55}
+\indexentry{Interception Proxies!Configuring|book {1}}{57}
+\indexentry{OWASP!Web Security Testing Guide (WSTG)!Information Gathering|book {1}}{59}
+\indexentry{Information Gathering|book {1}}{59}
+\indexentry{Open-Source Intelligence (OSINT)|book {1}}{60}
+\indexentry{Open-Source Intelligence (OSINT)!Micah Hoffman's OSINT MindMap|book {1}}{61}
+\indexentry{Micah Hoffman's OSINT MindMap|book {1}}{61}
+\indexentry{Open-Source Intelligence (OSINT)!For Web Application Testers|book {1}}{62}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines|book {1}}{64}
+\indexentry{filter bubble|book {1}}{64}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Key Search Operators|book {1}}{65}
+\indexentry{Google|book {1}}{65-66}
+\indexentry{Bing|book {1}}{65}
+\indexentry{DuckDuckGo|book {1}}{65}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Google Dorks|book {1}}{66}
+\indexentry{Dorks|book {1}}{66}
+\indexentry{Google Hacking Database (GHDB)|book {1}}{66-67}
+\indexentry{Google Dorks|book {1}}{66}
+\indexentry{Open-Source Intelligence (OSINT)!Search Engines!Dorking|book {1}}{67}
+\indexentry{Dorking|book {1}}{67}
+\indexentry{Google Hacking Database (GHDB)!GHDB-ID 4804|book {1}}{67}
+\indexentry{Open-Source Intelligence (OSINT)!Social Media|book {1}}{68}
+\indexentry{Open-Source Intelligence (OSINT)!Social Media!LinkedIn|book {1}}{68}
+\indexentry{SOCMINT|book {1}}{68}
+\indexentry{LinkedIn Open Networkers (LIONs)|book {1}}{68}
+\indexentry{Open-Source Intelligence (OSINT)!Suites|book {1}}{70}
+\indexentry{Open-Source Intelligence (OSINT)!SpiderFoot|book {1}}{71}
+\indexentry{SpiderFoot|book {1}}{71}
+\indexentry{Operational Security (OPSEC)|book {1}}{71}
+\indexentry{Virtual Host Discovery|book {1}}{73}
+\indexentry{Virtual Host Discovery!DNS|book {1}}{74-75}
+\indexentry{Domain Name System (DNS)|book {1}}{74}
+\indexentry{Domain Name System (DNS)!Zone Transfer|book {1}}{74}
+\indexentry{Zone Transfer|book {1}}{74-75}
+\indexentry{Dig|book {1}}{74}
+\indexentry{EDNS|book {1}}{74}
+\indexentry{Domain Name System (DNS)!EDNS|book {1}}{74}
+\indexentry{Domain Name System (DNS)!Querying Directly|book {1}}{75}
+\indexentry{Commands!full (AXFR) zone transfer|book {1}}{75}
+\indexentry{Domain Name System (DNS)!Reverse|book {1}}{75}
+\indexentry{Reverse DNS|book {1}}{76}
+\indexentry{Domain Name System (DNS)!PTR|book {1}}{76}
+\indexentry{Commands!reverse DNS|book {1}}{76}
+\indexentry{Domain Name System (DNS)!Brute Force Scans|book {1}}{77}
+\indexentry{DNSRecon|book {1}}{77}
+\indexentry{Domain Name System (DNS)!Recon Tools|book {1}}{78}
+\indexentry{nslookup|book {1}}{79}
+\indexentry{Domain Name System (DNS)!Recon Tools!nslookup|book {1}}{79}
+\indexentry{dig|book {1}}{80}
+\indexentry{Domain Name System (DNS)!Recon Tools!dig|book {1}}{80-81}
+\indexentry{Commands!dig domain lookup|book {1}}{80}
+\indexentry{dig!Syntax|book {1}}{81}
+\indexentry{Commands!dig (many)|book {1}}{81}
+\indexentry{CHAOSNET|book {1}}{81}
+\indexentry{Nmap!DNS NSE Scripts|book {1}}{82}
+\indexentry{Domain Name System (DNS)!Recon Tools!Nmap|book {1}}{82}
+\indexentry{DNSRecon|book {1}}{83-84}
+\indexentry{Domain Name System (DNS)!Recon Tools!DNSRecon|book {1}}{83-84}
+\indexentry{Commands!DNSRecon|book {1}}{83-84}
+\indexentry{Domain Name System (DNS)!Repositories|book {1}}{85-86}
+\indexentry{Domain Name System (DNS)!Repositories!Farsight Security's DNSDB|book {1}}{85}
+\indexentry{Domain Name System (DNS)!Repositories!Dnsdumpster.com|book {1}}{85}
+\indexentry{Virtual Host Discovery!HTTPS Certificate|book {1}}{87}
+\indexentry{HTTPS Certificates|book {1}}{87}
+\indexentry{Common Name|book {1}}{87}
+\indexentry{Certificate Transparency|book {1}}{87}
+\indexentry{Certificate Authorities|book {1}}{87}
+\indexentry{Tim Berners-Lee|book {1}}{91}
+\indexentry{World Wide Web|book {1}}{91}
+\indexentry{Internet|book {1}}{91-92}
+\indexentry{CERN|book {1}}{91}
+\indexentry{Generalized Markup Language (GML)|book {1}}{91}
+\indexentry{Hypertext Transfer Protocol (HTTP)!History|book {1}}{91}
+\indexentry{ARPANET|book {1}}{92}
+\indexentry{RFC!1918|book {1}}{92}
+\indexentry{Morris Worm|book {1}}{92}
+\indexentry{Kerberos|book {1}}{92}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Semantics|book {1}}{93}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Syntax|book {1}}{93}
+\indexentry{Semantics|book {1}}{93}
+\indexentry{Syntax|book {1}}{93}
+\indexentry{Hypertext Transfer Protocol (HTTP)!QUIC|book {1}}{93}
+\indexentry{World Wide Web (W3)|book {1}}{94}
+\indexentry{RFC!1945|book {1}}{94-95}
+\indexentry{Hypertext Transfer Protocol (HTTP)!0.9|book {1}}{95}
+\indexentry{Hypertext Transfer Protocol (HTTP)!1.0|book {1}}{95-96}
+\indexentry{Command!HTTP/0.9|book {1}}{95}
+\indexentry{Command!HTTP/1.0|book {1}}{96}
+\indexentry{Hypertext Transfer Protocol (HTTP)!1.1|book {1}}{97}
+\indexentry{Hypertext Transfer Protocol (HTTP)!2|book {1}}{98-99}
+\indexentry{RFC!2616|book {1}}{97}
+\indexentry{RFC!7231|book {1}}{97}
+\indexentry{RFC!7232|book {1}}{97}
+\indexentry{RFC!7233|book {1}}{97}
+\indexentry{RFC!7234|book {1}}{97}
+\indexentry{RFC!7235|book {1}}{97}
+\indexentry{RFC!7231|book {1}}{97}
+\indexentry{Command!HTTP/1.1|book {1}}{97}
+\indexentry{RFC!7540|book {1}}{98}
+\indexentry{Push Promise|book {1}}{98}
+\indexentry{HPACK|book {1}}{98-99}
+\indexentry{Multiplexing|book {1}}{98}
+\indexentry{Pipelining|book {1}}{98}
+\indexentry{RFC!7541|book {1}}{99}
+\indexentry{Hypertext Transfer Protocol (HTTP)!3 QUIC|book {1}}{100}
+\indexentry{Quick UDP Internet Connection (QUIC)|book {1}}{100}
+\indexentry{RFC!9114|book {1}}{100}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Semantics|book {1}}{101}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Example|book {1}}{102}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Example|book {1}}{103-104}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Methods/Verbs|book {1}}{105-116}
+\indexentry{idempotent|book {1}}{105}
+\indexentry{DELETE|book {1}}{105}
+\indexentry{RFC!3986|book {1}}{106}
+\indexentry{GET|book {1}}{106-108}
+\indexentry{URI Query Parameters|book {1}}{108}
+\indexentry{GET!URI Query Parameters|book {1}}{108}
+\indexentry{RFC!3986|book {1}}{108}
+\indexentry{Hypertext Transfer Protocol (HTTP)!URI Query Parameters|book {1}}{108}
+\indexentry{POST|book {1}}{109}
+\indexentry{Content-Type|book {1}}{109}
+\indexentry{POST!Parameters|book {1}}{110}
+\indexentry{Burp Suite!Request Parameters|book {1}}{111}
+\indexentry{Method Tampering|book {1}}{112}
+\indexentry{Verb Tampering|book {1}}{112}
+\indexentry{Method Interchange|book {1}}{112}
+\indexentry{HEAD|book {1}}{113}
+\indexentry{Commands!HEAD request|book {1}}{113}
+\indexentry{TRACE|book {1}}{114}
+\indexentry{Cross-Site Tracing (XST)|book {1}}{114}
+\indexentry{HttpOnly Bypass|book {1}}{114}
+\indexentry{RFC!2616|book {1}}{114}
+\indexentry{RFC!7231book {1}}{114}
+\indexentry{RFC!7235|book {1}}{114}
+\indexentry{RFC!6265|book {1}}{114}
+\indexentry{OPTIONS|book {1}}{116}
+\indexentry{Commands!OPTIONS request|book {1}}{116-117}
+\indexentry{Commands!DELETE request|book {1}}{116}
+\indexentry{CRUD|book {1}}{118}
+\indexentry{PATCH|book {1}}{118}
+\indexentry{RFC!5789|book {1}}{118}
+\indexentry{User-Agent|book {1}}{120}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!User-Agent|book {1}}{120}
+\indexentry{web client|book {1}}{120}
+\indexentry{Referer|book {1}}{121}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Referer|book {1}}{121}
+\indexentry{Cookie|book {1}}{122}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Methods/Verbs|book {1}}{122}
+\indexentry{Set-Cookie|book {1}}{122-123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Request!Highlights|book {1}}{123}
+\indexentry{Commands!Server strings|book {1}}{123-124}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Status Code|book {1}}{123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Server|book {1}}{123}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Cache-Control|book {1}}{123-124}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Response!Set-Cookie|book {1}}{123}
+\indexentry{Status Codes|book {1}}{123}
+\indexentry{Cache-Control|book {1}}{124}
+\indexentry{Set-Cookie|book {1}}{124}
+\indexentry{OWASP Top Ten!Cryptographic Failures|book {1}}{126}
+\indexentry{Cryptographic Failures|book {1}}{126}
+\indexentry{HTTPS!Transmission Security|book {1}}{127}
+\indexentry{Transmission Security|book {1}}{127}
+\indexentry{SSL|book {1}}{127}
+\indexentry{TLS|book {1}}{127}
+\indexentry{RFC!2246|book {1}}{127}
+\indexentry{RFC!5246|book {1}}{127}
+\indexentry{RFC!8446|book {1}}{127}
+\indexentry{TLS!Handshake|book {1}}{128-129}
+\indexentry{RSA|book {1}}{129}
+\indexentry{Diffie-Helman|book {1}}{129}
+\indexentry{HTTPS!Confidentiality|book {1}}{130}
+\indexentry{Cipher Suites|book {1}}{130}
+\indexentry{HTTPS!Cipher Suites|book {1}}{130}
+\indexentry{Confidentiality|book {1}}{130}
+\indexentry{Integrity|book {1}}{130}
+\indexentry{HTTPS!Integrity|book {1}}{130}
+\indexentry{HTTPS!Authentication|book {1}}{130}
+\indexentry{Authentication|book {1}}{130}
+\indexentry{Algorithms|book {1}}{131}
+\indexentry{Algorithms!Assymetric|book {1}}{131}
+\indexentry{Algorithms!Assymetric!RSA|book {1}}{131}
+\indexentry{Algorithms!Assymetric!DH|book {1}}{131}
+\indexentry{Algorithms!Assymetric!DSA|book {1}}{131}
+\indexentry{Algorithms!Assymetric!ECDH|book {1}}{131}
+\indexentry{Algorithms!Assymetric!ECDSA|book {1}}{131}
+\indexentry{Algorithms!Symmetric!DES|book {1}}{131}
+\indexentry{Algorithms!Symmetric!TDES/3DES|book {1}}{131}
+\indexentry{Algorithms!Symmetric!AES|book {1}}{131}
+\indexentry{Algorithms!Hashing!MD5|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA256|book {1}}{131}
+\indexentry{Algorithms!Hashing!SHA384|book {1}}{131}
+\indexentry{Assymetric|book {1}}{131}
+\indexentry{Symmetric|book {1}}{131}
+\indexentry{Hashing|book {1}}{131}
+\indexentry{HTTPS!Public Keys/Certificates and Certificate Authorities|book {1}}{132}
+\indexentry{Public key|book {1}}{132}
+\indexentry{Private key|book {1}}{132}
+\indexentry{Certificate Authorities|book {1}}{132}
+\indexentry{Web Security Testing Guide (WSTG)!Testing for Weak Transport Layer Security|book {1}}{132}
+\indexentry{HTTPS!Testing!Version and Cipher Suites|book {1}}{134}
+\indexentry{Cipher suites!Testing|book {1}}{134}
+\indexentry{HTTPS!Testing!nmap|book {1}}{135}
+\indexentry{Commands!nmap https|book {1}}{135}
+\indexentry{Commands!testssl.sh|book {1}}{136}
+\indexentry{testssl.sh|book {1}}{136}
+\indexentry{Qualys SSL Labs|book {1}}{137}
+\indexentry{Target!Profiling|book {1}}{141}
+\indexentry{Profiling|book {1}}{141}
+\indexentry{Recon and Enum|book {1}}{141}
+\indexentry{Fingerprinting|book {1}}{141}
+\indexentry{Port Scanning|book {1}}{142}
+\indexentry{Commands!nc port scan|book {1}}{142}
+\indexentry{Port Scanning!Tools!Nmap|book {1}}{143}
+\indexentry{Port Scanning!Tools!Zenmap|book {1}}{143}
+\indexentry{Port Scanning!Tools!Shodan|book {1}}{143}
+\indexentry{Port Scanning!Tools!Netcraft|book {1}}{143}
+\indexentry{nmap|book {1}}{144-145}
+\indexentry{Tools!nmap|book {1}}{144-145}
+\indexentry{Tools!Shodan|book {1}}{146-147}
+\indexentry{Shodan|book {1}}{146-148}
+\indexentry{Shodan!for Pentesters|book {1}}{147}
+\indexentry{Shodan!Port Scanner|book {1}}{148}
+\indexentry{Netcraft Sitereport|book {1}}{149}
+\indexentry{Tools!Netcraft Sitereport|book {1}}{149}
+\indexentry{Application Infrastructure|book {1}}{150}
+\indexentry{Port!3306/tcp|book {1}}{150}
+\indexentry{mySQL|book {1}}{150}
+\indexentry{Identifying Web Server Components|book {1}}{151}
+\indexentry{Web Servers|book {1}}{151}
+\indexentry{Application Frameworks|book {1}}{151}
+\indexentry{Content Management Systems(CMS)|book {1}}{151}
+\indexentry{Databases|book {1}}{151}
+\indexentry{Other software|book {1}}{151}
+\indexentry{Version Detection|book {1}}{151}
+\indexentry{Port Scanning|book {1}}{151}
+\indexentry{Default Web Pages|book {1}}{151}
+\indexentry{Vulnerability Scans|book {1}}{151}
+\indexentry{Configuration Files|book {1}}{151}
+\indexentry{Administrative Pages|book {1}}{152}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Testing!Methods|book {1}}{153}
+\indexentry{Commands!Enumerate HTTP methods|book {1}}{153-154}
+\indexentry{Web Security Testing Guide (WSTG)!Test HTTP Methods|book {1}}{153-154}
+\indexentry{Web Security Testing Guide (WSTG)!Review Webserver Metafiles for Information Leakage|book {1}}{155}
+\indexentry{Robots.txt|book {1}}{155}
+\indexentry{Heartbleed|book {1}}{161}
+\indexentry{OpenSSL|book {1}}{161}
+\indexentry{RFC!6520|book {1}}{161}
+\indexentry{Heartbleed!Effect|book {1}}{162}
+\indexentry{Cloudflare Challenge|book {1}}{163}
+\indexentry{Heartbleed!Exploit Output|book {1}}{164}
+\indexentry{Commands!heartbleed.py|book {1}}{164}
+\indexentry{Tools!heartbleed.py|book {1}}{164}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
