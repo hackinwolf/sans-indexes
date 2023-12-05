@@ -533,7 +533,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
                                        FIRST BOOK SECTION
 *****************************************************************************************************}
 
-\indexentry{Web Applications|book{1}}{8}
+\indexentry{Web Applications|book {1}}{8}
 \indexentry{Michal Zalewski|book {1}}{9}
 \indexentry{The Tangled Web|book {1}}{9}
 \indexentry{p0f|book {1}}{9}
@@ -871,7 +871,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Status Codes|book {1}}{123}
 \indexentry{Cache-Control|book {1}}{124}
 \indexentry{Set-Cookie|book {1}}{124}
-\indexentry{OWASP Top Ten!Cryptographic Failures|book {1}}{126}
+\indexentry{OWASP!Top 10!Cryptographic Failures|book {1}}{126}
 \indexentry{Cryptographic Failures|book {1}}{126}
 \indexentry{HTTPS!Transmission Security|book {1}}{127}
 \indexentry{Transmission Security|book {1}}{127}
@@ -974,30 +974,235 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \comment{********************************************************************************************
                                       SECOND BOOK SECTION
 *****************************************************************************************************}
+
+
+\indexentry{OWASP!Top 10!A09:2021-Security Loggin and Monitoring Failures|book {2}}{8}
+\indexentry{Operational Controls|book {2}}{8}
+\indexentry{Server!Configuration flaw|book {2}}{8}
+\indexentry{Logging and Monitoring|book {2}}{8}
+\indexentry{Logged Events and Sources|book {2}}{9}
+\indexentry{Logging and Monitoring!Sources|book {2}}{9}
+\indexentry{Logging and Monitoring!Centralized Logs|book {2}}{10}
+\indexentry{Security Information and Event Management (SIEM)|book {2}}{10}
+\indexentry{NTP|book {2}}{10}
+\indexentry{UTC|book {2}}{10}
+\indexentry{Logging and Monitoring!Timestamping|book {2}}{9}
+\indexentry{Incident Response|book {2}}{11}
+\indexentry{Application Information Gathering!Spidering|book {2}}{13}
+\indexentry{Web Security Testing Guide (WSTG)!Information Gathering|book {2}}{13}
+\indexentry{Spidering|book {2}}{14}
+\indexentry{Crawling|book {2}}{14}
+\indexentry{Link Depth|book {2}}{14}
+\indexentry{Robot Exclusion Protocol|book {2}}{15}
+\indexentry{robots.txt|book {2}}{15}
+\indexentry{META tags|book {2}}{15}
+\indexentry{Spidering!Manual vs. Automated|book {2}}{16}
+\indexentry{Logic Flaws|book {2}}{16}
+\indexentry{Spidering!Manual and Automated|book {2}}{17}
+\indexentry{Spidering!Command-Line|book {2}}{18}
+\indexentry{Wget|book {2}}{18}
+\indexentry{Commands!Wget!robots off|book {2}}{18}
+\indexentry{Commands!Wget!set proxy|book {2}}{18}
+\indexentry{Spidering!BurpSuite|book {2}}{19}
+\indexentry{BurpSuite!Spidering|book {2}}{19}
+\indexentry{Spidering!ZAP|book {2}}{20}
+\indexentry{Zed Attack Proxy (ZAP)!Spidering|book {2}}{20}
+\indexentry{Spidering!AJAX|book {2}}{21}
+\indexentry{AJAX!Spidering|book {2}}{21}
+\indexentry{BurpSuite!AJAX|book {2}}{21}
+\indexentry{Zed Attack Proxy (ZAP)!AJAX|book {2}}{21}
+\indexentry{Spidering!CEWL|book {2}}{22}
+\indexentry{CEWL!Spidering|book {2}}{22}
+\indexentry{Spidering!Analyzing Results|book {2}}{23}
+\indexentry{High-risk functions|book {2}}{23}
+\indexentry{Developer comments|book {2}}{23}
+\indexentry{Disabled functionality|book {2}}{23}
+\indexentry{Hidden links|book {2}}{23}
+\indexentry{Forced Browsing|book {2}}{27}
+\indexentry{Unlinked content|book {2}}{27}
+\indexentry{Directory brute forcing|book {2}}{27}
+\indexentry{Forced Browsing!file extensions|book {2}}{27}
+\indexentry{BurpSuite!Discover Content|book {2}}{28}
+\indexentry{Forced Browsing!BurpSuite|book {2}}{28}
+\indexentry{Zed Attack Proxy (ZAP)!Discover Content|book {2}}{29}
+\indexentry{Forced Browsing!ZAP|book {2}}{29}
+\indexentry{DirBuster|book {2}}{29}
+\indexentry{FFuF|book {2}}{30-32}
+\indexentry{Forced Browsing!FFuF|book {2}}{30-32}
+\indexentry{Commands!FuFF|book {2}}{30-32}
+\indexentry{FFuF!HTTP request|book {2}}{31}
+\indexentry{FFuF!Virtual Host Discovery|book {2}}{31-32}
+\indexentry{FFuF!Custom Filters|book {2}}{32}
+\indexentry{Fuzzing|book {2}}{36}
+\indexentry{Attack strings|book {2}}{36}
+\indexentry{Wordlists|book {2}}{36}
+\indexentry{Fuzzing!Examples|book {2}}{37}
+\indexentry{Fuzzing!Reviewing the Responses|book {2}}{38}
+\indexentry{Timing-based attack|book {2}}{38}
+\indexentry{Username enumeration|book {2}}{38}
+\indexentry{SecLists|book {2}}{40}
+\indexentry{FuzzDB|book {2}}{40}
+\indexentry{Zed Attack Proxy (ZAP)!Fuzzer|book {2}}{41}
+\indexentry{Fuzzing!ZAP|book {2}}{41}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-CONF-04: Review Unreferenced Files for Sensitive Information|book {2}}{43}
+\indexentry{Information Leakage|book {2}}{44}
+\indexentry{Enrors!Information Leakage|book {2}}{44}
+\indexentry{Information Leakage!Types|book {2}}{45}
+\indexentry{Directory Broswing|book {2}}{46}
+\indexentry{Google!Directory Browsing|book {2}}{47}
+\indexentry{Directory Browsing!Google|book {2}}{47}
+\indexentry{Information Leakage!Flaws|book {2}}{48}
+\indexentry{MITRE|book {2}}{48}
+\indexentry{Common Vulnerabilities and Exposures (CVE)|book {2}}{48}
+\indexentry{Information Leakage!CVE search|book {2}}{48}
+\indexentry{Authentication|book {2}}{50}
+\indexentry{Authentication!Schemes|book {2}}{50}
+\indexentry{Authentication|Schemes!Built-in|book {2}}{51}
+\indexentry{WWW-Authenticate|book {2}}{51}
+\indexentry{Browsers!Authentication Schemes!Required|book {2}}{51}
+\indexentry{Authentication!Basic|book {2}}{52-53}
+\indexentry{Basic Authentication|book {2}}{52-53}
+\indexentry{RFC!2617|book {2}}{52}
+\indexentry{Realm|book {2}}{52}
+\indexentry{Commands!Base64 Encode|book {2}}{53}
+\indexentry{Commands!echo prevent CR|book {2}}{53}
+\indexentry{Authentication!Basic!Illustrated|book {2}}{54}
+\indexentry{Basic Authentication!Illustrated|book {2}}{54}
+\indexentry{Authentication!Basic!Issues|book {2}}{55}
+\indexentry{Basic Authentication!Issues|book {2}}{55}
+\indexentry{Authentication!Digest|book {2}}{56}
+\indexentry{Digest Authentication|book {2}}{56}
+\indexentry{quality of protection (qop)|book {2}}{56}
+\indexentry{RFC!2617 Digest Auth|book {2}}{56}
+\indexentry{RFC!2069 Digest OG|book {2}}{56}
+\indexentry{Authentication!Digest!Illustrated|book {2}}{57}
+\indexentry{Digest Authentication!Illustrated|book {2}}{57}
+\indexentry{Authentication!Digest!Issues|book {2}}{58}
+\indexentry{Digest Authentication!Issues|book {2}}{58}
+\indexentry{Authentication!Integrated Windows|book {2}}{59}
+\indexentry{Integrated Windows Authentication|book {2}}{59}
+\indexentry{NTML|book {2}}{59}
+\indexentry{Kerberos|book {2}}{59}
+\indexentry{Single Sign On (SSO)!Integrated Windows Authentication|book {2}}{59}
+\indexentry{Authentication!Integrated Windows!Illustrated|book {2}}{60}
+\indexentry{Integrated Windows Authentication!Illustrated|book {2}}{60}
+\indexentry{Authentication!Integrated Windows!Issues|book {2}}{61}
+\indexentry{Integrated Windows Authentication!Issues|book {2}}{61}
+\indexentry{Authentication|BurpSuite|book {2}}{62}
+\indexentry{BurpSuite!Authenticating|book {2}}{62}
+\indexentry{Authentication!Form-based|book {2}}{63-64}
+\indexentry{Form-based Authentication|book {2}}{63-64}
+\indexentry{Authentication!Form-based!Illustrated|book {2}}{65}
+\indexentry{Form-based Authentication!Illustrated|book {2}}{65}
+\indexentry{Authentication!Form-based!Issues|book {2}}{66}
+\indexentry{Form-based Authentication!Issues|book {2}}{66}
+\indexentry{Authentication!Openid/Oauth/SAML Authentication|book {2}}{67}
+\indexentry{OpenID/OAuth/SAML Authentication|book {2}}{67}
+\indexentry{Identity Provider|book {2}}{67}
+\indexentry{OAuth|book {2}}{68}
+\indexentry{Authentication!OAuth|book {2}}{68-71}
+\indexentry{RFC!6749 OAuth|book {2}}{68}
+\indexentry{OAuth!Flow|book {2}}{69-71}
+\indexentry{Authentication!Bearer|book {2}}{72}
+\indexentry{Bearer Authentication|book {2}}{72}
+\indexentry{RFC!6750 Bearer AuthN|book {2}}{72}
+\indexentry{Token Authentiction|book {2}}{72}
+\indexentry{JSON Web Token (JWT)|book {2}}{72-73}
+\indexentry{JSON Web Token (JWT)!Structure|book {2}}{74-75}
+\indexentry{JSON Web Token (JWT)!Issues|book {2}}{76}
+\indexentry{HMAC!JWT Signature Cracking|book {2}}{76}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-IDNT-04: Testing for Account Enumeration|book {2}}{80}
+\indexentry{Username Harvesting|book {2}}{81-82}
+\indexentry{Username Enumeration|book {2}}{81-82}
+\indexentry{Username Harvesting!Results to look for|book {2}}{83}
+\indexentry{Username Enumeration!Results to look for|book {2}}{83}
+\indexentry{Total cost of ownership (TCO)|book {2}}{83}
+\indexentry{Side-Channel Attacks|book {2}}{84}
+\indexentry{Username Harvesting!Side-Channel Attacks|book {2}}{84}
+\indexentry{Username Enumeration!Side-Channel Attacks|book {2}}{84}
+\indexentry{Electromagnetic Interference (EMI)|book {2}}{84}
+\indexentry{Side-Channel Attacks!Practical|book {2}}{85}
+\indexentry{Side-Channel Attacks!Timing|book {2}}{86}
+\indexentry{Timing Attacks|book {2}}{86}
+\indexentry{Password hashes|book {2}}{86}
+\indexentry{Integrity hashes|book {2}}{86}
+\indexentry{Slow hashing|book {2}}{87}
+\indexentry{Timing Attacks!Slow Hashing|book {2}}{87}
+\indexentry{bcrypt|book {2}}{87}
+\indexentry{PBKDF2|book {2}}{87}
+\indexentry{MD5|book {2}}{87}
+\indexentry{Side-Channel Attacks!Timing!Practical|book {2}}{88}
+\indexentry{Timing Attacks!Practical|book {2}}{88}
+\indexentry{BurpSuite!Intruder|book {2}}{92}
+\indexentry{Fuzzing|BurpSuite|book {2}}{92}
+\indexentry{Concurrency attacks|book {2}}{92}
+\indexentry{BurpSuite!Intruder!Sniper|book {2}}{93}
+\indexentry{BurpSuite!Intruder!Battering Ram|book {2}}{94}
+\indexentry{Shellshock!fuzzing|book {2}}{94}
+\indexentry{BurpSuite!Intruder!Pitchfork|book {2}}{95}
+\indexentry{BurpSuite!Intruder!Cluster Bomb|book {2}}{96}
+\indexentry{Sessions!Management|book {2}}{100}
+\indexentry{Sessions!Identifiers|book {2}}{101}
+\indexentry{Sessions!Management Principles|book {2}}{102}
+\indexentry{Sessions!Unpredictable|book {2}}{103}
+\indexentry{Pseudo-random number generators (PRNG)|book {2}}{103}
+\indexentry{Globally Unique Identifiers (GUID)|book {2}}{103}
+\indexentry{Sessions!Predicatbility|book {2}}{104}
+\indexentry{Commands!SHA1 hash of session id|book {1}}{104}
+\indexentry{Sessions!Tamper Resistant|book {2}}{105+}
+\indexentry{Sessions!Expire|book {2}}{106}
+\indexentry{Sessions!Confidential|book {2}}{107}
+\indexentry{Sessions!Theft|book {2}}{108}
+\indexentry{Sessions!Management!Testing|book {2}}{109}
+\indexentry{Sessions!Attacks|book {2}}{110}
+\indexentry{Sessions!Attacks!Predictability|book {2}}{111-112}
+\indexentry{BurpSuite!Sequencer|book {2}}{111-112}
+\indexentry{Entropy|book {2}}{112}
+\indexentry{Sessions!Attacks!Fixation|book {2}}{113}
+\indexentry{Sessions!Attacks!Logout and Timeout|book {2}}{114}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-ATHN-04: Testing for Bypassing Authentication Schema|book {2}}{118}
+\indexentry{Authentication!Bypass|book {2}}{119}
+\indexentry{Authentication!Bypass!Parameter Tampering and Direct Page Access|book {2}}{120}
+\indexentry{Direct Page Access|book {2}}{120}
+\indexentry{Authentication!Bypass!SQLi|book {2}}{121}
+\indexentry{SQL Injection (SQLi)!Auth Bypass|book {2}}{121}
+\indexentry{Authorization!Bypass|book {2}}{122}
+\indexentry{Authorization!Attacks|book {2}}{123}
+\indexentry{Insecure Directo Object Reference (IDOR)!AuthZ attacks|book {2}}{123}
+\indexentry{Privilege Escalation|book {2}}{123}
+\indexentry{Authorization!Role Enforcement|book {2}}{124}
+\indexentry{Role Enforcement|book {2}}{124}
+\indexentry{Insecure Direct Object Reference (IDOR)|book {2}}{125}
+\indexentry{Direct Page Access|book {2}}{125}
+\indexentry{Mutillidae|book {2}}{127}
+\indexentry{Mutillidae!Security Levels|book {2}}{128}
+\indexentry{Mutillidae!Hints|book {2}}{129}
+\indexentry{Mutillidae!Reset DB|book {2}}{130}
+\indexentry{Shellshock|book {2}}{137-139}
+\indexentry{Bash shell|book {2}}{137}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6271|book {2}}{137}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6278|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6269|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6277|book {2}}{138}
+\indexentry{Commmon Vulnerabilities and Exposures (CVE)!CVE-2014-6286|book {2}}{138}
+\indexentry{CGI Scripts|book {2}}{139}
+\indexentry{Shellshock!Payloads|book {2}}{140}
+\indexentry{Shellshock!Payloads!Injection Explained|book {2}}{141-142}
+\indexentry{Shellshock!Payloads!Execution and Impact|book {2}}{143}
+\indexentry{Shellshock!Visualized|book {2}}{144}
+
+
+
+
+
+
+
+\comment{mistype - he instead of The starting the last paragraph}
+
+
 
 
 
@@ -1008,7 +1213,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************}
 
 
-
+\indexentry{Cookies!Protecting|book {3}}{8}
 
 
 \comment{********************************************************************************************
