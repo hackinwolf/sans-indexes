@@ -554,7 +554,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Application Security|book {1}}{10}
 \indexentry{Application Security!Assessing|book {1}}{12-13}
 \indexentry{Application Security!Improving|book {1}}{12}
-\indexentry{Threat modeling|book {1}}{13}
+\indexentry{Threat Modeling|book {1}}{13}
 \indexentry{Code review|book {1}}{13}
 \indexentry{Static Application Security Testing (SAST)|book {1}}{13}
 \indexentry{Dynamic Application Security Testing (DAST)|book {1}}{13}
@@ -1007,12 +1007,12 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Commands!Wget!robots off|book {2}}{18}
 \indexentry{Commands!Wget!set proxy|book {2}}{18}
 \indexentry{Spidering!BurpSuite|book {2}}{19}
-\indexentry{BurpSuite!Spidering|book {2}}{19}
+\indexentry{Burp Suite Professional!Spidering|book {2}}{19}
 \indexentry{Spidering!ZAP|book {2}}{20}
 \indexentry{Zed Attack Proxy (ZAP)!Spidering|book {2}}{20}
 \indexentry{Spidering!AJAX|book {2}}{21}
 \indexentry{AJAX!Spidering|book {2}}{21}
-\indexentry{BurpSuite!AJAX|book {2}}{21}
+\indexentry{Burp Suite Professional!AJAX|book {2}}{21}
 \indexentry{Zed Attack Proxy (ZAP)!AJAX|book {2}}{21}
 \indexentry{Spidering!CEWL|book {2}}{22}
 \indexentry{CEWL!Spidering|book {2}}{22}
@@ -1025,7 +1025,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Unlinked content|book {2}}{27}
 \indexentry{Directory brute forcing|book {2}}{27}
 \indexentry{Forced Browsing!file extensions|book {2}}{27}
-\indexentry{BurpSuite!Discover Content|book {2}}{28}
+\indexentry{Burp Suite Professional!Discover Content|book {2}}{28}
 \indexentry{Forced Browsing!BurpSuite|book {2}}{28}
 \indexentry{Zed Attack Proxy (ZAP)!Discover Content|book {2}}{29}
 \indexentry{Forced Browsing!ZAP|book {2}}{29}
@@ -1092,7 +1092,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Authentication!Integrated Windows!Issues|book {2}}{61}
 \indexentry{Integrated Windows Authentication!Issues|book {2}}{61}
 \indexentry{Authentication|BurpSuite|book {2}}{62}
-\indexentry{BurpSuite!Authenticating|book {2}}{62}
+\indexentry{Burp Suite Professional!Authenticating|book {2}}{62}
 \indexentry{Authentication!Form-based|book {2}}{63-64}
 \indexentry{Form-based Authentication|book {2}}{63-64}
 \indexentry{Authentication!Form-based!Illustrated|book {2}}{65}
@@ -1136,14 +1136,14 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{MD5|book {2}}{87}
 \indexentry{Side-Channel Attacks!Timing!Practical|book {2}}{88}
 \indexentry{Timing Attacks!Practical|book {2}}{88}
-\indexentry{BurpSuite!Intruder|book {2}}{92}
+\indexentry{Burp Suite Professional!Intruder|book {2}}{92}
 \indexentry{Fuzzing|BurpSuite|book {2}}{92}
 \indexentry{Concurrency attacks|book {2}}{92}
-\indexentry{BurpSuite!Intruder!Sniper|book {2}}{93}
-\indexentry{BurpSuite!Intruder!Battering Ram|book {2}}{94}
+\indexentry{Burp Suite Professional!Intruder!Sniper|book {2}}{93}
+\indexentry{Burp Suite Professional!Intruder!Battering Ram|book {2}}{94}
 \indexentry{Shellshock!fuzzing|book {2}}{94}
-\indexentry{BurpSuite!Intruder!Pitchfork|book {2}}{95}
-\indexentry{BurpSuite!Intruder!Cluster Bomb|book {2}}{96}
+\indexentry{Burp Suite Professional!Intruder!Pitchfork|book {2}}{95}
+\indexentry{Burp Suite Professional!Intruder!Cluster Bomb|book {2}}{96}
 \indexentry{Sessions!Management|book {2}}{100}
 \indexentry{Sessions!Identifiers|book {2}}{101}
 \indexentry{Sessions!Management Principles|book {2}}{102}
@@ -1159,7 +1159,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Sessions!Management!Testing|book {2}}{109}
 \indexentry{Sessions!Attacks|book {2}}{110}
 \indexentry{Sessions!Attacks!Predictability|book {2}}{111-112}
-\indexentry{BurpSuite!Sequencer|book {2}}{111-112}
+\indexentry{Burp Suite Professional!Sequencer|book {2}}{111-112}
 \indexentry{Entropy|book {2}}{112}
 \indexentry{Sessions!Attacks!Fixation|book {2}}{113}
 \indexentry{Sessions!Attacks!Logout and Timeout|book {2}}{114}
@@ -1213,7 +1213,145 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************}
 
 
-\indexentry{Cookies!Protecting|book {3}}{8}
+\indexentry{Cookies!Protecting|book {3}}{8-10}
+\indexentry{Multi-Factor Authentication (MFA)!Bypass|book {3}}{8}
+\indexentry{One-Time Password (OTP)!Bypass|book {3}}{8}
+\indexentry{Secure Attribute|book {3}}{10}
+\indexentry{Cookies!Protecting!Secure Attribute|book {3}}{10}
+\indexentry{HttpOnly|book {3}}{11}
+\indexentry{Cookies!Protecting!HttpOnly Attribute|book {3}}{11}
+\indexentry{Client-side scripting languages|book {3}}{11}
+\indexentry{SameSite|book {3}}{12}
+\indexentry{Cookies!Protecting!SameSite Attribute|book {3}}{12-13}
+\indexentry{Cross Site Request Forgery (CSRF)!SameSite Cookie Attribute|book {3}}{12-13}
+\indexentry{Hypertext Transfer Protocol (HTTP)!Security Headers|book {3}}{14-17}
+\indexentry{X-Frame-Options!Defined|book {3}}{14}
+\indexentry{HTTP Strict Transport Security (HSTS)!Defined|book {3}}{14}
+\indexentry{Content-Security-Policy (CSP)!Defined|book {3}}{14}
+\indexentry{X-Frame-Options|book {3}}{15}
+\indexentry{Clickjacking|book {3}}{15}
+\indexentry{iframe|book {3}}{15}
+\indexentry{embedded|book {3}}{15}
+\indexentry{HTTP Strict Transport Security (HSTS)|book {3}}{16}
+\indexentry{Content-Security-Policy (CSP)|book {3}}{17-18}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-IVPV-12:Testing for Command Injection|book {3}}{20}
+\indexentry{Command Injection|book {3}}{21-23}
+\indexentry{Command Injection!Finding|book {3}}{22-23}
+\indexentry{Command Substitution|book {3}}{22}
+\indexentry{Command Injection!Exploiting|book {3}}{24}
+\indexentry{Command Injection!Blind|book {3}}{24-26}
+\indexentry{Coomand Injection!Non-blind|book {3}}{24}
+\indexentry{Command Injection!Blind!Detetion methods|book {3}}{26-27}
+\indexentry{Commands!pause using ping|book {3}}{26}
+\indexentry{Ping|book {3}}{26}
+\indexentry{DNS!Blind injection|book {3}}{27}
+\indexentry{Burp Suite Professional!Collaborator|book {3}}{28}
+\indexentry{Burp Suite Professional!Collaborator!Blind Exfil|book {3}}{29}
+\indexentry{Commands!Base 32|book {3}}{29}
+\indexentry{Commands!Strip off equal signs|book {3}}{29}
+\indexentry{DNS!Data exfil|book {3}}{29-32}
+\indexentry{Commands!Blind DNS exfil|book {3}}{30-32}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-INPV-11:Testing for Code Injection: LFI/RFI|book {3}}{36}
+\indexentry{Local File Inclusion (LFI)|book {3}}{37}
+\indexentry{Local File Inclusion (LFI)!Directory Traversal|book {3}}{38}
+\indexentry{Directory Traversal|book {3}}{38}
+\indexentry{Local File Inclusion (LFI)!Demonstrating Impact|book {3}}{39}
+\indexentry{Remote File Inclusion (RFI)|book {3}}{40}
+\indexentry{OWASP!Top 10!A08:2021-Software and Data Integrity Faulures|book {3}}{44}
+\indexentry{Insecure Deserialization|book {3}}{44-47}
+\indexentry{Insecure Deserialization!Exploitation|book {3}}{48}
+\indexentry{Insecure Deserialization!Java Example|book {3}}{49-57}
+\indexentry{Commands!xxd|book {3}}{51}
+\indexentry{Insecure Deserialization!RCE|book {3}}{58-59}
+\indexentry{Remote Code Execution|Insecure Deserialization|book {3}}{58-59}
+\indexentry{Property-Oriented Programming|book {3}}{59}
+\indexentry{Return Oriented Programming (ROP)|book {3}}{59}
+\indexentry{Gadget classes|book {3}}{59}
+\indexentry{ysoserial|book {3}}{60}
+\indexentry{Commands!ysoserial.jar|book {3}}{60}
+\indexentry{SQL Injection (SQLi)!Intro|book {3}}{65}
+\indexentry{SQL Injection (SQLi)!Origin|book {3}}{66}
+\indexentry{Relational Databases|book {3}}{67}
+\indexentry{SQL!Key Verbs|book {3}}{68}
+\indexentry{SQL!Query Modifiers|book {3}}{69}
+\indexentry{SQL!Data Types|book {3}}{70}
+\indexentry{SQL!Special Characters|book {3}}{71}
+\indexentry{SQL Injection (SQLi)!Examples|book {3}}{72-77}
+\indexentry{SQL Injection (SQLi)!Payloads|book {3}}{76}
+\indexentry{Tautology|book {3}}{76}
+\indexentry{Commands!SQLi payload|book {3}}{76}
+\indexentry{SQL Injection (SQLi)!Balancing Act|book {3}}{78}
+\indexentry{SQL Injection (SQLi)!Balancing Act!Quotes|book {3}}{79}
+\indexentry{SQL Injection (SQLi)!Balancing Act!Colmun Numbers|book {3}}{80}
+\indexentry{SQL Injection (SQLi)!Balancing Act!DataType|book {3}}{81}
+\indexentry{SQL Injection (SQLi)!Discovering|book {3}}{83}
+\indexentry{SQL Injection (SQLi)!Input Locations|book {3}}{84}
+\indexentry{SQL Injection (SQLi)!Classes|book {3}}{85}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline|book {3}}{86}
+\indexentry{SQL Injection (SQLi)!Blind|book {3}}{87-100}
+\indexentry{SQL Injection (SQLi)!Blind!Database Error Messages|book {3}}{89-91}
+\indexentry{SQL Injection (SQLi)!Blind!Custom Error Messages|book {3}}{92-94}
+\indexentry{SQL Injection (SQLi)!Without Error Messages|book {3}}{95}
+\indexentry{Commands!SQLi equivalent string injections|book {3}}{96-98}
+\indexentry{SQL Injection (SQLi)!Payloads!equivalent String Injections|book {3}}{96-98}
+\indexentry{Commands!SQLi Binary/Boolean Inference Testing|book {3}}{99}
+\indexentry{SQL Injection (SQLi)!Payloads!Binary/Boolean Inference Testing|book {3}}{99}
+\indexentry{SQL Injection (SQLi)!Blind!Increasing Blindness|book {3}}{100}
+\indexentry{SQL Injection (SQLi)!Blind!Timing Inferences|book {3}}{101}
+\indexentry{SQL Injection (SQLi)!Blind!Out-of-Band|book {3}}{102-103}
+\indexentry{Database!Fingerprinting|book {3}}{105}
+\indexentry{SQL Injection (SQLi)!DB Fingerprinting|book {3}}{105}
+\indexentry{Commands!SQL DB Fingerprinting|book {3}}{105}
+\indexentry{Database!Meta Info|book {3}}{106-107}
+\indexentry{SQL Injection (SQLi)!DB Meta Info|book {3}}{106-107}
+\indexentry{Commands!SQL DB Meta Info queries|book {3}}{107}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline!Exploiting|book {3}}{108}
+\indexentry{SQL Injection (SQLi)!In-Band/Inline!Stacked Queries|book {3}}{109-112}
+\indexentry{Commands!SQL Stacked Queries|book {3}}{109-112}
+\indexentry{SQL Injection (SQLi)!UNION|book {3}}{113-114}
+\indexentry{SQL Injection (SQLi)!FROMless SELECT|book {3}}{115}
+\indexentry{SQL Injection (SQLi)!DUAL|book {3}}{115}
+\indexentry{SQL Injection (SQLi)!NULL|book {3}}{116}
+\indexentry{SQL Injection (SQLi)!UNION+NULL|book {3}}{117}
+\indexentry{SQL Injection (SQLi)!ORDER BY|book {3}}{117}
+\indexentry{SQL Injection (SQLi)!Determine Data Types|book {3}}{118}
+\indexentry{SQL Injection (SQLi)!Data Exfil|book {3}}{119-122}
+\indexentry{SQL Injection (SQLi)!Blind Data Exfil|book {3}}{120-122}
+\indexentry{sqlmap!Data exfil|book {3}}{120}
+\indexentry{SQL Injection (SQLi)!Potential Attacks|book {3}}{123}
+\indexentry{SQL Injection (SQLi)!Write file -> Shell|book {3}}{124}
+\indexentry{SQL Injection (SQLi)!Cheat Sheets|book {3}}{125}
+\indexentry{SQL Injection (SQLi)!Tools|book {3}}{129}
+\indexentry{SQL Injection (SQLi)!Tools!sqlmap|book {3}}{130}
+\indexentry{Tools!sqlmap|book {3}}{130}
+\indexentry{Tools!sqlmap!Initial Targeting|book {3}}{134}
+\indexentry{Tools!sqlmap!Auth/Sessions/Proxies|book {3}}{135}
+\indexentry{Tools!sqlmap!Proxies and Active Sessions|book {3}}{136}
+\indexentry{Tools!sqlmap!Riding ZAP/Burp Sessions|book {3}}{137-138}
+\indexentry{Burp Suite Professional!Cookie Jar|book {3}}{138-139}
+\indexentry{Zed Attack Proxy (ZAP)!Cookie Jar|book {3}}{138-139}
+\indexentry{Tools!sqlmap!HTTP Headers|book {3}}{139}
+\indexentry{Tools!sqlmap!DB Enum|book {3}}{140}
+\indexentry{Tools!sqlmap!DB Data Exfil|book {3}}{141}
+\indexentry{Tools!sqlmap!Beyond DB Data Exfil|book {3}}{142}
+\indexentry{Tools!sqlmap!Post Exploitition & Priv Esc|book {3}}{143}
+
+
+
+
+
+
+
+
+
+
+\comment{uses than instead of then in the last sentence of the second paragraph}
+
+
+
+
+
+
 
 
 \comment{********************************************************************************************
