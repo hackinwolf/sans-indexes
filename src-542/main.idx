@@ -843,7 +843,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Commands!HEAD request|book {1}}{113}
 \indexentry{TRACE|book {1}}{114}
 \indexentry{Cross-Site Tracing (XST)|book {1}}{114}
-\indexentry{HttpOnly Bypass|book {1}}{114}
+\indexentry{HttpOnly!Bypass|book {1}}{114}
 \indexentry{RFC!2616|book {1}}{114}
 \indexentry{RFC!7231book {1}}{114}
 \indexentry{RFC!7235|book {1}}{114}
@@ -1360,6 +1360,143 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 
 
+\indexentry{Document Object Model (DOM)|book {4}}{8}
+\indexentry{Document Object Model (DOM)!Tree|book {4}}{9-10}
+\indexentry{Browsers!Developer Tools|book {4}}{11}
+\indexentry{Document Object Model (DOM)!JavaScript|book {4}}{12}
+\indexentry{JavaScript!DOM Manipulation|book {4}}{12}
+\indexentry{JavaScript|book {4}}{13}
+\indexentry{JavaScript!Objects|book {4}}{14}
+\indexentry{JavaScript!Browser Objects|book {4}}{15}
+\indexentry{JavaScript!Objects!Document|book {4}}{15}
+\indexentry{JavaScript!Objects!Window|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Browser Objects|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Objects!Document|book {4}}{15}
+\indexentry{Document Object Model (DOM)!Objects!Window|book {4}}{15}
+\indexentry{JavaScript!Web Page Interaction|book {4}}{16}
+\indexentry{Cross-Site Scripting (XSS)|book {4}}{18}
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-CLNT-03:Test for HTML Injection|book {4}}{19}
+\indexentry{HTML!Injection|book {4}}{20-21}
+\indexentry{Script Injection|book {4}}{22}
+\indexentry{JavaScript!Injection|book {4}}{22}
+\indexentry{Origin of  Trust|book {4}}{23}
+\indexentry{Same-Origin Policy (SOP)|book {4}}{23}
+\indexentry{Same-Origin Policy (SOP)!Basics|book {4}}{24}
+\indexentry{Same-Origin Policy (SOP)!Requirements|book {4}}{25}
+\indexentry{Same-Origin Policy (SOP)!Test Case!DOM|book {4}}{26}
+\indexentry{Internet Explorer (IE)|book {4}}{26}
+\indexentry{Same-Origin Policy (SOP)!Test Case!Cookies|book {4}}{27}
+\indexentry{Same-Origin Policy (SOP)!Externally Sourced Scripts|book {4}}{28-29}
+\indexentry{Same-Origin Policy (SOP)!Not Bypassing|book {4}}{30}
+\indexentry{Cross-Site Scripting (XSS)!cross-Site aspect|book {4}}{31}
+\indexentry{Cross-Site Scripting (XSS)!PoC Payloads|book {4}}{35-37}
+\indexentry{Sessions!Abuse|book {4}}{38-40}
+\indexentry{Cross-Site Scripting (XSS)!Session Abuse|book {4}}{38-40}
+\indexentry{Sessions!Abuse!Hijacking|book {4}}{39-41}
+\indexentry{Cross-Site Scripting (XSS)!Session Abuse!Hijacking|book {4}}{39-41}
+\indexentry{HTTPOnly|book {4}}{42}
+\indexentry{BeEF|book {4}}{44-46}
+\indexentry{Tools!BeEEF|book {4}}{44-46}
+\indexentry{BeEF!Issuinng Commands|book {4}}{48}
+\indexentry{Tools!BeEEF!Issuing Commands|book {4}}{48}
+\indexentry{BeEF!Payloads|book {4}}{49}
+\indexentry{Tools!BeEEF!Payloads|book {4}}{49}
+\indexentry{Cross-Site Scripting (XSS)!Classes|book {4}}{53}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Reflected|book {4}}{54-63}
+\indexentry{Cross-Site Scripting (XSS)!URL Encoding!Burp|book {4}}{59}
+\indexentry{Burp Suite Professional!Decoder|book {4}}{59}
+\indexentry{Burp Suite Professional!Intruder|book {4}}{60}
+\indexentry{Zed Attack Proxy (ZAP)!Encoding URLs|book {4}}{61}
+\indexentry{Firefox!URL Encoding|book {4}}{62}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Stored/Persistent|book {4}}{64-70}
+\indexentry{Cross-Site Scripting (XSS)!Classes!DOM-Based|book {4}}{71-72}
+\indexentry{Cross-Site Scripting (XSS)!Classes!Client and Server|book {4}}{73}
+\indexentry{Cross-Site Scripting (XSS)!Discovery|book {4}}{77}
+\indexentry{Cross-Site Scripting (XSS)!Fuzzing|book {4}}{77}
+\indexentry{Cross-Site Scripting (XSS)!Injection Points|book {4}}{78}
+\indexentry{Cross-Site Scripting (XSS)!Reflection Tests|book {4}}{79}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts|book {4}}{80}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!HTML|book {4}}{81}
+\indexentry{Commands!XSS HTML img onerror|book {4}}{81}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!Tag Attributes|book {4}}{82}
+\indexentry{Commands!XSS Tag Attributes|book {4}}{82}
+\indexentry{Cross-Site Scripting (XSS)!Common Injection Contexts!Existing JS|book {4}}{83}
+\indexentry{Commands!XSS Existing JS|book {4}}{83}
+\indexentry{Cross-Site Scripting (XSS)!Filter!Tests|book {4}}{84}
+\indexentry{Cross-Site Scripting (XSS)!Filter!Bypass/Evasion|book {4}}{85}
+\indexentry{Cross-Site Scripting (XSS)!DOM Event Handler Bypass|book {4}}{86}
+\indexentry{Cross-Site Scripting (XSS)!HTML Event Handler Injection|book {4}}{87}
+\indexentry{Commands!XSS Evnet Handler|book {4}}{87}
+\indexentry{Broswers!Bypassing Filters|book {4}}{88}
+\indexentry{Cross-Site Scripting (XSS)!Bypassing Broswer Filters|book {4}}{88}
+\indexentry{Cross-Site Scripting (XSS)!PoC Payloads|book {4}}{89}
+\indexentry{Fuzzing!XSS PoC Payloads|book {4}}{89}
+\indexentry{Interception Proxies|book {4}}{91}
+\indexentry{Cross-Site Scripting (XSS)!Interception Proxies|book {4}}{91}
+\indexentry{Cross-Site Scripting (XSS)!Interception Proxies!Burp Intruder - Reflection Tests|book {4}}{92-95}
+\indexentry{Burp Suite Professional!Intruder!Reflection Tests|book {4}}{92-95}
+\indexentry{Burp Suite Professional!Grep Payloads|book {4}}{94}
+\indexentry{Cross-Site Scripting (XSS)!Reflected POST|book {4}}{97}
+\indexentry{Cross-Site Scripting (XSS)!GET -> POST Flaws|book {4}}{98}
+\indexentry{AJAX|book {4}}{102-103}
+\indexentry{XMLHttpRequest|book {4}}{104}
+\indexentry{AJAX!XMLHttpRequest \goto XMLHttpRequest|book {4}}{104}
+\indexentry{XMLHttpRequest!Properties and Methods|book {4}}{105-106}
+\indexentry{XMLHttpRequest!Features and Limitations|book {4}}{108}
+\indexentry{Same Origin Policy (SOP)!XMLHttpRequest|book {4}}{108}
+\indexentry{Same Origin Policy (SOP)!Evading|book {4}}{109}
+\indexentry{AJAX!proxy|book {4}}{109}
+\indexentry{Cross Origin Resource Sharing (CORS)|book {4}}{110}
+\indexentry{Cross Origin Resource Sharing (CORS)!Headers|book {4}}{111}
+\indexentry{AJAX!Penetration Testing|book {4}}{112}
+\indexentry{JavaScript!Frameworks|book {4}}{113-114}
+\indexentry{Single Page Applications (SPA) \goto JavaScript Frameworks|book {4}}{113-114}
+\indexentry{JavaScript!Frameworks!jQuery|book {4}}{113}
+\indexentry{JavaScript!Frameworks!AngularJS|book {4}}{113}
+\indexentry{JavaScript!Frameworks!ReactJS|book {4}}{113}
+\indexentry{JavaScript!Frameworks!Bootstrap|book {4}}{113}
+\indexentry{JavaScript!Server-side|book {4}}{115}
+\indexentry{Node.js|book {4}}{115}
+\indexentry{Data!Attacks|book {4}}{117}
+\indexentry{Data!Formats|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)|book {4}}{118}
+\indexentry{XML|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)!Advantages of XML|book {4}}{118}
+\indexentry{JavaScript Object Notation (JSON)|book {4}}{119}
+\indexentry{JavaScript Object Notation (JSON)!Attacks|book {4}}{120-121}
+\indexentry{Web Services|book {4}}{123-124}
+\indexentry{REST|book {4}}{123}
+\indexentry{SOAP|book {4}}{123}
+\indexentry{REST!RESTful API|book {4}}{125}
+\indexentry{SOAP!Web Services|book {4}}{126-127}
+\indexentry{Postman|book {4}}{128}
+\indexentry{SoapUI|book {4}}{129}
+\indexentry{Web Services!Pentesting Methodology|book {4}}{130}
+\indexentry{Server-Side Request Forgery (SSRF)|book {4}}{132-134}
+\indexentry{Server-Side Request Forgery (SSRF)!Impact|book {4}}{136-138}
+\indexentry{XML External Entity (XEE)!SSRF|book {4}}{135}
+\indexentry{Server-Side Request Forgery (SSRF)!Impact!Cloud|book {4}}{136}
+\indexentry{Cloud!Metadata|book {4}}{137}
+\indexentry{Metadata|book {4}}{137}
+\indexentry{Elasticsearch|book {4}}{138}
+\indexentry{XML External Entity (XEE)|book {4}}{142-143}
+\indexentry{XML External Entity (XEE)!PoC|book {4}}{144-145}
+\indexentry{Commands!XXE PoC using cURL|book {4}}{144-146}
+\indexentry{XML Schema Definition (XSD)|book {4}}{145}
+\indexentry{XML External Entity (XEE)!Example!Display Local File|book {4}}{146}
+\indexentry{XML External Entity (XEE)!Example!Access URL|book {4}}{147}
+\indexentry{XML External Entity (XEE)!Example!RCE via PHP|book {4}}{148}
+\indexentry{PHP!Expect module|book {4}}{148}
+\indexentry{XML External Entity (XEE)!Blind|book {4}}{149}
+\indexentry{XML External Entity (XEE)!Blind!Example|book {4}}{150}
+
+
+
+
+
+
+
+
 
 
 
@@ -1370,6 +1507,13 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************}
 
 
+
+\indexentry{Web Security Testing Guide (WSTG)!WSTG-SESS-05:Testing for Cross-Site Request Forgery (CSRF)|book {5}}{8}
+\indexentry{Cross-Site Reqeust Forgery!CSRF vs XSS|book {5}}{9}
+\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 1|book {5}}{10}
+\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 2|book {5}}{11}
+\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 3|book {5}}{12}
+\indexentry{Cross-Site Reqeust Forgery!Example visualized!Step 4|book {5}}{13}
 
 
 
