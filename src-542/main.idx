@@ -1509,11 +1509,129 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 
 \indexentry{Web Security Testing Guide (WSTG)!WSTG-SESS-05:Testing for Cross-Site Request Forgery (CSRF)|book {5}}{8}
-\indexentry{Cross-Site Reqeust Forgery!CSRF vs XSS|book {5}}{9}
-\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 1|book {5}}{10}
-\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 2|book {5}}{11}
-\indexentry{Cross-Site Reqeust Forgery!Visualized!Step 3|book {5}}{12}
-\indexentry{Cross-Site Reqeust Forgery!Example visualized!Step 4|book {5}}{13}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!CSRF vs XSS|book {5}}{9}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 1|book {5}}{10}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 2|book {5}}{11}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Visualized!Step 3|book {5}}{12}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Example visualized!Step 4|book {5}}{13}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!Tokens|book {5}}{13}
+\indexentry{Zed Attack Proxy (ZAP)!CSRF Test Form|book {5}}{14}
+\indexentry{Cross-Site Reqeust Forgery (CSRF)!ZAP|book {5}}{14}
+\indexentry{Logic Flaws|book {5}}{18}
+\indexentry{Logic Flaws!Workflow Tampering|book {5}}{19}
+\indexentry{Logic Flaws!Manual Discovery|book {5}}{20}
+\indexentry{Logic Flaws!WSTG Guidance|book {5}}{21}
+\indexentry{Web Security Testing Guide (WSTG)!Logic Flaws|book {5}}{21}
+\indexentry{Python|book {5}}{23}
+\indexentry{Python!for Pentesters|book {5}}{24}
+\indexentry{Commands!Python - retrieve Server header|book {5}}{24}
+\indexentry{Python!Availability|book {5}}{25}
+\indexentry{Commands!Python - check if installed/version|book {5}}{25}
+\indexentry{Python!2 vs. 3|book {5}}{26}
+\indexentry{Python!use 3, right?|book {5}}{27}
+\indexentry{Python!use 3, right?!Example|book {5}}{27}
+\indexentry{Commands!Python3 - install requests|book {5}}{27}
+\indexentry{Python!why writre scripts?|book {5}}{28}
+\indexentry{Python!Basics|book {5}}{29}
+\indexentry{Python!Data Types and if/elif/else Syntax|book {5}}{30}
+\indexentry{Python!Loops|book {5}}{31}
+\indexentry{Python!Lists and Dictionaries|book {5}}{32}
+\indexentry{Python!Web Libraries|book {5}}{33}
+\indexentry{Python!Web Libraries!Requests|book {5}}{31-35}
+\indexentry{Commands!Python - Putting it Together|book {5}}{38}
+\indexentry{Commands!Python - PSSL/TLS|book {5}}{37}
+\indexentry{Commands!Python - POST|book {5}}{36}
+\indexentry{WPScan|book {5}}{42-43}
+\indexentry{WordPress|book {5}}{42-43}
+\indexentry{Tools!WPScan|book {5}}{42-43}
+\indexentry{Burp Suite Professional!Automated Scanning|book {5}}{47-48}
+\indexentry{Burp Suite Professional!Automated Scanning!Passive|book {5}}{49}
+\indexentry{Burp Suite Professional!Automated Scanning!Push Button|book {5}}{50}
+\indexentry{Burp Suite Professional!Automated Scanning!Live|book {5}}{51}
+\indexentry{Burp Suite Professional!Automated Scanning!Instantiating Scans|book {5}}{52}
+\indexentry{Burp Suite Professional!Automated Scanning!Configuration|book {5}}{53-56}
+\indexentry{Burp Suite Professional!Automated Scanning!Add to Task|book {5}}{57}
+\indexentry{Burp Suite Professional!Automated Scanning!Results|book {5}}{58-59}
+\indexentry{Burp Suite Professional!Automated Scanning!Automatic|book {5}}{60}
+\indexentry{Burp Suite Professional!Issues!Vulnerability Verification|book {5}}{61}
+\indexentry{Burp Suite Professional!Issues!Retesting and Remediation Verification|book {5}}{62-63}
+\indexentry{Metasploit|book {5}}{65}
+\indexentry{Metasploit!Web Testing|book {5}}{66}
+\indexentry{Metasploit!Auxiliary modules|book {5}}{66}
+\indexentry{Metasploit!Seeding Database|book {5}}{67}
+\indexentry{Metasploit!Spidering and Crawling|book {5}}{67}
+\indexentry{Metasploit!db_import|book {5}}{68}
+\indexentry{Metasploit!Integration|book {5}}{69}
+\indexentry{BeEF!Metasploit|book {5}}{70-71}
+\indexentry{Metasploit!BeEF|book {5}}{70-71}
+\indexentry{Metasploit!sqlmatp|book {5}}{72}
+\indexentry{sqlmap!Metasploit|book {5}}{72}
+\indexentry{Metasploit!Known Vulnerabilities|book {5}}{73}
+\indexentry{Drupal|book {5}}{74}
+\indexentry{Drupal!Drupalgeddon|book {5}}{75-78}
+\indexentry{Drupal!Got hacked?|book {5}}{76}
+\indexentry{PHP Data Object (PDO)|book {5}}{77}
+\indexentry{Drupal!Metasploit|book {5}}{78}
+\indexentry{Metasploit!Drupal|book {5}}{78}
+\indexentry{Nuclei Vulnerability Scanner|book {5}}{82-83}
+\indexentry{Nuclei Vulnerability Scanner!Nuclei Templates|book {5}}{84-85}
+\indexentry{Nuclei Vulnerability Scanner!Running Nuclei|book {5}}{86-87}
+\indexentry{Nuclei Vulnerability Scanner!Interactsh|book {5}}{86}
+\indexentry{Nuclei Vulnerability Scanner!Command options|book {5}}{87}
+\indexentry{Tools!When they fail|book {5}}{91}
+\indexentry{Tools!Next level|book {5}}{92}
+\indexentry{Metasploit!mediawiki_thumb|book {5}}{93}
+\indexentry{MediaWiki|book {5}}{93}
+\indexentry{Tools!When they fail!Research the flaw|book {5}}{94}
+\indexentry{Metasploit!mediawiki_thumb|book {5}}{96}
+\indexentry{Penetration Testing!Preparation|book {5}}{100}
+\indexentry{Penetration Testing!Skills and Practice|book {5}}{101-102}
+\indexentry{Penetration Testing!Toolkit|book {5}}{103-104}
+\indexentry{Penetration Testing!Pre-Engagement Specifics|book {5}}{105-109}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Permission|book {5}}{106}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Scope|book {5}}{107}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Rules of Engagement|book {5}}{107}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Source Details|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Filtering|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Test Accounts|book {5}}{108}
+\indexentry{Penetration Testing!Pre-Engagement Specifics!Backups|book {5}}{109}
+\indexentry{Penetration Testing!Communication Plans|book {5}}{110-112}
+\indexentry{Penetration Testing!Post Assessment Results|book {5}}{114}
+\indexentry{Penetration Testing!Reports|book {5}}{115}
+\indexentry{Penetration Testing!Reports!Executive Summary|book {5}}{116-117}
+\indexentry{Enterprise Resource Management (ERM)|book {5}}{116}
+\indexentry{Governance, Risk, and Compliance (GRC)|book {5}}{116}
+\indexentry{Penetration Testing!Reports!Test Parameters|book {5}}{118}
+\indexentry{Penetration Testing!Reports!Findings|book {5}}{119}
+\indexentry{Penetration Testing!Reports!Appendices|book {5}}{120}
+\indexentry{Penetration Testing!Reports!Alternative Result Formats|book {5}}{121}
+\indexentry{Penetration Testing!Reports!Automation|book {5}}{122}
+\indexentry{Penetration Testing!Debrief Presentation|book {5}}{123}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
