@@ -31,46 +31,104 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************
  Sort entries consist of a number and a letter to be inserted in the standard 'Symbols' section }
 
-\indexentry{1a@\textbf{Introduction and Information Gathering}!1@Introduction and Information Gathering|book{1}}{3-13}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!2@Defensible Network Architecture|book{1}}{14-53}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!3@Protocols and Packet Analysis|book{1}}{54-107}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!4@Virtualization and Cloud Essentials|book{1}}{108-165}
-\indexentry{1a@\textbf{Introduction and Information Gathering}!5@Securing Wireless Networks|book{1}}{166-235}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!1@Wy the Web?|book{1}}{7-10}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!2@DApplication Assessment Methodologies|book{1}}{11-30}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!3@Web Application Pen Tester's Toolkit|book{1}}{31-37}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!4@Interception Proxies|book{1}}{37-55}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@EXERCISE: Configuring Interception Proxies|book{1}}{56-57}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!6@Open-Source Intelligence (OSINT)|book{1}}{58-71}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!7@Virtual Host Discovery|book{1}}{72-87}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!8@EXERCISE: Virtual Host Discovery|book{1}}{88-89}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@HTTP Syntax and Semantics|book{1}}{90-124}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@HTTPS and Testing for Weak Ciphers|book{1}}{125-137}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@EXERCISE: Testing HTTPS|book{1}}{138-139}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@Target Profiling|book{1}}{140-155}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@EXERCISE: Gathering Server Information|book{1}}{156-157}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@Summary|book{1}}{158-159}
+\indexentry{1a@\textbf{Introduction and Information Gathering}!5@BONUS EXERCISE: Testing and Exploiting Heartbleed|book{1}}{160}
 
 \indexentry{1b@\blankline|comment}{0}
 
-\indexentry{2a@\textbf{Defense-in-Depth}!1@Defense-in-Depth|book{2}}{3-45}
-\indexentry{2a@\textbf{Defense-in-Depth}!2@Identity & Access Managemnet|book{2}}{46-76}
-\indexentry{2a@\textbf{Defense-in-Depth}!3@Authentication and Password Secuirty|book{2}}{77-112}
-\indexentry{2a@\textbf{Defense-in-Depth}!4@Security Frameworks|book{2}}{113-141}
-\indexentry{2a@\textbf{Defense-in-Depth}!5@Data Loss Prevention|book{2}}{142-181}
-\indexentry{2a@\textbf{Defense-in-Depth}!6@Mobile Device Security|book{2}}{182-205}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!1@Insufficient Loggin and Monitoring|book{2}}{7-11}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!2@Spidering Web Applications|book{2}}{12-23}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!3@EXERCISE: Web Spidering|book{2}}{24-25}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!4@Forced Browsing|book{2}}{26-32}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!5@EXERCISE: ZAP and fuff Forced Browse|book{2}}{33-34}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!6@Fuzzing|book{2}}{35-41}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!7@Information Leakage|book{2}}{42-48}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!8@Authentication|book{2}}{49-76}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!9@EXERCISE: Authentication|book{2}}{77-78}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!10@Username Harvesting|book{2}}{89-90}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!11@Burp Intruder|book{2}}{91-96}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!12@EXERCISE: Fuzzing with Burp Intruder|book{2}}{97-98}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!13@Session Management|book{2}}{99-114}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!14@EXERCISE: Burp Sequencer|book{2}}{115-116}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!15@Authentication and Authorization Bypass|book{2}}{117-125}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!16@Vulnerable Web Apps: Mutillidaw|book{2}}{126-130}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!17@EXERCISE: Authentication Bypass|book{2}}{131-132}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!18@Summary|book{2}}{133-134}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!19@Appendix: Shellshock|book{2}}{135-144}
+\indexentry{2a@\textbf{Content Discovery, Authentication, and Session Testing}!20@Exploiting Shellshock|book{2}}{145}
 
 \indexentry{2b@\blankline|comment}{0}
 
-\indexentry{3a@\textbf{Vulnerability Management and Response}!1@Vulnerability Assessments|book{3}}{3-32}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!2@Penetration Testing|book{3}}{33-76}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!3@Attacks and Malicious Software|book{3}}{77-128}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!4@Web Application Security|book{3}}{129-162}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!5@Security Operations and Log Management|book{3}}{162-200}
-\indexentry{3a@\textbf{Vulnerability Management and Response}!6@Digital Forensics and Incident Response|book{3}}{201-239}
+\indexentry{3a@\textbf{Injection}!1@HTTP Response Security Controls|book{3}}{7-18}
+\indexentry{3a@\textbf{Injection}!2@Command Injection|book{3}}{19-32}
+\indexentry{3a@\textbf{Injection}!3@EXERCISE: Command Injection|book{3}}{33-34}
+\indexentry{3a@\textbf{Injection}!4@File Inclusion and Directory Traversal|book{3}}{35-40}
+\indexentry{3a@\textbf{Injection}!5@EXERCISE: Local/Remote File Inclusion|book{3}}{41-42}
+\indexentry{3a@\textbf{Injection}!7@Insecure Deserialization|book{3}}{43-61}
+\indexentry{3a@\textbf{Injection}!8@EXERCISE: Insecure Deserialization|book{3}}{62-63}
+\indexentry{3a@\textbf{Injection}!9@SQL Injection Primer|book{3}}{64-81}
+\indexentry{3a@\textbf{Injection}!10@Discovering SQL|book{3}}{82-103}
+\indexentry{3a@\textbf{Injection}!11@Exploiting SQLi|book{3}}{104-125}
+\indexentry{3a@\textbf{Injection}!12@EXERCISE: Error-Based SQLi|book{3}}{126-127}
+\indexentry{3a@\textbf{Injection}!13@SQLi Tools|book{3}}{128-143}
+\indexentry{3a@\textbf{Injection}!14@sqlmap + ZAP|book{3}}{144-145}
+\indexentry{3a@\textbf{Injection}!15@Summary|book{3}}{146}
 
 \indexentry{3b@\blankline|comment}{0}
 
-\indexentry{4a@\textbf{Data Security Technologies}!1@Cryptography|book{4}}{3-52}
-\indexentry{4a@\textbf{Data Security Technologies}!2@Cryptography Algroithms and Deployment|book{4}}{53-80}
-\indexentry{4a@\textbf{Data Security Technologies}!3@Applying Cryptography|book{4}}{81-129}
-\indexentry{4a@\textbf{Data Security Technologies}!4@Network Security Devices|book{4}}{130-184}
-\indexentry{4a@\textbf{Data Security Technologies}!5@Endpoint Security|book{4}}{185-220}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!1@Document Object Model (DOM)|book{4}}{7-16}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!2@Cross-Site Scripting (XSS) Primer|book{4}}{17-31}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!3@EXERCISE: HTML Injection|book{4}}{32-33}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!4@XSS Impacts|book{4}}{34-42}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!5@BeEF|book{4}}{43-49}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!6@EXERCISE: BeEF|book{4}}{50-51}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!7@Classes of XSS|book{4}}{50-73}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!8@EXERCISE: DOM-Based XSS|book{4}}{74-75}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!9@Discovering XSS|book{4}}{76-89}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!10@XSS Tools|book{4}}{90-98}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!11@EXERCISE: XSS|book{4}}{99-100}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!12@AJAX|book{4}}{101-115}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!13@Data Attacks|book{4}}{116-121}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!14@REST and SOAP|book{4}}{122-130}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!15@Server-Side Request Forgery (SSRF)|book{4}}{131-138}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!16@EXERCISE: Server-Side Request Forgery |book{4}}{139-140}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!17@XML External Entities (XXE)|book{4}}{141-150}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!18@EXERCISE: XXE|book{4}}{151-152}
+\indexentry{4a@\textbf{XSS, SSRF, and XXE}!19@Summary|book{4}}{153}
 
 \indexentry{4b@\blankline|comment}{0}
 
-\indexentry{5a@\textbf{Windows and Azure Security}!1@Windows Security Infrastructure|book{5}}{3-43}
-\indexentry{5a@\textbf{Windows and Azure Security}!2@Windows as a Service|book{5}}{44-70}
-\indexentry{5a@\textbf{Windows and Azure Security}!3@Windows Access Controls|book{5}}{71-119}
-\indexentry{5a@\textbf{Windows and Azure Security}!4@Enforcing Security Policy|book{5}}{120-193}
-\indexentry{5a@\textbf{Windows and Azure Security}!5@Microsoft Cloud Computing|book{5}}{194-247}
-\indexentry{5a@\textbf{Windows and Azure Security}!6@Automation, Logging, and Auditing|book{5}}{248-296}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!1@Cross-Site Request Forgery|book{5}}{7-14}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!2@EXERCISE: CSRF|book{5}}{15-16}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!3@Logic Flaws|book{5}}{17-21}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!4@Python for Web App Pen Testers|book{5}}{22-38}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!5@EXERCISE: Python|book{5}}{39-40}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!6@WPScan and ExploitDB|book{5}}{41-43}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!7@EXERCISE: WPScan and ExploitDB|book{5}}{44-45}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!8@Burp Scanner|book{5}}{46-63}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!9@Metasploit|book{5}}{64-78}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!10@EXERCISE: Metasploit|book{5}}{79-80}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!11@Nuclei|book{5}}{81-87}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!12@EXERCISE: Nuclei/Jenkins|book{5}}{88-89}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!13@When Tools Fail|book{5}}{90-96}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!14@EXERCISE: When Tools Fail|book{5}}{97-98}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!15@Business of Penetration Testing: Preparation|book{5}}{99-112}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!16@Business of Penetration Testing: Post Assessment|book{5}}{113-123}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!17@Summary|book{5}}{124-125}
+\indexentry{5a@\textbf{CSRF, Logic Flaws, and Advanced Tools}!18@BONUS EXERCISE: Bonus Challenges|book{5}}{126}
 
 \indexentry{5b@\blankline|comment}{0}
 
