@@ -91,6 +91,13 @@ The generated access token will be used as your password when prompted in the co
 
 ---
 
+**Stuff to index**
+
+- Important terms
+- Configurations
+- Tools
+- Commands
+
 
 | Badge | Course | Certification | Index |
 | -- | -- | -- | -- |

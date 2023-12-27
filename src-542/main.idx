@@ -982,7 +982,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Globally Unique Identifiers (GUID)|book {2}}{103}
 \indexentry{Sessions!Predicatbility|book {2}}{104}
 \indexentry{Commands!SHA1 hash of session id|book {1}}{104}
-\indexentry{Sessions!Tamper Resistant|book {2}}{105+}
+\indexentry{Sessions!Tamper Resistant|book {2}}{105}
 \indexentry{Sessions!Expire|book {2}}{106}
 \indexentry{Sessions!Confidential|book {2}}{107}
 \indexentry{Sessions!Theft|book {2}}{108}
@@ -1131,6 +1131,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{SQL Injection (SQLi)!Blind!Out-of-Band|book {3}}{102-103}
 \indexentry{Database!Fingerprinting|book {3}}{105}
 \indexentry{SQL Injection (SQLi)!DB Fingerprinting|book {3}}{105}
+\indexentry{DB Fingerprinting|book {3}}{105}
 \indexentry{Commands!SQL DB Fingerprinting|book {3}}{105}
 \indexentry{Database!Meta Info|book {3}}{106-107}
 \indexentry{SQL Injection (SQLi)!DB Meta Info|book {3}}{106-107}
@@ -1140,6 +1141,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Commands!SQL Stacked Queries|book {3}}{109-112}
 \indexentry{SQL Injection (SQLi)!UNION|book {3}}{113-114}
 \indexentry{SQL Injection (SQLi)!FROMless SELECT|book {3}}{115}
+\indexentry{Oracle|book {3}}{115}
 \indexentry{SQL Injection (SQLi)!DUAL|book {3}}{115}
 \indexentry{SQL Injection (SQLi)!NULL|book {3}}{116}
 \indexentry{SQL Injection (SQLi)!UNION+NULL|book {3}}{117}
@@ -1167,10 +1169,14 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{Tools!sqlmap!Post Exploitition \& Priv Esc|book {3}}{143}
 
 
-
-
-
-
+\indexentry{MySQL|DB Fingerprinting|book {3}}{105}
+\indexentry{MySQL|Timing/Sleep/Delay|book {3}}{101}
+\indexentry{MS SQL|DB Fingerprinting|book {3}}{105}
+\indexentry{MS SQL|Timing/Sleep/Delay|book {3}}{101}
+\indexentry{MySQL|Meta db info|book {3}}{106}
+\indexentry{MySQL!Databases/Tables/Columns enum|book {3}}{107}
+\indexentry{Oracle!Databases/Tables/Columns enum|book {3}}{107}
+\indexentry{MS SQL!Databases/Tables/Columns enum|book {3}}{107}
 
 
 
