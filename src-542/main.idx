@@ -275,6 +275,8 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \indexentry{300@\textbf{Tools}!sqlmap!dump table contents|book{W}}{313}
 \indexentry{300@\textbf{Tools}!curl!XXE|book{W}}{320-329}
 \indexentry{300@\textbf{Tools}!ZAP!CSRF|book{W}}{334-336}
+\indexentry{300@\textbf{Tools}!ZAP!Generate Anti CSRF Test FORM|book{W}}{335}
+\indexentry{300@\textbf{Tools}!JavaScript!Auto-submit form|book{W}}{339}
 \indexentry{300@\textbf{Tools}!wpscan|book{W}}{358-360}
 \indexentry{300@\textbf{Tools}!Metasploit|book{W}}{364}
 \indexentry{300@\textbf{Tools}!Burp Suite!smart decode|book{W}}{372-375}
