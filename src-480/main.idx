@@ -1,0 +1,2603 @@
+\comment{ AUTHOR : Benjamin Wolf
+
+USER DEFINED COMMANDS AND SPECIAL SYNTAX
+  a. Add a blank line between paragraphs : \blankline
+       Syntax in .idx file : \indexentry{...@\blankline|comment}{0}
+
+  b. Insert a page break : (standard) \newpage
+       Syntax in .idx file : \indexentry{...@\blankline|newpage \comment}{0}
+
+  c. Fills page number with book name : \book{x}
+       Syntax in .idx file : \indexentry{...|book{x}}{...}
+          with x = nbr of the book to display in the page number with format : [BOOKNAME][x]
+          Example : SANS SEC504 book ->  504.1--1-10
+                                     =======
+  d. Insert an entry rank : \rate{x}
+       Syntax in .idx file : \indexentry{... \rate{x}|...}{...}
+          with x = # of \star's to display between item and dotfill before page number
+          
+  e. Insert an entry with special style : \indexentry{my_entry@\text..{my_entry}|...}{...}
+       Before '@' is for indexing, after is what will be displayed
+  
+  NB :
+    - ... = sorting key
+    - \blankline is defined in the .tex file and fills the line with space
+    - \rank is defined in the .tex file and uses a the forloop package to repeat x times \star
+    - comment style (behind "|") will act as a \comment command, commenting the page number "{0}"
+
+
+*****************************************************************************************************
+                                          TOPICS SECTION
+*****************************************************************************************************
+ Sort entries consist of a number and a letter to be inserted in the standard 'Symbols' section }
+
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!1@Course Agenda|book{1}}{3}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!2@Introduction to SEC480|book{1}}{4-8}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!3@Responsibility to, for, and of Security|book{1}}{9-34}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!4@Lab 1.1: Protecting Web Applications with the AWS Web Application Firewall|book{1}}{35}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!5@Identification, Authorization|book{1}}{36-56}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!6@Lab 1.2: Application Authentication using AWS Cognito|book{1}}{57}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!7@CICD|book{1}}{58-82}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!8@Lab 1.3: Shifting left with security controls in AWS CodePipeline|book{1}}{83}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!9@Workload \& Service Hardening|book{1}}{84-105}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!10@Lab 1.4: Encryption at rest with the Relational Database Service (RDS) and Simple Storage Service (S3)|book{1}}{106}
+\indexentry{1a@\textbf{Book 1: Secure Development and Deployment Practices in AWS}!11@Contacts and Resources|book{1}}{107}
+
+
+\indexentry{1b@\blankline|comment}{0}
+
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!1@Security Monitoring|book{2}}{3-18}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!2@Lab 2.1: Security Monitoring using CloudTrail and Access Logs: Early Warning System|book{2}}{19}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!3@Exposure and Attack Vectors|book{2}}{20-41}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!4@Lab 2.2: AWS Inspector: Reducing Attack Surface|book{2}}{42}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!5@Incident Response|book{2}}{43-66}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!6@Lab 2.3: AWS GuardDuty and VPC Flow Logs: Incident Response in Action|book{2}}{67}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!7@Trust, Control, and Supply Chain|book{2}}{68-90}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!8@Lab 2.4: Self-Escalation with AWS Identity Access Management (IAM)|book{2}}{91}
+\indexentry{2a@\textbf{Book 2: Securing AWS: Monitoring, Incident Response, and Trust}!9@Contacts and Resources|book{2}}{92}
+
+
+\indexentry{2b@\blankline|comment}{0}
+
+\indexentry{3a@\textbf{Workbook}!1@Lab 1.1: Protecting web applications with the AWS Web Application Firewall|book{3}}{2-25}
+\indexentry{3a@\textbf{Workbook}!2@Lab 1.2: Application Authentication using AWS Cognito|book{3}}{26-39}
+\indexentry{3a@\textbf{Workbook}!3@Lab 1.3: Shifting left with security controls in AWS CodePipeline|book{3}}{40-56}
+\indexentry{3a@\textbf{Workbook}!4@Lab 1.4: Encryption at rest with the Relational Database Service (RDS) and Simple Storage Service (S3)|book{3}}{57-84}
+\indexentry{3a@\textbf{Workbook}!5@Lab 2.1: Security Monitoring using CloudTrail and Access Logs|book{3}}{85-103}
+\indexentry{3a@\textbf{Workbook}!6@Lab 2.2: AWS Inspector|book{3}}{104-117}
+\indexentry{3a@\textbf{Workbook}!7@Lab 2.3: AWS GuardDuty and VPC Flow Logs|book{3}}{118-130}
+\indexentry{3a@\textbf{Workbook}!8@Lab 2.4: Self-escalation with AWS Identity Access Management (IAM)|book{3}}{131-}
+
+\indexentry{3b@\blankline|comment}{0}
+
+
+\comment{********************************************************************************************
+                                       CATEGORIES SECTION
+*****************************************************************************************************
+ Sort entries consist of a number to be inserted in the standard 'Numbers' section
+ Number composition : [(1) Alphabet order number] [(2) 0]
+   (1) Sorting in alphabetical number
+   (2) Allows up to 10 subsections / alphabet character }
+
+%\indexentry{100@\textbf{Lab 1.1}!1@Lab Setup|book{4}\lab}{1}
+
+% --- Lab 1.1: Protecting web applications with the AWS Web Application Firewall ---
+\indexentry{100@\textbf{Lab 1.1}!AWS Load Balancer!Application Load Balancer|book{W}}{3}
+\indexentry{100@\textbf{Lab 1.1}!AWS Load Balancer!Load Balancer|book{W}}{3}
+
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!SQLi|book{W}}{5}
+
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!Web Application Firewall (WAF)|book{W}}{8}
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!Web ACL|book{W}}{8}
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!WAF \& Shield|book{W}}{8}
+
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!Managed Rule Group|book{W}}{12}
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!Rule Group|book{W}}{12}
+
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!IP Sets|book{W}}{19}
+
+\indexentry{100@\textbf{Lab 1.1}!AWS WAF!Managed Rule Group - Custom|book{W}}{21}
+
+% --- Lab 1.2: Application Authentication using AWS Cognito ---
+\indexentry{100@\textbf{Lab 1.2}!AWS Load Balancer!Cognito|book{W}}{27}
+
+\indexentry{100@\textbf{Lab 1.2}!AWS Cognito|book{W}}{28-39}
+
+% --- Lab 1.3: Shifting left with security controls in AWS CodePipeline ---
+
+% Pages 40–41
+\indexentry{100@\textbf{Lab 1.3}!AWS Load Balancer|book{W}}{40-41}
+
+% Pages 42–47
+\indexentry{100@\textbf{Lab 1.3}!AWS CodePipeline|book{W}}{42-47}
+
+% Page 48
+\indexentry{100@\textbf{Lab 1.3}!Elastic Container Registry (ECR)|book{W}}{48}
+\indexentry{100@\textbf{Lab 1.3}!Repository|book{W}}{48}
+\indexentry{100@\textbf{Lab 1.3}!ECR!Private Registry|book{W}}{48}
+
+% Page 50
+\indexentry{100@\textbf{Lab 1.3}!AWS CodeBuild|book{W}}{50}
+\indexentry{100@\textbf{Lab 1.3}!BuildSpec|book{W}}{50}
+
+% Page 52
+\indexentry{100@\textbf{Lab 1.3}!AWS CodePipeline!Release Change|book{W}}{52}
+
+% --- Lab 1.4: Encryption at Rest with RDS and S3 ---
+
+% Pages 57–59
+\indexentry{100@\textbf{Lab 1.4}!Encryption!At Rest|book{W}}{57-59}
+\indexentry{100@\textbf{Lab 1.4}!AWS Key Management Service (KMS)|book{W}}{57-59}
+
+% Page 59
+\indexentry{100@\textbf{Lab 1.4}!Policy JSON Syntax|book{W}}{59}
+
+% Page 60
+\indexentry{100@\textbf{Lab 1.4}!Relational Database Service (RDS)|book{W}}{60}
+
+% Page 61
+\indexentry{100@\textbf{Lab 1.4}!RDS!Encryption|book{W}}{61}
+
+% Page 63
+\indexentry{100@\textbf{Lab 1.4}!RDS!KMS Key|book{W}}{63}
+
+% Pages 65–69
+\indexentry{100@\textbf{Lab 1.4}!RDS!Restore DB|book{W}}{65-69}
+
+% Page 69
+\indexentry{100@\textbf{Lab 1.4}!S3|book{W}}{69}
+\indexentry{100@\textbf{Lab 1.4}!S3!Encryption|book{W}}{69}
+\indexentry{100@\textbf{Lab 1.4}!S3!AWS Managed Keys|book{W}}{69}
+\indexentry{100@\textbf{Lab 1.4}!S3!Customer Managed Keys|book{W}}{69}
+
+
+% --- Lab 2.1: Security Monitoring using CloudTrail and Access Logs ---
+
+% Page 85
+\indexentry{100@\textbf{Lab 2.1}!S3!Secure Bucket|book{W}}{85}
+
+% Page 89
+\indexentry{100@\textbf{Lab 2.1}!S3!Public|book{W}}{89}
+
+% Page 91
+\indexentry{100@\textbf{Lab 2.1}!S3!Bucket Policy|book{W}}{91}
+
+% Page 94
+\indexentry{100@\textbf{Lab 2.1}!S3!Access Logging|book{W}}{94}
+
+% Page 96
+\indexentry{100@\textbf{Lab 2.1}!Amazon Athena|book{W}}{96}
+
+% Page 98
+\indexentry{100@\textbf{Lab 2.1}!AWS Secrets Manager|book{W}}{98}
+\indexentry{100@\textbf{Lab 2.1}!AWS CloudTrail|book{W}}{98}
+
+% --- Lab 2.2: AWS Inspector ---
+
+% Page 104
+\indexentry{100@\textbf{Lab 2.2}!EC2|book{W}}{104}
+
+% Page 108
+\indexentry{100@\textbf{Lab 2.2}!AWS Inspector|book{W}}{108}
+
+
+% --- Lab 2.3: AWS GuardDuty and VPC Flow Logs ---
+
+% Page 118
+\indexentry{100@\textbf{Lab 2.3}!AWS GuardDuty|book{W}}{118}
+
+% Page 119
+\indexentry{100@\textbf{Lab 2.3}!AWS GuardDuty!Findings|book{W}}{119}
+
+% Page 120
+\indexentry{100@\textbf{Lab 2.3}!EC2!Public IP|book{W}}{120}
+
+% Pages 121–123
+\indexentry{100@\textbf{Lab 2.3}!EC2!Security Groups|book{W}}{121-123}
+
+% Page 124
+\indexentry{100@\textbf{Lab 2.3}!VPC Flow Logs|book{W}}{124}
+
+% Page 125
+\indexentry{100@\textbf{Lab 2.3}!CloudWatch Log|book{W}}{125}
+
+
+% --- Lab 2.4: Self-escalation with AWS Identity Access Management (IAM) ---
+
+% Page 131
+\indexentry{100@\textbf{Lab 2.4}!S3|book{W}}{131}
+
+% Page 132
+\indexentry{100@\textbf{Lab 2.4}!CloudShell|book{W}}{132}
+\indexentry{100@\textbf{Lab 2.4}!IAM|book{W}}{132}
+
+% Page 134
+\indexentry{100@\textbf{Lab 2.4}!IAM!Policy|book{W}}{134}
+
+% Page 136
+\indexentry{100@\textbf{Lab 2.4}!Access Key|book{W}}{136}
+
+% Page 140
+\indexentry{100@\textbf{Lab 2.4}!CloudShell|book{W}}{140}
+
+
+
+%\indexentry{101@\blankline|comment}{0}
+
+% \indexentry{200@\textbf{Summaries}!Wireless Threat|book{1}}{31}
+
+
+% \indexentry{201@\blankline|comment}{0}
+
+% \indexentry{300@\textbf{Tools}!dig!search for record type ANY|book{W}}{25}
+
+
+
+
+% \indexentry{301@\blankline|comment}{0}
+
+% \indexentry{500@\textbf{Commands}!\texttt{tcpdump}|book{1}}{37-38}
+
+% \indexentry{501@\blankline|comment}{0}
+
+% \indexentry{600@\textbf{Toolkit}!SWAT|book{1}}{22}
+
+
+% %\indexentry{601@\blankline|comment}{0}
+
+% %\indexentry{700@\textbf{Documentation}!SWAT|book{1}}{22}
+
+% \indexentry{999@\blankline|newpage \comment}{0}
+
+% % [example] add blank lines at the end of the 'S' section to shift the 'T' section
+% %\indexentry{Szzzzzz@\blankline|comment}{0}
+
+\comment{********************************************************************************************
+                                       FIRST BOOK SECTION
+*****************************************************************************************************}
+
+
+% --- Page 10 ---
+\indexentry{Responsibility!to Security|book {1}}{10}
+\indexentry{Responsibility!for Security|book {1}}{10}
+\indexentry{Responsibility!of Security|book {1}}{10}
+
+% --- Page 11 ---
+\indexentry{Shared Responsibility Model|book {1}}{11}
+
+\indexentry{Shared Responsibility Model!AWS Responsibilities|book {1}}{11}
+\indexentry{AWS Responsibilities!Hardware security|book {1}}{11}
+\indexentry{AWS Responsibilities!Software security|book {1}}{11}
+\indexentry{AWS Responsibilities!Hypervisor|book {1}}{11}
+\indexentry{AWS Responsibilities!Networking and facilities security|book {1}}{11}
+\indexentry{AWS Responsibilities!Redundancy|book {1}}{11}
+\indexentry{AWS Responsibilities!Core Services|book {1}}{11}
+\indexentry{AWS Responsibilities!Background checks|book {1}}{11}
+
+\indexentry{Shared Responsibility Model!Customer Responsibilities|book {1}}{11}
+\indexentry{Customer Responsibilities!Applications and data|book {1}}{11}
+\indexentry{Customer Responsibilities!Configurations and management|book {1}}{11}
+\indexentry{Customer Responsibilities!Security settings|book {1}}{11}
+\indexentry{Customer Responsibilities!Access controls|book {1}}{11}
+
+% --- Page 12 ---
+\indexentry{Shared Responsibility Model!Security in the Cloud|book {1}}{12}
+\indexentry{Shared Responsibility Model!Security of the Cloud|book {1}}{12}
+
+
+% --- Page 13 ---
+\indexentry{Control!Responsibility|book {1}}{13}
+\indexentry{Responsibility!Control|book {1}}{13}
+
+\indexentry{EC2|book {1}}{13}
+\indexentry{Firewall rules|book {1}}{13}
+\indexentry{Codebase quality|book {1}}{13}
+\indexentry{Codebase security|book {1}}{13}
+\indexentry{Change management|book {1}}{13}
+\indexentry{Incident response|book {1}}{13}
+\indexentry{Technical settings|book {1}}{13}
+\indexentry{Security configurations|book {1}}{13}
+\indexentry{Encryption at rest|book {1}}{13}
+
+\indexentry{Web Security!HSTS|book {1}}{13}
+\indexentry{Web Security!CSP|book {1}}{13}
+\indexentry{Web Security!HTTP security headers|book {1}}{13}
+\indexentry{Web Security!TLS certificate renewal|book {1}}{13}
+
+
+% --- Page 14 ---
+\indexentry{Fundamental differences: On-prem vs Cloud security practices|book {1}}{14}
+
+\indexentry{On-prem!Security Practices|book {1}}{14}
+\indexentry{Responsibility!On-prem|book {1}}{14}
+\indexentry{On-prem!Responsibility|book {1}}{14}
+
+\indexentry{Differences (On-prem vs Cloud)|book {1}}{14}
+
+\indexentry{Cloud!Security Practices|book {1}}{14}
+\indexentry{Responsibility!Cloud|book {1}}{14}
+\indexentry{Cloud!Responsibility|book {1}}{14}
+
+\indexentry{Tool resistance (TL)|book {1}}{14}
+
+% --- Page 15 ---
+\indexentry{Process of shifting from On-premises to Cloud|book {1}}{15}
+
+\indexentry{Transition (On-prem to Cloud)|book {1}}{15}
+\indexentry{Migration (On-prem to Cloud)|book {1}}{15}
+
+\indexentry{Application Migration Strategy|book {1}}{15}
+\indexentry{Application Migration Strategy!Retire|book {1}}{15}
+\indexentry{Application Migration Strategy!Retain|book {1}}{15}
+\indexentry{Application Migration Strategy!Rehost|book {1}}{15}
+\indexentry{Application Migration Strategy!Relocate|book {1}}{15}
+\indexentry{Application Migration Strategy!Repurchase|book {1}}{15}
+\indexentry{Application Migration Strategy!Replatform|book {1}}{15}
+\indexentry{Application Migration Strategy!Rearchitect|book {1}}{15}
+
+\indexentry{Lift-and-shift|book {1}}{15}
+\indexentry{Drop-and-shop|book {1}}{15}
+
+% --- Page 16 ---
+\indexentry{Security in the Cloud!Security Architecture|book {1}}{16}
+
+\indexentry{Security Architecture!Best Practices|book {1}}{16}
+
+\indexentry{AWS Well-Architected Framework|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Operational Excellence|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Security|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Reliability|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Performance Efficiency|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Cost Optimization|book {1}}{16}
+\indexentry{AWS Well-Architected Framework!Sustainability|book {1}}{16}
+
+
+\indexentry{AWS Security Reference Architecture (AWS SRA)|book {1}}{16}
+
+\indexentry{Blueprints|book {1}}{16}
+
+\indexentry{Pillars (AWS Well-Architected)|book {1}}{16}
+
+\indexentry{Reference Architecture|book {1}}{16}
+
+\indexentry{Foundation (AWS Architecture)|book {1}}{16}
+
+\indexentry{Mechanical Sympathy|book {1}}{16}
+
+% --- Page 17 ---
+\indexentry{Shared Responsibility Model!Compliance perspective|book {1}}{17}
+\indexentry{Shared Responsibility Model!Compliance|book {1}}{17}
+
+\indexentry{Compliance!Shared Responsibility Model|book {1}}{17}
+\indexentry{Compliance!Shared Responsibility|book {1}}{17}
+
+\indexentry{Compliance|book {1}}{17}
+\indexentry{PCI DSS|book {1}}{17}
+\indexentry{Compliance!PCI DSS|book {1}}{17}
+
+
+% --- Page 18 ---
+\indexentry{Why do we Care \& Why is it Important|book {1}}{18}
+
+\indexentry{Delineation (Security Responsibilities)|book {1}}{18}
+\indexentry{Responsibility!Delineation|book {1}}{18}
+
+\indexentry{Shared Responsibility Model (overview)|book {1}}{18}
+
+% --- Page 19 ---
+\indexentry{Security \& Compliance: What is the difference?|book {1}}{19}
+
+\indexentry{Security \& Compliance!Proactive|book {1}}{19}
+\indexentry{Security \& Compliance!Reactive|book {1}}{19}
+\indexentry{Security \& Compliance!Point in time assessment|book {1}}{19}
+\indexentry{Security \& Compliance!Desired outcomes|book {1}}{19}
+\indexentry{Security \& Compliance!Adherence to requirements|book {1}}{19}
+
+
+\indexentry{Compliance!Proactive|book {1}}{19}
+\indexentry{Compliance!Reactive|book {1}}{19}
+\indexentry{Compliance!Point in time assessment|book {1}}{19}
+\indexentry{Compliance!Desired outcomes|book {1}}{19}
+\indexentry{Compliance!Adherence to requirements|book {1}}{19}
+\indexentry{Compliance!Difference from Security|book {1}}{19}
+
+% --- Page 20 ---
+\indexentry{Security \& Compliance: Why do we need both?|book {1}}{20}
+
+\indexentry{Security \& Compliance!Risk Mitigation|book {1}}{20}
+\indexentry{Security \& Compliance!GDPR|book {1}}{20}
+\indexentry{Security \& Compliance!HIPAA|book {1}}{20}
+
+
+\indexentry{Compliance!Risk Mitigation|book {1}}{20}
+\indexentry{Compliance!GDPR|book {1}}{20}
+\indexentry{Compliance!HIPAA|book {1}}{20}
+
+% --- Page 21 ---
+\indexentry{Security Assurance|book {1}}{21}
+\indexentry{Compliance!Assurance|book {1}}{21}
+
+\indexentry{Confidence (Security Assurance)|book {1}}{21}
+
+\indexentry{Audit (Security Assurance)|book {1}}{21}
+\indexentry{Compliance!Audit|book {1}}{21}
+
+\indexentry{Third-Party Risk Assessments|book {1}}{21}
+
+\indexentry{Verification of Controls|book {1}}{21}
+
+\indexentry{Penetration Testing (Security Assurance)|book {1}}{21}
+
+\indexentry{Standards (Security Assurance)|book {1}}{21}
+\indexentry{Compliance!Standards (Assurance)|book {1}}{21}
+
+\indexentry{Regulations (Security Assurance)|book {1}}{21}
+\indexentry{Compliance!Regulations (Assurance)|book {1}}{21}
+
+\indexentry{PCI Report of Compliance (ROC)|book {1}}{21}
+\indexentry{PCI DSS!Report of Compliance (ROC)|book {1}}{21}
+\indexentry{Compliance!PCI Report of Compliance (ROC)|book {1}}{21}
+
+\indexentry{SOC (System and Organization Controls)|book {1}}{21}
+\indexentry{Compliance!SOC (System and Organization Controls)|book {1}}{21}
+
+\indexentry{Insurance (Security Assurance)|book {1}}{21}
+
+% --- Page 22 ---
+\indexentry{Due Diligence and Best Practices|book {1}}{22}
+\indexentry{Compliance!Due Diligence and Best Practices|book {1}}{22}
+
+\indexentry{Due Diligence|book {1}}{22}
+\indexentry{Compliance!Due Diligence|book {1}}{22}
+
+\indexentry{Due Care|book {1}}{22}
+\indexentry{Compliance!Due Care|book {1}}{22}
+
+\indexentry{Cloud Development Kit (CDK)|book {1}}{22}
+\indexentry{AWS!Cloud Development Kit (CDK)|book {1}}{22}
+
+% --- Page 23 ---
+\indexentry{Security Frameworks and Standards|book {1}}{23}
+\indexentry{Compliance!Frameworks and Standards|book {1}}{23}
+
+\indexentry{NIST Cybersecurity Framework (CSF)|book {1}}{23}
+\indexentry{Compliance!NIST Cybersecurity Framework (CSF)|book {1}}{23}
+
+\indexentry{ISO 27001|book {1}}{23}
+\indexentry{Compliance!ISO 27001|book {1}}{23}
+
+\indexentry{CIS Controls|book {1}}{23}
+\indexentry{Compliance!CIS Controls|book {1}}{23}
+
+\indexentry{COBIT|book {1}}{23}
+\indexentry{Compliance!COBIT|book {1}}{23}
+
+\indexentry{PCI DSS|book {1}}{23}
+\indexentry{Compliance!PCI DSS|book {1}}{23}
+
+\indexentry{Frameworks|book {1}}{23}
+\indexentry{Compliance!Frameworks|book {1}}{23}
+
+\indexentry{Standards|book {1}}{23}
+\indexentry{Compliance!Standards|book {1}}{23}
+
+\indexentry{Benchmark|book {1}}{23}
+\indexentry{Compliance!Benchmark|book {1}}{23}
+
+% --- Page 24 ---
+\indexentry{Discussion on Security vs Compliance|book {1}}{24}
+\indexentry{Compliance!Discussion on Security vs Compliance|book {1}}{24}
+\indexentry{Compliance!Security (discussion)|book {1}}{24}
+
+\indexentry{PCI DSS!Breach|book {1}}{24}
+\indexentry{Compliance!PCI DSS!Breach|book {1}}{24}
+
+\indexentry{Breaches|book {1}}{24}
+\indexentry{Breaches!Target|book {1}}{24}
+\indexentry{Breaches!CrowdStrike|book {1}}{24}
+
+\indexentry{Maturity|book {1}}{24}
+\indexentry{Compliance!Maturity|book {1}}{24}
+
+% --- Page 25 ---
+\indexentry{AWS SRA Approach to Deploying AWS Security Services|book {1}}{25}
+
+\indexentry{AWS Security Reference Architecture (AWS SRA)|book {1}}{25}
+\indexentry{AWS!Security Reference Architecture (SRA)|book {1}}{25}
+
+\indexentry{Blueprint|book {1}}{25}
+\indexentry{AWS!Blueprint|book {1}}{25}
+
+\indexentry{Reference Architecture|book {1}}{25}
+\indexentry{AWS!Reference Architecture|book {1}}{25}
+
+% --- Page 26 ---
+\indexentry{AWS Security Reference Architecture (AWS SRA)!Example|book {1}}{26}
+\indexentry{AWS!Security Reference Architecture (SRA)!Example|book {1}}{26}
+
+\indexentry{AWS Security Hub|book {1}}{26}
+\indexentry{AWS!Security Hub|book {1}}{26}
+
+\indexentry{AWS GuardDuty|book {1}}{26}
+\indexentry{AWS!GuardDuty|book {1}}{26}
+
+\indexentry{AWS WAF|book {1}}{26}
+\indexentry{AWS!WAF|book {1}}{26}
+
+\indexentry{Machine Learning (Security context)|book {1}}{26}
+
+\indexentry{Anomaly Detection|book {1}}{26}
+
+\indexentry{Unauthorized Access|book {1}}{26}
+
+\indexentry{Unusual API Calls|book {1}}{26}
+
+\indexentry{Data Exfiltration Attempts|book {1}}{26}
+
+\indexentry{Attack Patterns|book {1}}{26}
+
+\indexentry{Logs (Security context)|book {1}}{26}
+
+% --- Page 27 ---
+\indexentry{DevOps Approach in Practice|book {1}}{27}
+
+\indexentry{SecDevOps|book {1}}{27}
+\indexentry{DevOps!SecDevOps|book {1}}{27}
+
+\indexentry{Culture (DevOps/DevSecOps)|book {1}}{27}
+\indexentry{DevOps!Culture|book {1}}{27}
+
+\indexentry{Operations Teams|book {1}}{27}
+\indexentry{DevOps!Operations Teams|book {1}}{27}
+
+\indexentry{Automation (DevOps)|book {1}}{27}
+\indexentry{DevOps!Automation|book {1}}{27}
+
+\indexentry{Build (DevOps context)|book {1}}{27}
+\indexentry{DevOps!Build|book {1}}{27}
+
+\indexentry{Test (DevOps context)|book {1}}{27}
+\indexentry{DevOps!Test|book {1}}{27}
+
+\indexentry{Deployment (DevOps context)|book {1}}{27}
+\indexentry{DevOps!Deployment|book {1}}{27}
+
+\indexentry{Infrastructure Provisioning|book {1}}{27}
+\indexentry{DevOps!Infrastructure Provisioning|book {1}}{27}
+
+\indexentry{Infrastructure as Code (IaC)|book {1}}{27}
+\indexentry{DevOps!Infrastructure as Code (IaC)|book {1}}{27}
+
+\indexentry{Monitoring and Feedback (DevOps)|book {1}}{27}
+\indexentry{DevOps!Monitoring and Feedback|book {1}}{27}
+
+\indexentry{Collaboration (DevOps context)|book {1}}{27}
+\indexentry{DevOps!Collaboration|book {1}}{27}
+
+% --- Page 28 ---
+\indexentry{Automating Security Processes|book {1}}{28}
+
+\indexentry{Automation (Security context)|book {1}}{28}
+
+% --- Page 29 ---
+\indexentry{Integrating Security into SDLC|book {1}}{29}
+\indexentry{SDLC!Integrating Security|book {1}}{29}
+
+\indexentry{Shift Left (Security in SDLC)|book {1}}{29}
+\indexentry{SDLC!Shift Left|book {1}}{29}
+
+\indexentry{Threat Modeling|book {1}}{29}
+\indexentry{SDLC!Threat Modeling|book {1}}{29}
+
+\indexentry{Secure Coding Standards and Guidelines|book {1}}{29}
+\indexentry{SDLC!Secure Coding Standards and Guidelines|book {1}}{29}
+
+\indexentry{SAST (Static Application Security Testing)|book {1}}{29}
+\indexentry{SDLC!SAST|book {1}}{29}
+
+\indexentry{DAST (Dynamic Application Security Testing)|book {1}}{29}
+\indexentry{SDLC!DAST|book {1}}{29}
+
+\indexentry{Education (Security in SDLC)|book {1}}{29}
+\indexentry{SDLC!Education|book {1}}{29}
+
+\indexentry{Security Awareness Training|book {1}}{29}
+\indexentry{SDLC!Security Awareness Training|book {1}}{29}
+
+% --- Page 30 ---
+\indexentry{OWASP Top Ten Web Applications|book {1}}{30}
+\indexentry{Application Security!OWASP Top Ten Web Applications|book {1}}{30}
+
+\indexentry{OWASP!Top Ten Web Applications|book {1}}{30}
+\indexentry{Open Worldwide Application Security Project (OWASP)|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Broken Access Control|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Vulnerable and Outdated Components|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Cryptographic Failures|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Identification and Authentication Failures|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Injection|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Software and Data Integrity Failures|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Insecure Design|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Security Logging and Monitoring Failures|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Security Misconfiguration|book {1}}{30}
+
+\indexentry{OWASP Top Ten!Server-Side Request Forgery (SSRF)|book {1}}{30}
+\indexentry{SSRF (Server-Side Request Forgery)|book {1}}{30}
+
+% --- Page 31 ---
+\indexentry{Security Misconfiguration|book {1}}{31}
+\indexentry{OWASP Top Ten!Security Misconfiguration (expanded)|book {1}}{31}
+
+\indexentry{S3 Buckets (misconfiguration)|book {1}}{31}
+\indexentry{AWS!S3 Buckets (misconfiguration)|book {1}}{31}
+\indexentry{Security Misconfiguration!S3 Buckets|book {1}}{31}
+
+% --- Page 32 ---
+\indexentry{CIS Controls|book {1}}{32}
+\indexentry{Compliance!CIS Controls|book {1}}{32}
+
+\indexentry{Center for Internet Security (CIS)|book {1}}{32}
+\indexentry{Compliance!Center for Internet Security (CIS)|book {1}}{32}
+\indexentry{CIS!Center for Internet Security|book {1}}{32}
+
+\indexentry{Safeguard (CIS context)|book {1}}{32}
+\indexentry{CIS Controls!Safeguard|book {1}}{32}
+
+\indexentry{Roadmap (CIS context)|book {1}}{32}
+\indexentry{CIS Controls!Roadmap|book {1}}{32}
+
+% --- Page 33 ---
+\indexentry{AWS Config Rules|book {1}}{33}
+\indexentry{AWS!Config Rules|book {1}}{33}
+\indexentry{Compliance!AWS Config Rules|book {1}}{33}
+
+\indexentry{Vulnerability and Patch Management|book {1}}{33}
+\indexentry{Compliance!Vulnerability and Patch Management|book {1}}{33}
+
+\indexentry{AWS Systems Manager Patch Manager|book {1}}{33}
+\indexentry{AWS!Systems Manager Patch Manager|book {1}}{33}
+
+\indexentry{AWS CloudWatch|book {1}}{33}
+\indexentry{AWS!CloudWatch|book {1}}{33}
+
+\indexentry{AWS CloudTrail|book {1}}{33}
+\indexentry{AWS!CloudTrail|book {1}}{33}
+\indexentry{Compliance!AWS CloudTrail|book {1}}{33}
+
+
+% --- Page 34 ---
+\indexentry{Discussion on Importance of CIS and Maturity of Security Program|book {1}}{34}
+\indexentry{Compliance!Discussion on Importance of CIS and Maturity of Security Program|book {1}}{34}
+
+\indexentry{CIS (Center for Internet Security)|book {1}}{34}
+\indexentry{Compliance!CIS (Center for Internet Security)|book {1}}{34}
+
+\indexentry{Maturity (Security Program)|book {1}}{34}
+\indexentry{Compliance!Maturity (Security Program)|book {1}}{34}
+
+\indexentry{Culture (Security Program)|book {1}}{34}
+\indexentry{Compliance!Culture (Security Program)|book {1}}{34}
+
+% --- Page 37 ---
+\indexentry{IAM in the Cloud|book {1}}{37}
+\indexentry{Cloud!IAM|book {1}}{37}
+
+\indexentry{IAM!Definition|book {1}}{37}
+
+\indexentry{Authentication (IAM context)|book {1}}{37}
+\indexentry{IAM!Authentication|book {1}}{37}
+
+\indexentry{Authorization (IAM context)|book {1}}{37}
+\indexentry{IAM!Authorization|book {1}}{37}
+
+\indexentry{IAM!Users|book {1}}{37}
+\indexentry{IAM!Groups|book {1}}{37}
+\indexentry{IAM!Roles|book {1}}{37}
+\indexentry{IAM!Permissions|book {1}}{37}
+
+\indexentry{Users (IAM context)|book {1}}{37}
+\indexentry{Groups (IAM context)|book {1}}{37}
+\indexentry{Roles (IAM context)|book {1}}{37}
+\indexentry{Permissions (IAM context)|book {1}}{37}
+
+\indexentry{IAM!Gatekeeper|book {1}}{37}
+
+\indexentry{Perimeter (IAM context)|book {1}}{37}
+
+% --- Page 38 ---
+\indexentry{IAM Best Practices|book {1}}{38}
+\indexentry{IAM!Best Practices|book {1}}{38}
+
+\indexentry{Principle of Least Privilege (IAM)|book {1}}{38}
+\indexentry{IAM!Principle of Least Privilege|book {1}}{38}
+
+\indexentry{IAM Roles (Best Practices)|book {1}}{38}
+\indexentry{IAM!Roles (Best Practices)|book {1}}{38}
+
+\indexentry{Multi-Factor Authentication (MFA)|book {1}}{38}
+\indexentry{IAM!Multi-Factor Authentication (MFA)|book {1}}{38}
+
+\indexentry{Regular IAM Audits|book {1}}{38}
+\indexentry{IAM!Audits|book {1}}{38}
+
+\indexentry{IAM Password Policy|book {1}}{38}
+\indexentry{IAM!Password Policy|book {1}}{38}
+
+\indexentry{Access Key Rotation (IAM)|book {1}}{38}
+\indexentry{IAM!Access Key Rotation|book {1}}{38}
+
+\indexentry{Centralized IAM Management|book {1}}{38}
+\indexentry{IAM!Centralized Management|book {1}}{38}
+
+% --- Page 39 ---
+\indexentry{Security Fatigue|book {1}}{39}
+
+\indexentry{Passwords (Security Fatigue context)|book {1}}{39}
+\indexentry{IAM!Passwords|book {1}}{39}
+
+\indexentry{SSO (Single Sign-On)|book {1}}{39}
+\indexentry{IAM!SSO (Single Sign-On)|book {1}}{39}
+
+% --- Page 40 ---
+\indexentry{Typical AWS Sign-in Process|book {1}}{40}
+\indexentry{AWS!Sign-in Process|book {1}}{40}
+\indexentry{IAM!AWS Sign-in Process|book {1}}{40}
+
+% --- Page 41 ---
+\indexentry{Two-Factor Authentication (2FA)|book {1}}{41}
+\indexentry{IAM!Two-Factor Authentication (2FA)|book {1}}{41}
+
+\indexentry{2FA (Two-Factor Authentication)|book {1}}{41}
+\indexentry{IAM!2FA (Two-Factor Authentication)|book {1}}{41}
+
+\indexentry{Multi-Factor Authentication (MFA)|book {1}}{41}
+\indexentry{IAM!Multi-Factor Authentication (MFA)|book {1}}{41}
+
+\indexentry{Definition (2FA/MFA)|book {1}}{41}
+\indexentry{IAM!Definition (2FA/MFA)|book {1}}{41}
+
+% --- Page 42 ---
+\indexentry{Current and Emerging Trends|book {1}}{42}
+
+\indexentry{Zero-Trust Security Model|book {1}}{42}
+\indexentry{Security Model!Zero-Trust|book {1}}{42}
+\indexentry{Zero-Trust Security Model!Never trust, always verify|book {1}}{42}
+\indexentry{Continuous Verification (Zero-Trust)|book {1}}{42}
+
+\indexentry{Network-based Security Model|book {1}}{42}
+\indexentry{Security Model!Network-based|book {1}}{42}
+
+\indexentry{Identity Federation|book {1}}{42}
+\indexentry{Identity Federation!Definition|book {1}}{42}
+
+\indexentry{Enhanced Security with WebAuthn|book {1}}{42}
+
+\indexentry{AI and Machine Learning Integration (Security)|book {1}}{42}
+
+\indexentry{Identity Governance and Administration (IGA)|book {1}}{42}
+
+\indexentry{Passwordless Authentication|book {1}}{42}
+
+% --- Page 43 ---
+\indexentry{NIST Guidance|book {1}}{43}
+\indexentry{Compliance!NIST Guidance|book {1}}{43}
+
+\indexentry{NIST Digital Identity Guidelines (SP 800-63 series)|book {1}}{43}
+\indexentry{Compliance!NIST Digital Identity Guidelines (SP 800-63 series)|book {1}}{43}
+
+\indexentry{Risk Management (NIST context)|book {1}}{43}
+\indexentry{Compliance!Risk Management (NIST)|book {1}}{43}
+
+\indexentry{Attack Vectors (NIST context)|book {1}}{43}
+
+\indexentry{Identity Lifecycle Management (NIST)|book {1}}{43}
+\indexentry{IAM!Identity Lifecycle Management|book {1}}{43}
+
+% --- Page 44 ---
+\indexentry{Discussion on IAM (AWS CIRT)|book {1}}{44}
+\indexentry{IAM!Discussion (AWS CIRT)|book {1}}{44}
+
+\indexentry{AWS Customer Incident Response Team (CIRT)|book {1}}{44}
+\indexentry{AWS!Customer Incident Response Team (CIRT)|book {1}}{44}
+
+\indexentry{Security Events (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Security Events|book {1}}{44}
+
+\indexentry{Customer Security!CIRT|book {1}}{44}
+\indexentry{CIRT!Customer Security|book {1}}{44}
+
+\indexentry{Rotate Credentials (CIRT context)|book {1}}{44}
+\indexentry{Customer Security!Rotate Credentials (CIRT)|book {1}}{44}
+\indexentry{CIRT!Rotate Credentials|book {1}}{44}
+
+\indexentry{Revoke Access Keys (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Revoke Access Keys|book {1}}{44}
+
+\indexentry{Isolating Impacted Systems (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Isolating Impacted Systems|book {1}}{44}
+
+% --- Page 45 ---
+\indexentry{Workforce Identity Management|book {1}}{45}
+\indexentry{IAM!Workforce Identity Management|book {1}}{45}
+
+\indexentry{Identity Provider (IdP)|book {1}}{45}
+\indexentry{IAM!Identity Provider (IdP)|book {1}}{45}
+
+\indexentry{AWS IAM Identity Center|book {1}}{45}
+\indexentry{AWS!IAM Identity Center|book {1}}{45}
+\indexentry{IAM!AWS IAM Identity Center|book {1}}{45}
+
+\indexentry{SSO (Single Sign-On)|book {1}}{45}
+\indexentry{IAM!SSO (Single Sign-On)|book {1}}{45}
+
+\indexentry{Centralized User Management|book {1}}{45}
+\indexentry{IAM!Centralized User Management|book {1}}{45}
+
+% --- Page 46 ---
+\indexentry{Machine-to-Machine Identity (Service Accounts)|book {1}}{46}
+\indexentry{IAM!Machine-to-Machine Identity (Service Accounts)|book {1}}{46}
+
+\indexentry{Service Accounts|book {1}}{46}
+\indexentry{IAM!Service Accounts|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Service Accounts|book {1}}{46}
+
+\indexentry{Access Keys (Service Accounts)|book {1}}{46}
+\indexentry{IAM!Access Keys (Service Accounts)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Access Keys|book {1}}{46}
+
+\indexentry{Dynamic Credential Provisioning|book {1}}{46}
+\indexentry{IAM!Dynamic Credential Provisioning|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Dynamic Credential Provisioning|book {1}}{46}
+
+\indexentry{Lambda Functions (Machine Identity)|book {1}}{46}
+\indexentry{AWS!Lambda Functions (Machine Identity)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Lambda Functions|book {1}}{46}
+
+\indexentry{EC2 Instances (Machine Identity)|book {1}}{46}
+\indexentry{AWS!EC2 Instances (Machine Identity)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!EC2 Instances|book {1}}{46}
+
+% --- Page 47 ---
+\indexentry{2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{IAM!2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{2FA!Non-Human Accounts|book {1}}{47}
+\indexentry{MFA!Non-Human Accounts|book {1}}{47}
+
+\indexentry{Access Key Rotation (Non-Human Accounts)|book {1}}{47}
+\indexentry{IAM!Access Key Rotation (Non-Human Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Access Key Rotation|book {1}}{47}
+
+\indexentry{Dynamically Assign Permissions|book {1}}{47}
+\indexentry{IAM!Dynamically Assign Permissions|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Dynamically Assign Permissions|book {1}}{47}
+\indexentry{Dynamically Assign Permissions!IAM Roles|book {1}}{47}
+\indexentry{IAM!Roles (Dynamic Assignment)|book {1}}{47}
+
+\indexentry{Network Security Controls (Machine Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Network Security Controls|book {1}}{47}
+
+\indexentry{Network Security Controls!Security Groups|book {1}}{47}
+\indexentry{AWS!Security Groups|book {1}}{47}
+\indexentry{Security Groups!Network Security Controls|book {1}}{47}
+
+\indexentry{Network Security Controls!Network ACLs|book {1}}{47}
+\indexentry{AWS!Network ACLs|book {1}}{47}
+\indexentry{Network ACLs!Network Security Controls|book {1}}{47}
+
+\indexentry{Monitoring and Logging (Machine Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Monitoring and Logging|book {1}}{47}
+
+% --- Page 48 ---
+\indexentry{Application Identity|book {1}}{48}
+\indexentry{IAM!Application Identity|book {1}}{48}
+
+\indexentry{IAM Roles (Application Identity)|book {1}}{48}
+\indexentry{IAM!Roles (Application Identity)|book {1}}{48}
+\indexentry{Application Identity!IAM Roles|book {1}}{48}
+
+\indexentry{IAM Users with Access Keys|book {1}}{48}
+\indexentry{IAM!Users with Access Keys|book {1}}{48}
+\indexentry{Application Identity!IAM Users with Access Keys|book {1}}{48}
+
+\indexentry{Cognito Identity Pools|book {1}}{48}
+\indexentry{AWS!Cognito Identity Pools|book {1}}{48}
+\indexentry{IAM!Cognito Identity Pools|book {1}}{48}
+\indexentry{Application Identity!Cognito Identity Pools|book {1}}{48}
+
+\indexentry{Services!Identity|book {1}}{48}
+\indexentry{Identity!Services|book {1}}{48}
+
+\indexentry{Authentication!Applications|book {1}}{48}
+\indexentry{Authentication!Services|book {1}}{48}
+
+
+% --- Page 34 ---
+\indexentry{Discussion on Importance of CIS and Maturity of Security Program|book {1}}{34}
+\indexentry{Compliance!Discussion on Importance of CIS and Maturity of Security Program|book {1}}{34}
+
+\indexentry{CIS (Center for Internet Security)|book {1}}{34}
+\indexentry{Compliance!CIS (Center for Internet Security)|book {1}}{34}
+
+\indexentry{Maturity (Security Program)|book {1}}{34}
+\indexentry{Compliance!Maturity (Security Program)|book {1}}{34}
+
+\indexentry{Culture (Security Program)|book {1}}{34}
+\indexentry{Compliance!Culture (Security Program)|book {1}}{34}
+
+% --- Page 37 ---
+\indexentry{IAM in the Cloud|book {1}}{37}
+\indexentry{Cloud!IAM|book {1}}{37}
+
+\indexentry{IAM!Definition|book {1}}{37}
+
+\indexentry{Authentication (IAM context)|book {1}}{37}
+\indexentry{IAM!Authentication|book {1}}{37}
+
+\indexentry{Authorization (IAM context)|book {1}}{37}
+\indexentry{IAM!Authorization|book {1}}{37}
+
+\indexentry{IAM!Users|book {1}}{37}
+\indexentry{IAM!Groups|book {1}}{37}
+\indexentry{IAM!Roles|book {1}}{37}
+\indexentry{IAM!Permissions|book {1}}{37}
+
+\indexentry{Users (IAM context)|book {1}}{37}
+\indexentry{Groups (IAM context)|book {1}}{37}
+\indexentry{Roles (IAM context)|book {1}}{37}
+\indexentry{Permissions (IAM context)|book {1}}{37}
+
+\indexentry{IAM!Gatekeeper|book {1}}{37}
+
+\indexentry{Perimeter (IAM context)|book {1}}{37}
+
+% --- Page 38 ---
+\indexentry{IAM Best Practices|book {1}}{38}
+\indexentry{IAM!Best Practices|book {1}}{38}
+
+\indexentry{Principle of Least Privilege (IAM)|book {1}}{38}
+\indexentry{IAM!Principle of Least Privilege|book {1}}{38}
+
+\indexentry{IAM Roles (Best Practices)|book {1}}{38}
+\indexentry{IAM!Roles (Best Practices)|book {1}}{38}
+
+\indexentry{Multi-Factor Authentication (MFA)|book {1}}{38}
+\indexentry{IAM!Multi-Factor Authentication (MFA)|book {1}}{38}
+
+\indexentry{Regular IAM Audits|book {1}}{38}
+\indexentry{IAM!Audits|book {1}}{38}
+
+\indexentry{IAM Password Policy|book {1}}{38}
+\indexentry{IAM!Password Policy|book {1}}{38}
+
+\indexentry{Access Key Rotation (IAM)|book {1}}{38}
+\indexentry{IAM!Access Key Rotation|book {1}}{38}
+
+\indexentry{Centralized IAM Management|book {1}}{38}
+\indexentry{IAM!Centralized Management|book {1}}{38}
+
+% --- Page 39 ---
+\indexentry{Security Fatigue|book {1}}{39}
+
+\indexentry{Passwords (Security Fatigue context)|book {1}}{39}
+\indexentry{IAM!Passwords|book {1}}{39}
+
+\indexentry{SSO (Single Sign-On)|book {1}}{39}
+\indexentry{IAM!SSO (Single Sign-On)|book {1}}{39}
+
+% --- Page 40 ---
+\indexentry{Typical AWS Sign-in Process|book {1}}{40}
+\indexentry{AWS!Sign-in Process|book {1}}{40}
+\indexentry{IAM!AWS Sign-in Process|book {1}}{40}
+
+% --- Page 41 ---
+\indexentry{Two-Factor Authentication (2FA)|book {1}}{41}
+\indexentry{IAM!Two-Factor Authentication (2FA)|book {1}}{41}
+
+\indexentry{2FA (Two-Factor Authentication)|book {1}}{41}
+\indexentry{IAM!2FA (Two-Factor Authentication)|book {1}}{41}
+
+\indexentry{Multi-Factor Authentication (MFA)|book {1}}{41}
+\indexentry{IAM!Multi-Factor Authentication (MFA)|book {1}}{41}
+
+\indexentry{Definition (2FA/MFA)|book {1}}{41}
+\indexentry{IAM!Definition (2FA/MFA)|book {1}}{41}
+
+% --- Page 42 ---
+\indexentry{Current and Emerging Trends|book {1}}{42}
+
+\indexentry{Zero-Trust Security Model|book {1}}{42}
+\indexentry{Security Model!Zero-Trust|book {1}}{42}
+\indexentry{Zero-Trust Security Model!Never trust, always verify|book {1}}{42}
+\indexentry{Continuous Verification (Zero-Trust)|book {1}}{42}
+
+\indexentry{Network-based Security Model|book {1}}{42}
+\indexentry{Security Model!Network-based|book {1}}{42}
+
+\indexentry{Identity Federation|book {1}}{42}
+\indexentry{Identity Federation!Definition|book {1}}{42}
+
+\indexentry{Enhanced Security with WebAuthn|book {1}}{42}
+
+\indexentry{AI and Machine Learning Integration (Security)|book {1}}{42}
+
+\indexentry{Identity Governance and Administration (IGA)|book {1}}{42}
+
+\indexentry{Passwordless Authentication|book {1}}{42}
+
+% --- Page 43 ---
+\indexentry{NIST Guidance|book {1}}{43}
+\indexentry{Compliance!NIST Guidance|book {1}}{43}
+
+\indexentry{NIST Digital Identity Guidelines (SP 800-63 series)|book {1}}{43}
+\indexentry{Compliance!NIST Digital Identity Guidelines (SP 800-63 series)|book {1}}{43}
+
+\indexentry{Risk Management (NIST context)|book {1}}{43}
+\indexentry{Compliance!Risk Management (NIST)|book {1}}{43}
+
+\indexentry{Attack Vectors (NIST context)|book {1}}{43}
+
+\indexentry{Identity Lifecycle Management (NIST)|book {1}}{43}
+\indexentry{IAM!Identity Lifecycle Management|book {1}}{43}
+
+% --- Page 44 ---
+\indexentry{Discussion on IAM (AWS CIRT)|book {1}}{44}
+\indexentry{IAM!Discussion (AWS CIRT)|book {1}}{44}
+
+\indexentry{AWS Customer Incident Response Team (CIRT)|book {1}}{44}
+\indexentry{AWS!Customer Incident Response Team (CIRT)|book {1}}{44}
+
+\indexentry{Security Events (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Security Events|book {1}}{44}
+
+\indexentry{Customer Security!CIRT|book {1}}{44}
+\indexentry{CIRT!Customer Security|book {1}}{44}
+
+\indexentry{Rotate Credentials (CIRT context)|book {1}}{44}
+\indexentry{Customer Security!Rotate Credentials (CIRT)|book {1}}{44}
+\indexentry{CIRT!Rotate Credentials|book {1}}{44}
+
+\indexentry{Revoke Access Keys (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Revoke Access Keys|book {1}}{44}
+
+\indexentry{Isolating Impacted Systems (CIRT context)|book {1}}{44}
+\indexentry{CIRT!Isolating Impacted Systems|book {1}}{44}
+
+% --- Page 45 ---
+\indexentry{Workforce Identity Management|book {1}}{45}
+\indexentry{IAM!Workforce Identity Management|book {1}}{45}
+
+\indexentry{Identity Provider (IdP)|book {1}}{45}
+\indexentry{IAM!Identity Provider (IdP)|book {1}}{45}
+
+\indexentry{AWS IAM Identity Center|book {1}}{45}
+\indexentry{AWS!IAM Identity Center|book {1}}{45}
+\indexentry{IAM!AWS IAM Identity Center|book {1}}{45}
+
+\indexentry{SSO (Single Sign-On)|book {1}}{45}
+\indexentry{IAM!SSO (Single Sign-On)|book {1}}{45}
+
+\indexentry{Centralized User Management|book {1}}{45}
+\indexentry{IAM!Centralized User Management|book {1}}{45}
+
+% --- Page 46 ---
+\indexentry{Machine-to-Machine Identity (Service Accounts)|book {1}}{46}
+\indexentry{IAM!Machine-to-Machine Identity (Service Accounts)|book {1}}{46}
+
+\indexentry{Service Accounts|book {1}}{46}
+\indexentry{IAM!Service Accounts|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Service Accounts|book {1}}{46}
+
+\indexentry{Access Keys (Service Accounts)|book {1}}{46}
+\indexentry{IAM!Access Keys (Service Accounts)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Access Keys|book {1}}{46}
+
+\indexentry{Dynamic Credential Provisioning|book {1}}{46}
+\indexentry{IAM!Dynamic Credential Provisioning|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Dynamic Credential Provisioning|book {1}}{46}
+
+\indexentry{Lambda Functions (Machine Identity)|book {1}}{46}
+\indexentry{AWS!Lambda Functions (Machine Identity)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Lambda Functions|book {1}}{46}
+
+\indexentry{EC2 Instances (Machine Identity)|book {1}}{46}
+\indexentry{AWS!EC2 Instances (Machine Identity)|book {1}}{46}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!EC2 Instances|book {1}}{46}
+
+% --- Page 47 ---
+\indexentry{2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{IAM!2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!2FA on Non-Human Accounts|book {1}}{47}
+\indexentry{2FA!Non-Human Accounts|book {1}}{47}
+\indexentry{MFA!Non-Human Accounts|book {1}}{47}
+
+\indexentry{Access Key Rotation (Non-Human Accounts)|book {1}}{47}
+\indexentry{IAM!Access Key Rotation (Non-Human Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Access Key Rotation|book {1}}{47}
+
+\indexentry{Dynamically Assign Permissions|book {1}}{47}
+\indexentry{IAM!Dynamically Assign Permissions|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Dynamically Assign Permissions|book {1}}{47}
+
+\indexentry{Network Security Controls (Machine Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Network Security Controls|book {1}}{47}
+
+\indexentry{Monitoring and Logging (Machine Accounts)|book {1}}{47}
+\indexentry{Machine-to-Machine Identity (Service Accounts)!Monitoring and Logging|book {1}}{47}
+
+\indexentry{Security Groups|book {1}}{47}
+\indexentry{AWS!Security Groups|book {1}}{47}
+\indexentry{Network Security Controls (Machine Accounts)!Security Groups|book {1}}{47}
+
+\indexentry{Network ACLs (Access Control Lists)|book {1}}{47}
+\indexentry{AWS!Network ACLs (Access Control Lists)|book {1}}{47}
+\indexentry{Network Security Controls (Machine Accounts)!Network ACLs|book {1}}{47}
+
+% --- Page 48 ---
+\indexentry{Application Identity|book {1}}{48}
+\indexentry{IAM!Application Identity|book {1}}{48}
+
+\indexentry{IAM Roles (Application Identity)|book {1}}{48}
+\indexentry{IAM!Roles (Application Identity)|book {1}}{48}
+\indexentry{Application Identity!IAM Roles|book {1}}{48}
+
+\indexentry{IAM Users with Access Keys|book {1}}{48}
+\indexentry{IAM!Users with Access Keys|book {1}}{48}
+\indexentry{Application Identity!IAM Users with Access Keys|book {1}}{48}
+
+\indexentry{Cognito Identity Pools|book {1}}{48}
+\indexentry{AWS!Cognito Identity Pools|book {1}}{48}
+\indexentry{IAM!Cognito Identity Pools|book {1}}{48}
+\indexentry{Application Identity!Cognito Identity Pools|book {1}}{48}
+
+\indexentry{Services!Identity|book {1}}{48}
+\indexentry{Identity!Services|book {1}}{48}
+
+\indexentry{Authentication!Applications|book {1}}{48}
+\indexentry{Authentication!Services|book {1}}{48}
+
+% --- Page 49 ---
+\indexentry{IAM Integration with Cloud Services|book {1}}{49}
+\indexentry{IAM!Integration with Cloud Services|book {1}}{49}
+
+\indexentry{IAM!Cloud Service Integration|book {1}}{49}
+\indexentry{Cloud Services!IAM Integration|book {1}}{49}
+
+\indexentry{IAM!Strategy|book {1}}{49}
+
+% --- Page 50 ---
+\indexentry{Principle of Least Privilege|book {1}}{50}
+\indexentry{IAM!Principle of Least Privilege|book {1}}{50}
+
+\indexentry{RBAC (Role-Based Access Control)|book {1}}{50}
+\indexentry{IAM!RBAC (Role-Based Access Control)|book {1}}{50}
+\indexentry{Principle of Least Privilege!RBAC (Role-Based Access Control)|book {1}}{50}
+
+% --- Page 51 ---
+\indexentry{Expectations of Modern Authentication|book {1}}{51}
+\indexentry{Authentication!Expectations of Modern Authentication|book {1}}{51}
+
+\indexentry{Two-Factor Authentication (2FA)|book {1}}{51}
+\indexentry{MFA (Multi-Factor Authentication)|book {1}}{51}
+\indexentry{Authentication!2FA|book {1}}{51}
+\indexentry{Authentication!MFA|book {1}}{51}
+\indexentry{Expectations of Modern Authentication!2FA/MFA|book {1}}{51}
+
+\indexentry{Frictionless User Experience (Authentication)|book {1}}{51}
+\indexentry{Authentication!Frictionless User Experience|book {1}}{51}
+\indexentry{Expectations of Modern Authentication!Frictionless User Experience|book {1}}{51}
+
+\indexentry{Adaptability (Authentication)|book {1}}{51}
+\indexentry{Authentication!Adaptability|book {1}}{51}
+\indexentry{Expectations of Modern Authentication!Adaptability|book {1}}{51}
+
+\indexentry{Compliance (Authentication)|book {1}}{51}
+\indexentry{Authentication!Compliance|book {1}}{51}
+\indexentry{Expectations of Modern Authentication!Compliance|book {1}}{51}
+
+\indexentry{Risk-Based Authentication|book {1}}{51}
+\indexentry{Authentication!Risk-Based Authentication|book {1}}{51}
+\indexentry{Expectations of Modern Authentication!Risk-Based Authentication|book {1}}{51}
+
+% --- Page 52 ---
+\indexentry{Identification and Authentication Failures|book {1}}{52}
+\indexentry{Authentication!Failures|book {1}}{52}
+\indexentry{Identification!Failures|book {1}}{52}
+
+\indexentry{OWASP Top Ten!Identification and Authentication Failures (#7)|book {1}}{52}
+\indexentry{Authentication!OWASP Top Ten!Identification and Authentication Failures (#7)|book {1}}{52}
+
+\indexentry{Failures!Authentication|book {1}}{52}
+\indexentry{Failures!Identification|book {1}}{52}
+
+\indexentry{Account Takeover (Authentication Failures)|book {1}}{52}
+\indexentry{Authentication!Account Takeover|book {1}}{52}
+\indexentry{Identification and Authentication Failures!Account Takeover|book {1}}{52}
+
+\indexentry{Data Breaches (Authentication Failures)|book {1}}{52}
+\indexentry{Authentication!Data Breaches|book {1}}{52}
+\indexentry{Identification and Authentication Failures!Data Breaches|book {1}}{52}
+
+% --- Page 53 ---
+\indexentry{Common Flaws (Authentication)|book {1}}{53}
+\indexentry{Authentication!Common Flaws|book {1}}{53}
+
+\indexentry{MFA!Lack of MFA|book {1}}{53}
+\indexentry{Authentication!MFA!Lack of MFA|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Lack of MFA|book {1}}{53}
+
+\indexentry{Passwords!Weak or Reused|book {1}}{53}
+\indexentry{Authentication!Passwords!Weak or Reused|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Weak or Reused Passwords|book {1}}{53}
+
+\indexentry{Attacks!Brute Force|book {1}}{53}
+\indexentry{Authentication!Attacks!Brute Force|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Brute Force Attacks|book {1}}{53}
+
+\indexentry{Attacks!Password Spraying|book {1}}{53}
+\indexentry{Authentication!Attacks!Password Spraying|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Password Spraying|book {1}}{53}
+
+\indexentry{Session Management!Vulnerabilities|book {1}}{53}
+\indexentry{Authentication!Session Management!Vulnerabilities|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Session Management Vulnerabilities|book {1}}{53}
+
+\indexentry{Passwords!Insufficient Recovery Mechanisms|book {1}}{53}
+\indexentry{Authentication!Passwords!Insufficient Recovery Mechanisms|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Insufficient Recovery Mechanisms|book {1}}{53}
+
+\indexentry{Impersonation (Authentication Flaw)|book {1}}{53}
+\indexentry{Authentication!Impersonation|book {1}}{53}
+\indexentry{Common Flaws (Authentication)!Impersonation|book {1}}{53}
+
+% --- Page 54 ---
+\indexentry{Ease of Exploitation|book {1}}{54}
+\indexentry{Authentication!Ease of Exploitation|book {1}}{54}
+
+\indexentry{Attacks!Password-Based|book {1}}{54}
+\indexentry{Passwords!Attacks|book {1}}{54}
+
+\indexentry{Username Harvesting|book {1}}{54}
+\indexentry{Authentication!Username Harvesting|book {1}}{54}
+\indexentry{Attacks!Username Harvesting|book {1}}{54}
+
+\indexentry{Credential Stuffing|book {1}}{54}
+\indexentry{Authentication!Credential Stuffing|book {1}}{54}
+\indexentry{Attacks!Credential Stuffing|book {1}}{54}
+
+\indexentry{Sessions!Hijacking|book {1}}{54}
+\indexentry{Authentication!Sessions!Hijacking|book {1}}{54}
+\indexentry{Attacks!Session Hijacking|book {1}}{54}
+
+\indexentry{Cross-Site Request Forgery (CSRF)|book {1}}{54}
+\indexentry{Attacks!CSRF (Cross-Site Request Forgery)|book {1}}{54}
+\indexentry{Authentication!CSRF (Cross-Site Request Forgery)|book {1}}{54}
+
+\indexentry{Social Engineering|book {1}}{54}
+\indexentry{Attacks!Social Engineering|book {1}}{54}
+
+\indexentry{Phishing|book {1}}{54}
+\indexentry{Attacks!Phishing|book {1}}{54}
+\indexentry{Social Engineering!Phishing|book {1}}{54}
+
+% --- Page 55 ---
+\indexentry{Solutions to Address Weaknesses|book {1}}{55}
+
+\indexentry{Mitigation Strategies|book {1}}{55}
+\indexentry{Solutions to Address Weaknesses!Mitigation Strategies|book {1}}{55}
+
+\indexentry{Strong Password Policies|book {1}}{55}
+\indexentry{Passwords!Strong Policies|book {1}}{55}
+\indexentry{Mitigation Strategies!Strong Password Policies|book {1}}{55}
+
+\indexentry{Multi-Factor Authentication (MFA)|book {1}}{55}
+\indexentry{Authentication!Multi-Factor Authentication (MFA)|book {1}}{55}
+\indexentry{Mitigation Strategies!Multi-Factor Authentication|book {1}}{55}
+
+\indexentry{Secure Password Storage|book {1}}{55}
+\indexentry{Passwords!Secure Storage|book {1}}{55}
+\indexentry{Mitigation Strategies!Secure Password Storage|book {1}}{55}
+
+\indexentry{Session Management (Mitigation)|book {1}}{55}
+\indexentry{Authentication!Session Management (Mitigation)|book {1}}{55}
+\indexentry{Mitigation Strategies!Session Management|book {1}}{55}
+
+\indexentry{Regular Security Audits|book {1}}{55}
+\indexentry{Mitigation Strategies!Regular Security Audits|book {1}}{55}
+
+\indexentry{User Education (Mitigation)|book {1}}{55}
+\indexentry{Education!User|book {1}}{55}
+\indexentry{Mitigation Strategies!User Education|book {1}}{55}
+
+\indexentry{Variables (Mitigation context)|book {1}}{55}
+\indexentry{Solutions to Address Weaknesses!Variables|book {1}}{55}
+
+\indexentry{Users/Employees (Variables)|book {1}}{55}
+\indexentry{Variables!Users/Employees|book {1}}{55}
+
+\indexentry{Clients/Customers (Variables)|book {1}}{55}
+\indexentry{Variables!Clients/Customers|book {1}}{55}
+
+\indexentry{Passwords!Salting|book {1}}{55}
+\indexentry{Passwords!Hashing|book {1}}{55}
+\indexentry{Mitigation Strategies!Passwords!Salting|book {1}}{55}
+\indexentry{Mitigation Strategies!Passwords!Hashing|book {1}}{55}
+
+\indexentry{Culture (Mitigation context)|book {1}}{55}
+\indexentry{Solutions to Address Weaknesses!Culture|book {1}}{55}
+
+% --- Page 56 ---
+\indexentry{Demo: Common Flaws|book {1}}{56}
+\indexentry{Authentication!Demo: Common Flaws|book {1}}{56}
+
+\indexentry{Examples!Username Harvesting Vulnerability|book {1}}{56}
+\indexentry{Username Harvesting!Example (Vulnerability)|book {1}}{56}
+\indexentry{Common Flaws (Authentication)!Username Harvesting Example|book {1}}{56}
+
+
+% --- Page 59 ---
+\indexentry{CI/CD (Continuous Integration/Continuous Delivery)|book {1}}{59}
+\indexentry{DevOps!CI/CD (Continuous Integration/Continuous Delivery)|book {1}}{59}
+
+\indexentry{Continuous Integration (CI)|book {1}}{59}
+\indexentry{CI/CD!Continuous Integration (CI)|book {1}}{59}
+\indexentry{DevOps!Continuous Integration (CI)|book {1}}{59}
+
+\indexentry{Continuous Delivery (CD)|book {1}}{59}
+\indexentry{CI/CD!Continuous Delivery (CD)|book {1}}{59}
+\indexentry{DevOps!Continuous Delivery (CD)|book {1}}{59}
+
+\indexentry{Automation (CI/CD context)|book {1}}{59}
+\indexentry{CI/CD!Automation|book {1}}{59}
+\indexentry{DevOps!Automation|book {1}}{59}
+
+\indexentry{DevOps Collaboration|book {1}}{59}
+\indexentry{CI/CD!DevOps Collaboration|book {1}}{59}
+\indexentry{DevOps!Collaboration|book {1}}{59}
+
+% --- Page 60 ---
+\indexentry{AWS CodePipeline|book {1}}{60}
+\indexentry{AWS!CodePipeline|book {1}}{60}
+\indexentry{CI/CD!AWS CodePipeline|book {1}}{60}
+
+\indexentry{Continuous Delivery Service (AWS CodePipeline)|book {1}}{60}
+\indexentry{CI/CD!Continuous Delivery Service (AWS CodePipeline)|book {1}}{60}
+
+\indexentry{AWS CodePipeline!Key Features!Automation|book {1}}{60}
+\indexentry{AWS CodePipeline!Key Features!Visualization|book {1}}{60}
+\indexentry{AWS CodePipeline!Key Features!Integration|book {1}}{60}
+\indexentry{AWS CodePipeline!Key Features!Scalability|book {1}}{60}
+\indexentry{AWS CodePipeline!Key Features!Security|book {1}}{60}
+
+\indexentry{AWS CodePipeline!IAM Integration|book {1}}{60}
+\indexentry{AWS IAM!CodePipeline Integration|book {1}}{60}
+\indexentry{IAM!AWS CodePipeline Integration|book {1}}{60}
+
+% --- Page 62 ---
+\indexentry{Release Automation: Pipeline Workflow|book {1}}{62}
+\indexentry{CI/CD!Release Automation: Pipeline Workflow|book {1}}{62}
+
+\indexentry{Repository (CI/CD)|book {1}}{62}
+\indexentry{CI/CD!Repository|book {1}}{62}
+
+\indexentry{AWS CodeBuild|book {1}}{62}
+\indexentry{AWS!CodeBuild|book {1}}{62}
+\indexentry{CI/CD!AWS CodeBuild|book {1}}{62}
+
+\indexentry{AWS CodeDeploy|book {1}}{62}
+\indexentry{AWS!CodeDeploy|book {1}}{62}
+\indexentry{CI/CD!AWS CodeDeploy|book {1}}{62}
+
+\indexentry{Docker (CI/CD context)|book {1}}{62}
+\indexentry{CI/CD!Docker|book {1}}{62}
+
+% --- Page 63 ---
+\indexentry{Deployment Pipeline Reference Architecture (DPRA)|book {1}}{63}
+\indexentry{CI/CD!Deployment Pipeline Reference Architecture (DPRA)|book {1}}{63}
+
+\indexentry{Blueprint (DPRA)|book {1}}{63}
+\indexentry{DPRA!Blueprint|book {1}}{63}
+
+\indexentry{DPRA!How it Works!Pipeline Stages|book {1}}{63}
+\indexentry{DPRA!How it Works!Pipeline Actions|book {1}}{63}
+\indexentry{DPRA!How it Works!Pipeline Artifacts|book {1}}{63}
+\indexentry{DPRA!How it Works!Environment Management|book {1}}{63}
+\indexentry{DPRA!How it Works!Security and Compliance|book {1}}{63}
+\indexentry{DPRA!How it Works!Monitoring and Feedback|book {1}}{63}
+
+\indexentry{Stages (DPRA)|book {1}}{63}
+\indexentry{CI/CD!Stages (DPRA)|book {1}}{63}
+\indexentry{DPRA!Stages|book {1}}{63}
+
+% --- Page 64 ---
+\indexentry{AWS CodePipeline!Definition|book {1}}{64}
+\indexentry{AWS!CodePipeline!Definition|book {1}}{64}
+\indexentry{CI/CD!CodePipeline Definition|book {1}}{64}
+
+\indexentry{AWS CodeBuild!Definition|book {1}}{64}
+\indexentry{AWS!CodeBuild!Definition|book {1}}{64}
+\indexentry{CI/CD!CodeBuild Definition|book {1}}{64}
+
+\indexentry{AWS CodeDeploy!Definition|book {1}}{64}
+\indexentry{AWS!CodeDeploy!Definition|book {1}}{64}
+\indexentry{CI/CD!CodeDeploy Definition|book {1}}{64}
+
+\indexentry{Software Delivery Process|book {1}}{64}
+\indexentry{CI/CD!Software Delivery Process|book {1}}{64}
+\indexentry{Automation!Software Delivery Process|book {1}}{64}
+
+\indexentry{Docker Image (CI/CD)|book {1}}{64}
+\indexentry{CI/CD!Docker Image|book {1}}{64}
+\indexentry{AWS!Docker Image|book {1}}{64}
+
+\indexentry{Compile Executable (CI/CD)|book {1}}{64}
+\indexentry{CI/CD!Compile Executable|book {1}}{64}
+\indexentry{Software Delivery Process!Compile Executable|book {1}}{64}
+
+\indexentry{Deployment (CI/CD)|book {1}}{64}
+\indexentry{CI/CD!Deployment|book {1}}{64}
+\indexentry{Software Delivery Process!Deployment|book {1}}{64}
+\indexentry{AWS!Deployment|book {1}}{64}
+
+% --- Page 65 ---
+\indexentry{AWS CodeStar|book {1}}{65}
+\indexentry{AWS!CodeStar|book {1}}{65}
+\indexentry{CI/CD!AWS CodeStar|book {1}}{65}
+
+\indexentry{AWS CodeStar!Definition|book {1}}{65}
+
+% --- Page 66 ---
+\indexentry{AWS CodeStar!Diagram|book {1}}{66}
+\indexentry{CI/CD!AWS CodeStar Diagram|book {1}}{66}
+
+% --- Page 67 ---
+\indexentry{Version Control Systems (VCS)|book {1}}{67}
+\indexentry{CI/CD!Version Control Systems (VCS)|book {1}}{67}
+
+\indexentry{VCS!Understanding|book {1}}{67}
+\indexentry{VCS!Definition|book {1}}{67}
+
+\indexentry{VCS!How it Works!Repository|book {1}}{67}
+\indexentry{VCS!How it Works!Commit|book {1}}{67}
+\indexentry{VCS!How it Works!Branching|book {1}}{67}
+\indexentry{VCS!How it Works!Merging|book {1}}{67}
+
+\indexentry{Repository (VCS context)|book {1}}{67}
+\indexentry{Commit (VCS context)|book {1}}{67}
+\indexentry{Branching (VCS context)|book {1}}{67}
+\indexentry{Merging (VCS context)|book {1}}{67}
+
+\indexentry{AWS CodeCommit|book {1}}{67}
+\indexentry{AWS!CodeCommit|book {1}}{67}
+\indexentry{VCS!AWS CodeCommit|book {1}}{67}
+\indexentry{CI/CD!AWS CodeCommit|book {1}}{67}
+
+% --- Page 68 ---
+\indexentry{AWS CodeBuild|book {1}}{68}
+\indexentry{AWS!CodeBuild|book {1}}{68}
+\indexentry{CI/CD!AWS CodeBuild|book {1}}{68}
+
+\indexentry{AWS CodeBuild!Definition|book {1}}{68}
+
+\indexentry{Automation!Build Processes|book {1}}{68}
+\indexentry{CI/CD!Build Processes (Automation)|book {1}}{68}
+\indexentry{AWS CodeBuild!Build Processes|book {1}}{68}
+
+\indexentry{Artifacts (Build context)|book {1}}{68}
+\indexentry{CI/CD!Artifacts (Build context)|book {1}}{68}
+\indexentry{AWS CodeBuild!Artifacts|book {1}}{68}
+
+\indexentry{Automation!Security Checks|book {1}}{68}
+\indexentry{CI/CD!Security Checks (Build)|book {1}}{68}
+\indexentry{AWS CodeBuild!Security Checks|book {1}}{68}
+
+\indexentry{Coding Standards (CI/CD Build)|book {1}}{68}
+\indexentry{AWS CodeBuild!Coding Standards|book {1}}{68}
+
+\indexentry{Scan for Vulnerabilities (CI/CD Build)|book {1}}{68}
+\indexentry{AWS CodeBuild!Scan for Vulnerabilities|book {1}}{68}
+
+\indexentry{Ephemeral Build Environments|book {1}}{68}
+\indexentry{CI/CD!Ephemeral Build Environments|book {1}}{68}
+\indexentry{AWS CodeBuild!Ephemeral Build Environments|book {1}}{68}
+
+% --- Page 70 ---
+\indexentry{AWS CodeBuild!Docker Integration|book {1}}{70}
+\indexentry{CI/CD!CodeBuild Docker Integration|book {1}}{70}
+\indexentry{AWS!CodeBuild!Docker Integration|book {1}}{70}
+
+\indexentry{Examples!CodeBuild Docker|book {1}}{70}
+\indexentry{AWS CodeBuild!Example (Docker)|book {1}}{70}
+\indexentry{CI/CD!Examples!CodeBuild Docker|book {1}}{70}
+
+\indexentry{Amazon Elastic Container Registry (ECR)|book {1}}{70}
+\indexentry{AWS!Elastic Container Registry (ECR)|book {1}}{70}
+\indexentry{CI/CD!ECR (Elastic Container Registry)|book {1}}{70}
+
+\indexentry{ECS Cluster|book {1}}{70}
+\indexentry{AWS!ECS Cluster|book {1}}{70}
+\indexentry{CI/CD!ECS Cluster|book {1}}{70}
+
+% --- Pages 71–72 ---
+\indexentry{Dealing with Secrets|book {1}}{71-72}
+\indexentry{CI/CD!Dealing with Secrets|book {1}}{71-72}
+
+\indexentry{API Keys (Secrets)|book {1}}{71-72}
+\indexentry{Secrets!API Keys|book {1}}{71-72}
+
+\indexentry{Database Credentials (Secrets)|book {1}}{71-72}
+\indexentry{Secrets!Database Credentials|book {1}}{71-72}
+
+\indexentry{Encryption Keys (Secrets)|book {1}}{71-72}
+\indexentry{Secrets!Encryption Keys|book {1}}{71-72}
+
+\indexentry{CI/CD!Secrets|book {1}}{71-72}
+\indexentry{Secrets!CI/CD Pipelines|book {1}}{71-72}
+
+\indexentry{AWS Secrets Manager|book {1}}{71-72}
+\indexentry{AWS!Secrets Manager|book {1}}{71-72}
+\indexentry{Secrets!AWS Secrets Manager|book {1}}{71-72}
+
+\indexentry{AWS Parameter Store|book {1}}{71-72}
+\indexentry{AWS!Parameter Store|book {1}}{71-72}
+\indexentry{Secrets!AWS Parameter Store|book {1}}{71-72}
+
+\indexentry{Environmental Variables (Secrets)|book {1}}{71-72}
+\indexentry{Secrets!Environmental Variables|book {1}}{71-72}
+
+% --- Page 73 ---
+\indexentry{CI/CD Pipeline!Stages!Source|book {1}}{73}
+\indexentry{CI/CD Pipeline!Stages!Build|book {1}}{73}
+\indexentry{CI/CD Pipeline!Stages!Test|book {1}}{73}
+\indexentry{CI/CD Pipeline!Stages!Deploy|book {1}}{73}
+
+
+\indexentry{Runtime Application Self-Protection (RASP)|book {1}}{73}
+\indexentry{Application Security!RASP (Runtime Application Self-Protection)|book {1}}{73}
+
+% --- Pages 74–75 ---
+\indexentry{Examples!Real-World Build Process|book {1}}{74-75}
+\indexentry{CI/CD!Examples!Real-World Build Process|book {1}}{74-75}
+\indexentry{Build Process!Example (Real-World)|book {1}}{74-75}
+
+% --- Page 76 ---
+\indexentry{DevSecOps|book {1}}{76}
+\indexentry{CI/CD!DevSecOps|book {1}}{76}
+\indexentry{DevOps!DevSecOps|book {1}}{76}
+
+\indexentry{DevSecOps!Culture|book {1}}{76}
+
+\indexentry{DevSecOps!Shift-Left|book {1}}{76}
+
+\indexentry{DevSecOps!Cost Reduction|book {1}}{76}
+
+\indexentry{DevSecOps!Security Expertise|book {1}}{76}
+
+% --- Page 77 ---
+\indexentry{Code Scanning|book {1}}{77}
+\indexentry{CI/CD!Code Scanning|book {1}}{77}
+
+\indexentry{SAST (Static Application Security Testing)|book {1}}{77}
+\indexentry{Code Scanning!SAST (Static Application Security Testing)|book {1}}{77}
+\indexentry{Application Security!SAST (Static Application Security Testing)|book {1}}{77}
+
+\indexentry{Source Code Analysis|book {1}}{77}
+\indexentry{Code Scanning!Source Code Analysis|book {1}}{77}
+\indexentry{Application Security!Source Code Analysis|book {1}}{77}
+
+\indexentry{Bugs (Code Scanning context)|book {1}}{77}
+\indexentry{Code Scanning!Bugs|book {1}}{77}
+\indexentry{Application Security!Bugs (Code Scanning)|book {1}}{77}
+
+% --- Pages 78–79 ---
+\indexentry{Essential Security Tools|book {1}}{78-79}
+\indexentry{Tools (Security)!Essential Security Tools|book {1}}{78-79}
+
+% --- SAST Tools ---
+\indexentry{Tools!Static Application Security Testing (SAST)!AWS CodeGuru|book {1}}{78-79}
+\indexentry{SAST Tools!AWS CodeGuru|book {1}}{78-79}
+\indexentry{AWS!CodeGuru|book {1}}{78-79}
+
+\indexentry{Tools!Static Application Security Testing (SAST)!SonarQube|book {1}}{78-79}
+\indexentry{SAST Tools!SonarQube|book {1}}{78-79}
+
+\indexentry{Tools!Static Application Security Testing (SAST)!Checkmarx|book {1}}{78-79}
+\indexentry{SAST Tools!Checkmarx|book {1}}{78-79}
+
+% --- DAST Tools ---
+\indexentry{Tools!Dynamic Application Security Testing (DAST)!OWASP ZAP|book {1}}{78-79}
+\indexentry{DAST Tools!OWASP ZAP|book {1}}{78-79}
+
+\indexentry{Tools!Dynamic Application Security Testing (DAST)!Burp Suite|book {1}}{78-79}
+\indexentry{DAST Tools!Burp Suite|book {1}}{78-79}
+
+% --- SCA Tools ---
+\indexentry{Tools!Software Composition Analysis (SCA)!AWS CodeBuild|book {1}}{78-79}
+\indexentry{SCA Tools!AWS CodeBuild|book {1}}{78-79}
+\indexentry{AWS!CodeBuild (SCA)|book {1}}{78-79}
+
+\indexentry{Tools!Software Composition Analysis (SCA)!OWASP Dependency-Check|book {1}}{78-79}
+\indexentry{SCA Tools!OWASP Dependency-Check|book {1}}{78-79}
+
+\indexentry{Tools!Software Composition Analysis (SCA)!Snyk|book {1}}{78-79}
+\indexentry{SCA Tools!Snyk|book {1}}{78-79}
+
+% --- IaC Scanning Tools ---
+\indexentry{Tools!Infrastructure as Code (IaC) Scanning!AWS Config Rules|book {1}}{78-79}
+\indexentry{IaC Scanning Tools!AWS Config Rules|book {1}}{78-79}
+\indexentry{AWS!Config Rules (IaC Scanning)|book {1}}{78-79}
+
+\indexentry{Tools!Infrastructure as Code (IaC) Scanning!Checkov|book {1}}{78-79}
+\indexentry{IaC Scanning Tools!Checkov|book {1}}{78-79}
+
+\indexentry{Tools!Infrastructure as Code (IaC) Scanning!TFLint|book {1}}{78-79}
+\indexentry{IaC Scanning Tools!TFLint|book {1}}{78-79}
+
+% --- Container Security Tools ---
+\indexentry{Tools!Container Security!Amazon Inspector|book {1}}{78-79}
+\indexentry{Container Security Tools!Amazon Inspector|book {1}}{78-79}
+\indexentry{AWS!Inspector (Container Security)|book {1}}{78-79}
+
+\indexentry{Tools!Container Security!Trivy|book {1}}{78-79}
+\indexentry{Container Security Tools!Trivy|book {1}}{78-79}
+
+\indexentry{Tools!Container Security!Aqua Security|book {1}}{78-79}
+\indexentry{Container Security Tools!Aqua Security|book {1}}{78-79}
+
+\indexentry{Tools!Container Security!EC2 Instances|book {1}}{78-79}
+\indexentry{Container Security Tools!EC2 Instances|book {1}}{78-79}
+\indexentry{AWS!EC2 Instances (Container Security)|book {1}}{78-79}
+
+% --- AWS Services ---
+\indexentry{AWS CloudWatch|book {1}}{78-79}
+\indexentry{AWS!CloudWatch|book {1}}{78-79}
+\indexentry{Tools!AWS CloudWatch|book {1}}{78-79}
+
+\indexentry{AWS Security Hub|book {1}}{78-79}
+\indexentry{AWS!Security Hub|book {1}}{78-79}
+\indexentry{Tools!AWS Security Hub|book {1}}{78-79}
+
+% --- Page 81 ---
+\indexentry{Vulnerability Management|book {1}}{81}
+\indexentry{Risk Management!Vulnerability Management|book {1}}{81}
+\indexentry{Compliance!Vulnerability Management|book {1}}{81}
+
+% --- Page 82 ---
+\indexentry{Demo: Code Scanning|book {1}}{82}
+\indexentry{CI/CD!Demo: Code Scanning|book {1}}{82}
+
+\indexentry{Examples!Code Scanning|book {1}}{82}
+\indexentry{CI/CD!Examples!Code Scanning|book {1}}{82}
+\indexentry{Code Scanning!Example|book {1}}{82}
+
+
+
+% --- Page 85 ---
+\indexentry{AWS!Common Services|book {1}}{85}
+\indexentry{AWS Common Services|book {1}}{85}
+
+\indexentry{AWS API|book {1}}{85}
+\indexentry{AWS!API|book {1}}{85}
+
+% --- Page 86 ---
+\indexentry{AWS API Gateway|book {1}}{86}
+\indexentry{AWS!API Gateway|book {1}}{86}
+
+\indexentry{API Gateway!Traffic Management|book {1}}{86}
+\indexentry{API Gateway!Security|book {1}}{86}
+\indexentry{API Gateway!Scalability|book {1}}{86}
+\indexentry{API Gateway!RESTful APIs|book {1}}{86}
+\indexentry{API Gateway!WebSocket APIs|book {1}}{86}
+
+\indexentry{RESTful APIs (API Gateway)|book {1}}{86}
+\indexentry{WebSocket APIs (API Gateway)|book {1}}{86}
+
+% --- Page 87 ---
+\indexentry{AWS S3 (Simple Storage Service)|book {1}}{87}
+\indexentry{AWS!S3 (Simple Storage Service)|book {1}}{87}
+
+\indexentry{AWS!S3!Definition|book {1}}{87}
+
+\indexentry{Object Storage (S3)|book {1}}{87}
+\indexentry{Storage!Object Storage (S3)|book {1}}{87}
+\indexentry{AWS S3!Object Storage|book {1}}{87}
+
+\indexentry{Compliance!AWS S3|book {1}}{87}
+\indexentry{AWS S3!Compliance|book {1}}{87}
+
+\indexentry{Compliance!HIPAA (S3)|book {1}}{87}
+\indexentry{AWS S3!Compliance!HIPAA|book {1}}{87}
+
+\indexentry{Compliance!PCI DSS (S3)|book {1}}{87}
+\indexentry{AWS S3!Compliance!PCI DSS|book {1}}{87}
+
+\indexentry{Compliance!GDPR (S3)|book {1}}{87}
+\indexentry{AWS S3!Compliance!GDPR|book {1}}{87}
+
+\indexentry{Compliance!SOC 2 (S3)|book {1}}{87}
+\indexentry{AWS S3!Compliance!SOC 2|book {1}}{87}
+
+% --- Page 88 ---
+\indexentry{AWS EC2 (Elastic Compute Cloud)|book {1}}{88}
+\indexentry{AWS!EC2 (Elastic Compute Cloud)|book {1}}{88}
+
+\indexentry{EC2!Virtual Machines|book {1}}{88}
+\indexentry{Virtual Machines (EC2)|book {1}}{88}
+\indexentry{AWS EC2!Virtual Machines|book {1}}{88}
+
+\indexentry{EC2!Instances|book {1}}{88}
+\indexentry{Instances (EC2)|book {1}}{88}
+\indexentry{AWS EC2!Instances|book {1}}{88}
+\indexentry{Machine-to-Machine Identity!EC2 Instances|book {1}}{88}
+\indexentry{EC2 Instances!Machine-to-Machine Identity|book {1}}{88}
+
+\indexentry{EC2!Amazon Machine Images (AMIs)|book {1}}{88}
+\indexentry{Amazon Machine Images (AMIs)|book {1}}{88}
+\indexentry{AWS EC2!Amazon Machine Images (AMIs)|book {1}}{88}
+
+\indexentry{EC2!Security Groups (Firewall)|book {1}}{88}
+\indexentry{AWS EC2!Security Groups (Firewall)|book {1}}{88}
+\indexentry{Security Groups (Firewall)!EC2|book {1}}{88}
+
+% --- Page 89 ---
+\indexentry{AWS RDS (Relational Database Service)|book {1}}{89}
+\indexentry{AWS!RDS (Relational Database Service)|book {1}}{89}
+\indexentry{Databases!AWS RDS (Relational Database Service)|book {1}}{89}
+
+\indexentry{RDS!MySQL|book {1}}{89}
+\indexentry{Databases!MySQL (RDS)|book {1}}{89}
+\indexentry{AWS RDS!MySQL|book {1}}{89}
+
+\indexentry{RDS!PostgreSQL|book {1}}{89}
+\indexentry{Databases!PostgreSQL (RDS)|book {1}}{89}
+\indexentry{AWS RDS!PostgreSQL|book {1}}{89}
+
+\indexentry{RDS!Oracle Database|book {1}}{89}
+\indexentry{Databases!Oracle Database (RDS)|book {1}}{89}
+\indexentry{AWS RDS!Oracle Database|book {1}}{89}
+
+\indexentry{RDS!Amazon Aurora|book {1}}{89}
+\indexentry{Databases!Amazon Aurora (RDS)|book {1}}{89}
+\indexentry{AWS RDS!Amazon Aurora|book {1}}{89}
+
+\indexentry{AWS Availability Zone (AZ)|book {1}}{89}
+\indexentry{AWS!Availability Zone (AZ)|book {1}}{89}
+\indexentry{Cloud Infrastructure!Availability Zone (AZ)|book {1}}{89}
+\indexentry{AWS Availability Zone (AZ)!Definition|book {1}}{89}
+
+% --- Page 90 ---
+\indexentry{AWS CloudFront|book {1}}{90}
+\indexentry{AWS!CloudFront|book {1}}{90}
+\indexentry{Networking!AWS CloudFront|book {1}}{90}
+
+\indexentry{CloudFront!Content Delivery Network (CDN)|book {1}}{90}
+\indexentry{Content Delivery Network (CDN)!CloudFront|book {1}}{90}
+\indexentry{AWS!CloudFront!Content Delivery Network (CDN)|book {1}}{90}
+
+\indexentry{CloudFront!Edge Locations|book {1}}{90}
+\indexentry{Edge Locations (CloudFront)|book {1}}{90}
+\indexentry{AWS!CloudFront!Edge Locations|book {1}}{90}
+
+\indexentry{CloudFront!Cache|book {1}}{90}
+\indexentry{Caching!CloudFront|book {1}}{90}
+\indexentry{AWS!CloudFront!Cache|book {1}}{90}
+
+% --- Page 91 ---
+\indexentry{AWS Services!Security and Compliance|book {1}}{91}
+\indexentry{Compliance!AWS Services|book {1}}{91}
+
+\indexentry{AWS EC2!Security and Compliance|book {1}}{91}
+\indexentry{Security and Compliance!AWS EC2|book {1}}{91}
+\indexentry{Compliance!AWS EC2|book {1}}{91}
+
+\indexentry{AWS S3!Security and Compliance|book {1}}{91}
+\indexentry{Security and Compliance!AWS S3|book {1}}{91}
+\indexentry{Compliance!AWS S3|book {1}}{91}
+
+\indexentry{AWS RDS!Security and Compliance|book {1}}{91}
+\indexentry{Security and Compliance!AWS RDS|book {1}}{91}
+\indexentry{Compliance!AWS RDS|book {1}}{91}
+
+\indexentry{AWS API Gateway!Security and Compliance|book {1}}{91}
+\indexentry{Security and Compliance!AWS API Gateway|book {1}}{91}
+\indexentry{Compliance!AWS API Gateway|book {1}}{91}
+
+% --- Page 92 ---
+\indexentry{AWS Workloads|book {1}}{92}
+\indexentry{AWS!Workloads|book {1}}{92}
+\indexentry{Cloud Computing!AWS Workloads|book {1}}{92}
+\indexentry{AWS Workloads!Definition|book {1}}{92}
+
+% --- Page 93 ---
+\indexentry{Service Hardening|book {1}}{93}
+
+\indexentry{AWS EC2!Service Hardening|book {1}}{93}
+\indexentry{Service Hardening!AWS EC2|book {1}}{93}
+
+\indexentry{AWS S3!Service Hardening|book {1}}{93}
+\indexentry{Service Hardening!AWS S3|book {1}}{93}
+
+\indexentry{Network Security!Service Hardening|book {1}}{93}
+\indexentry{Service Hardening!Network Security|book {1}}{93}
+
+\indexentry{IAM!Service Hardening|book {1}}{93}
+\indexentry{Service Hardening!IAM|book {1}}{93}
+
+% --- Page 94 ---
+\indexentry{Default Settings (Security Risks)|book {1}}{94}
+
+\indexentry{AWS S3!Default Settings|book {1}}{94}
+\indexentry{Default Settings!AWS S3|book {1}}{94}
+
+% --- Page 95 ---
+\indexentry{Compliant by Design|book {1}}{95}
+\indexentry{Compliance!Compliant by Design|book {1}}{95}
+
+\indexentry{AWS Artifact|book {1}}{95}
+\indexentry{AWS!Artifact|book {1}}{95}
+\indexentry{Compliance!AWS Artifact|book {1}}{95}
+\indexentry{Compliant by Design!AWS Artifact|book {1}}{95}
+
+\indexentry{Compliance!SOC (Service Organization Control)|book {1}}{95}
+\indexentry{Compliant by Design!SOC (Service Organization Control)|book {1}}{95}
+
+\indexentry{Compliance!PCI DSS (Compliant by Design)|book {1}}{95}
+\indexentry{Compliant by Design!PCI DSS|book {1}}{95}
+
+\indexentry{Compliance!ISO Standards (Compliant by Design)|book {1}}{95}
+\indexentry{Compliant by Design!ISO Standards|book {1}}{95}
+
+\indexentry{Compliance!Attestations (Compliant by Design)|book {1}}{95}
+\indexentry{Compliant by Design!Attestations|book {1}}{95}
+
+% --- Page 96 ---
+\indexentry{Non-Compliance!Due to Misconfigurations|book {1}}{96}
+\indexentry{Compliance!Non-Compliance!Due to Misconfigurations|book {1}}{96}
+
+\indexentry{Misconfigurations (Compliance context)|book {1}}{96}
+\indexentry{Compliance!Misconfigurations|book {1}}{96}
+
+\indexentry{AWS S3!Non-Compliance (Misconfigurations)|book {1}}{96}
+\indexentry{Non-Compliance!AWS S3 (Misconfigurations)|book {1}}{96}
+\indexentry{Compliance!AWS S3!Non-Compliance|book {1}}{96}
+
+\indexentry{AWS EC2!Non-Compliance (Misconfigurations)|book {1}}{96}
+\indexentry{Non-Compliance!AWS EC2 (Misconfigurations)|book {1}}{96}
+\indexentry{Compliance!AWS EC2!Non-Compliance|book {1}}{96}
+
+\indexentry{AWS RDS!Non-Compliance (Misconfigurations)|book {1}}{96}
+\indexentry{Non-Compliance!AWS RDS (Misconfigurations)|book {1}}{96}
+\indexentry{Compliance!AWS RDS!Non-Compliance|book {1}}{96}
+
+% --- Pages 97–98 ---
+\indexentry{Examples!Compliance!Proper Configuration|book {1}}{97-98}
+\indexentry{Compliance!Examples!Proper Configuration|book {1}}{97-98}
+
+\indexentry{AWS S3!Example!Bucket Policy|book {1}}{97-98}
+\indexentry{Examples!AWS S3!Bucket Policy|book {1}}{97-98}
+\indexentry{Compliance!AWS S3!Example!Bucket Policy|book {1}}{97-98}
+
+\indexentry{IAM!Example!IAM Role Policy|book {1}}{97-98}
+\indexentry{Examples!IAM!Role Policy|book {1}}{97-98}
+\indexentry{Compliance!IAM!Example!Role Policy|book {1}}{97-98}
+
+% --- Page 99 ---
+\indexentry{Complexity (Security Risk)|book {1}}{99}
+\indexentry{Risk Factors!Complexity|book {1}}{99}
+
+% --- Pages 100–101 ---
+\indexentry{Cryptographic Failures|book {1}}{100-101}
+\indexentry{OWASP Top Ten!Cryptographic Failures (#2)|book {1}}{100-101}
+
+\indexentry{Cryptographic Algorithms|book {1}}{100-101}
+\indexentry{Cryptographic Failures!Algorithms|book {1}}{100-101}
+
+\indexentry{Key Management!Insecure|book {1}}{100-101}
+\indexentry{Cryptographic Failures!Key Management!Insecure|book {1}}{100-101}
+
+% --- Page 102 ---
+\indexentry{Breaches!Marriott|book {1}}{102}
+\indexentry{Marriott!Breach|book {1}}{102}
+
+% --- Page 103 ---
+\indexentry{Zoom (Lessons Learned)|book {1}}{103}
+\indexentry{Compliance!Violations!Zoom|book {1}}{103}
+\indexentry{Compliance!Examples!Zoom|book {1}}{103}
+
+\indexentry{Incident!Zoom|book {1}}{103}
+\indexentry{Lessons Learned!Zoom|book {1}}{103}
+
+% --- Page 104 ---
+\indexentry{Security Maturity Assessments|book {1}}{104}
+\indexentry{Compliance!Security Maturity Assessments|book {1}}{104}
+\indexentry{Risk Management!Security Maturity Assessments|book {1}}{104}
+
+\indexentry{NIST Cybersecurity Framework (CSF)|book {1}}{104}
+\indexentry{Frameworks!NIST Cybersecurity Framework (CSF)|book {1}}{104}
+\indexentry{Security Maturity Assessments!NIST Cybersecurity Framework (CSF)|book {1}}{104}
+
+% --- Page 105 ---
+\indexentry{Ownership (Security Perspective)|book {1}}{105}
+\indexentry{Governance!Ownership|book {1}}{105}
+
+\indexentry{Business Owners (Security Context)|book {1}}{105}
+\indexentry{Ownership!Business Owners|book {1}}{105}
+
+\indexentry{System Owners (Security Context)|book {1}}{105}
+\indexentry{Ownership!System Owners|book {1}}{105}
+
+\indexentry{Application Owners (Security Context)|book {1}}{105}
+\indexentry{Ownership!Application Owners|book {1}}{105}
+
+
+\comment{********************************************************************************************
+                                      SECOND BOOK SECTION
+*****************************************************************************************************}
+
+
+
+% --- Book 2, Page 4 ---
+\indexentry{Logging in AWS|book {2}}{4}
+
+\indexentry{Management Plane!Logging|book {2}}{4}
+\indexentry{Logging!Management Plane|book {2}}{4}
+
+\indexentry{AWS!Logging|book {2}}{4}
+
+\indexentry{AWS CloudTrail|book {2}}{4}
+\indexentry{AWS!CloudTrail|book {2}}{4}
+\indexentry{AWS!Logging!CloudTrail|book {2}}{4}
+\indexentry{Logging!AWS CloudTrail|book {2}}{4}
+
+\indexentry{AWS CloudWatch Logs|book {2}}{4}
+\indexentry{AWS!CloudWatch Logs|book {2}}{4}
+\indexentry{AWS!Logging!CloudWatch Logs|book {2}}{4}
+\indexentry{Logging!AWS CloudWatch Logs|book {2}}{4}
+
+% --- Book 2, Pages 5–6 ---
+\indexentry{Application Logging|book {2}}{5}
+\indexentry{Logging!Application Logging|book {2}}{5}
+
+\indexentry{Data Logging|book {2}}{6}
+\indexentry{Logging!Data Logging|book {2}}{6}
+
+\indexentry{AWS GuardDuty|book {2}}{6}
+\indexentry{AWS!GuardDuty|book {2}}{6}
+\indexentry{AWS!Logging!GuardDuty|book {2}}{6}
+\indexentry{Logging!AWS GuardDuty|book {2}}{6}
+\indexentry{AWS GuardDuty!Definition|book {2}}{6}
+
+\indexentry{AWS CloudTrail Insights|book {2}}{6}
+\indexentry{AWS!CloudTrail Insights|book {2}}{6}
+\indexentry{AWS!Logging!CloudTrail Insights|book {2}}{6}
+\indexentry{Logging!AWS CloudTrail Insights|book {2}}{6}
+\indexentry{AWS CloudTrail Insights!Definition|book {2}}{6}
+
+\indexentry{AWS WAF Logging|book {2}}{6}
+\indexentry{AWS!WAF Logging|book {2}}{6}
+\indexentry{AWS!Logging!WAF|book {2}}{6}
+\indexentry{Logging!AWS WAF Logging|book {2}}{6}
+\indexentry{AWS WAF Logging!Definition|book {2}}{6}
+
+\indexentry{AWS RDS Logs|book {2}}{6}
+\indexentry{AWS!RDS Logs|book {2}}{6}
+\indexentry{AWS!Logging!RDS Logs|book {2}}{6}
+\indexentry{Logging!AWS RDS Logs|book {2}}{6}
+\indexentry{AWS RDS Logs!Definition|book {2}}{6}
+
+\indexentry{AWS Aurora Logs|book {2}}{6}
+\indexentry{AWS!Aurora Logs|book {2}}{6}
+\indexentry{AWS!Logging!Aurora Logs|book {2}}{6}
+\indexentry{Logging!AWS Aurora Logs|book {2}}{6}
+\indexentry{AWS Aurora Logs!Definition|book {2}}{6}
+
+\indexentry{AWS S3 Data Events|book {2}}{6}
+\indexentry{AWS!S3 Data Events|book {2}}{6}
+\indexentry{AWS!Logging!S3 Data Events|book {2}}{6}
+\indexentry{Logging!AWS S3 Data Events|book {2}}{6}
+\indexentry{AWS S3 Data Events!Definition|book {2}}{6}
+
+% --- Book 2, Pages 7–8 ---
+\indexentry{Logging Pitfalls|book {2}}{7-8}
+
+\indexentry{SIEM (Security Information and Event Management)|book {2}}{7}
+\indexentry{Logging!SIEM|book {2}}{7}
+
+\indexentry{Best-Effort Logging|book {2}}{7}
+\indexentry{Logging!Best-Effort Logging|book {2}}{7}
+
+\indexentry{AWS CloudWatch Metrics|book {2}}{8}
+\indexentry{AWS!CloudWatch Metrics|book {2}}{8}
+\indexentry{AWS!Logging!CloudWatch Metrics|book {2}}{8}
+\indexentry{Logging!AWS CloudWatch Metrics|book {2}}{8}
+
+\indexentry{AWS CloudWatch Alarms|book {2}}{8}
+\indexentry{AWS!CloudWatch Alarms|book {2}}{8}
+\indexentry{AWS!Logging!CloudWatch Alarms|book {2}}{8}
+\indexentry{Logging!AWS CloudWatch Alarms|book {2}}{8}
+
+\indexentry{File Integrity Monitoring (FIM)|book {2}}{8}
+\indexentry{Monitoring!File Integrity Monitoring (FIM)|book {2}}{8}
+
+\indexentry{Intrusion Detection Systems (IDS)|book {2}}{8}
+\indexentry{Monitoring!Intrusion Detection Systems (IDS)|book {2}}{8}
+
+% --- Book 2, Pages 9–10 ---
+\indexentry{Logging!Compliance|book {2}}{9-10}
+\indexentry{Compliance!Logging|book {2}}{9-10}
+
+% --- Book 2, Page 11 ---
+\indexentry{Monitoring Tools|book {2}}{11}
+\indexentry{AWS!Monitoring Tools|book {2}}{11}
+
+\indexentry{AWS GuardDuty!Definition|book {2}}{11}
+\indexentry{AWS Security Hub!Definition|book {2}}{11}
+\indexentry{AWS Macie!Definition|book {2}}{11}
+\indexentry{AWS WAF!Definition|book {2}}{11}
+\indexentry{AWS Config!Definition|book {2}}{11}
+\indexentry{Amazon Inspector!Definition|book {2}}{11}
+
+% --- Book 2, Page 12 ---
+\indexentry{Monitoring in Practice|book {2}}{12}
+\indexentry{AWS!Monitoring in Practice|book {2}}{12}
+
+\indexentry{AWS X-Ray|book {2}}{12}
+\indexentry{AWS!X-Ray|book {2}}{12}
+\indexentry{AWS!Monitoring Tools!X-Ray|book {2}}{12}
+\indexentry{AWS X-Ray!Definition|book {2}}{12}
+
+\indexentry{Breaches!FireEye|book {2}}{12}
+\indexentry{FireEye!Breach|book {2}}{12}
+
+\indexentry{Alert Fatigue|book {2}}{12}
+\indexentry{Monitoring!Alert Fatigue|book {2}}{12}
+
+% --- Book 2, Page 13 ---
+\indexentry{Monitoring for Security and Compliance|book {2}}{13}
+\indexentry{Compliance!Monitoring for Security and Compliance|book {2}}{13}
+
+\indexentry{Compliance!Monitoring|book {2}}{13}
+\indexentry{Monitoring!Compliance|book {2}}{13}
+
+\indexentry{Security-Relevant Data|book {2}}{13}
+\indexentry{Monitoring!Security-Relevant Data|book {2}}{13}
+
+\indexentry{Threat Hunting|book {2}}{13}
+\indexentry{Monitoring!Threat Hunting|book {2}}{13}
+
+\indexentry{Forensic Readiness|book {2}}{13}
+\indexentry{Compliance!Forensic Readiness|book {2}}{13}
+
+\indexentry{Compliance Reporting|book {2}}{13}
+\indexentry{Compliance!Reporting|book {2}}{13}
+\indexentry{Monitoring!Compliance Reporting|book {2}}{13}
+
+% --- Book 2, Pages 14–15 ---
+\indexentry{Security Logging and Monitoring Failures|book {2}}{14-15}
+\indexentry{OWASP Top Ten!Logging and Monitoring Failures (#9)|book {2}}{14-15}
+
+\indexentry{Logging!Insufficient|book {2}}{14-15}
+
+\indexentry{Monitoring!Inadequate|book {2}}{14-15}
+
+\indexentry{Monitoring!Fix|book {2}}{14-15}
+\indexentry{Logging!Fix|book {2}}{14-15}
+
+% --- Book 2, Page 16 ---
+\indexentry{Cloud-Native Alerting|book {2}}{16}
+\indexentry{Alerting (Cloud-Native)|book {2}}{16}
+\indexentry{Monitoring!Alerting (Cloud-Native)|book {2}}{16}
+
+\indexentry{AWS CloudWatch!Alarms|book {2}}{16}
+\indexentry{AWS!CloudWatch!Alarms|book {2}}{16}
+\indexentry{Alerting!AWS CloudWatch Alarms|book {2}}{16}
+
+\indexentry{AWS EventBridge|book {2}}{16}
+\indexentry{AWS!EventBridge|book {2}}{16}
+\indexentry{Alerting!AWS EventBridge|book {2}}{16}
+
+\indexentry{Amazon SNS (Simple Notification Service)|book {2}}{16}
+\indexentry{AWS!SNS (Simple Notification Service)|book {2}}{16}
+\indexentry{Alerting!Amazon SNS|book {2}}{16}
+
+% --- Book 2, Page 17 ---
+\indexentry{Logging!Enhanced|book {2}}{17}
+
+\indexentry{Anomaly Detection|book {2}}{17}
+\indexentry{Monitoring!Anomaly Detection|book {2}}{17}
+
+\indexentry{AWS CloudWatch!Anomaly Detection|book {2}}{17}
+\indexentry{AWS!CloudWatch!Anomaly Detection|book {2}}{17}
+\indexentry{Logging!CloudWatch Anomaly Detection|book {2}}{17}
+
+\indexentry{AWS GuardDuty!Machine Learning|book {2}}{17}
+\indexentry{Machine Learning!GuardDuty|book {2}}{17}
+
+\indexentry{Automation!CloudWatch (Events)|book {2}}{17}
+\indexentry{AWS!CloudWatch!Automation (Events)|book {2}}{17}
+
+\indexentry{Automation!AWS EventBridge|book {2}}{17}
+\indexentry{AWS!EventBridge!Automation|book {2}}{17}
+
+\indexentry{Automation!AWS Systems Manager Automation|book {2}}{17}
+\indexentry{AWS Systems Manager!Automation|book {2}}{17}
+\indexentry{AWS!Systems Manager!Automation|book {2}}{17}
+
+\indexentry{AWS Systems Manager|book {2}}{17}
+\indexentry{AWS!Systems Manager|book {2}}{17}
+
+\indexentry{Runbooks (Systems Manager)|book {2}}{17}
+\indexentry{AWS Systems Manager!Runbooks|book {2}}{17}
+\indexentry{Automation!Runbooks|book {2}}{17}
+
+% --- Book 2, Page 18 ---
+\indexentry{Compliance!Implications|book {2}}{18}
+\indexentry{Privacy!Implications|book {2}}{18}
+
+\indexentry{Logging!Compliance!Implications|book {2}}{18}
+\indexentry{Logging!Privacy!Implications|book {2}}{18}
+
+\indexentry{Personally Identifiable Information (PII)|book {2}}{18}
+\indexentry{Privacy!Personally Identifiable Information (PII)|book {2}}{18}
+\indexentry{Compliance!PII (Personally Identifiable Information)|book {2}}{18}
+
+
+
+
+% --- Book 2, Page 20 ---
+\indexentry{OSINT (Open-Source Intelligence)|book {2}}{20}
+\indexentry{Open-Source Intelligence (OSINT)|book {2}}{20}
+\indexentry{Exposure!OSINT (Open-Source Intelligence)|book {2}}{20}
+
+% --- Book 2, Page 22 ---
+\indexentry{Attack Surface|book {2}}{22}
+\indexentry{Risk Management!Attack Surface|book {2}}{22}
+\indexentry{Supply-Chain (Attack Surface)|book {2}}{22}
+\indexentry{Attack Surface!Supply-Chain|book {2}}{22}
+\indexentry{Attacks!Supply-Chain|book {2}}{22}
+
+% --- Book 2, Page 23 ---
+\indexentry{Risk of Exposure|book {2}}{23}
+\indexentry{Risk Management!Exposure|book {2}}{23}
+\indexentry{Exposure!Risk|book {2}}{23}
+
+% --- Book 2, Page 24 ---
+\indexentry{Information Leakage|book {2}}{24}
+\indexentry{Exposure!Information Leakage|book {2}}{24}
+\indexentry{Risk Management!Information Leakage|book {2}}{24}
+
+% --- Book 2, Page 25 ---
+\indexentry{Control!Information|book {2}}{25}
+\indexentry{Information!Control|book {2}}{25}
+\indexentry{Governance!Control Over Information|book {2}}{25}
+
+% --- Book 2, Page 26 ---
+\indexentry{Reducing Sensitive Data Leakage|book {2}}{26}
+\indexentry{Exposure!Reducing Sensitive Data Leakage|book {2}}{26}
+\indexentry{Data Loss Prevention (DLP)|book {2}}{26}
+\indexentry{Reducing Sensitive Data Leakage!Data Loss Prevention (DLP)|book {2}}{26}
+\indexentry{Principle of Least Privilege (DLP context)|book {2}}{26}
+\indexentry{Reducing Sensitive Data Leakage!Principle of Least Privilege|book {2}}{26}
+\indexentry{Encryption (DLP context)|book {2}}{26}
+\indexentry{Reducing Sensitive Data Leakage!Encryption|book {2}}{26}
+\indexentry{Security Awareness Training (DLP context)|book {2}}{26}
+\indexentry{Reducing Sensitive Data Leakage!Security Awareness Training|book {2}}{26}
+
+% --- Book 2, Page 27 ---
+\indexentry{Compliance!Relevancy|book {2}}{27}
+\indexentry{Compliance!GDPR|book {2}}{27}
+\indexentry{Compliance!HIPAA|book {2}}{27}
+\indexentry{Compliance!PCI DSS|book {2}}{27}
+\indexentry{Privacy!PII (Personally Identifiable Information)|book {2}}{27}
+\indexentry{Privacy!PHI (Protected Health Information)|book {2}}{27}
+\indexentry{Payment Card Data|book {2}}{27}
+\indexentry{OSINT!Relevancy to Compliance|book {2}}{27}
+\indexentry{Tools!OSINT!Shodan|book {2}}{27}
+\indexentry{Tools!OSINT!SpiderFoot|book {2}}{27}
+\indexentry{Tools!OSINT!Espial|book {2}}{27}
+
+% --- Book 2, Page 28 ---
+\indexentry{OSINT!Identification|book {2}}{28}
+\indexentry{OSINT!AWS Tools|book {2}}{28}
+\indexentry{Tools!OSINT!AWS Tools|book {2}}{28}
+\indexentry{AWS Macie!Data Classification|book {2}}{28}
+\indexentry{AWS Macie!OSINT|book {2}}{28}
+\indexentry{AWS GuardDuty!OSINT|book {2}}{28}
+\indexentry{AWS Config!OSINT|book {2}}{28}
+
+% --- Book 2, Page 29 ---
+\indexentry{Exposed Services|book {2}}{29}
+\indexentry{Exposure!Exposed Services|book {2}}{29}
+\indexentry{Services!Public Exposure|book {2}}{29}
+\indexentry{RDP (Remote Desktop Protocol)!Exposure|book {2}}{29}
+\indexentry{AWS EC2!Public Exposure|book {2}}{29}
+\indexentry{AWS S3!Public Exposure|book {2}}{29}
+\indexentry{AWS RDS!Public Exposure|book {2}}{29}
+\indexentry{AWS Elastic Beanstalk!Public Exposure|book {2}}{29}
+\indexentry{AWS Lambda!Public Exposure|book {2}}{29}
+
+% --- Book 2, Page 30 ---
+\indexentry{Deployed Workloads|book {2}}{30}
+\indexentry{Workloads!Deployed|book {2}}{30}
+\indexentry{OSINT!Workloads|book {2}}{30}
+\indexentry{Workloads!OSINT|book {2}}{30}
+\indexentry{Workloads!Privilege Escalation|book {2}}{30}
+\indexentry{Privilege Escalation!Workloads|book {2}}{30}
+
+% --- Book 2, Page 31 ---
+\indexentry{Attack Surface (Internal and External)|book {2}}{31}
+\indexentry{Risk Management!Attack Surface (Internal and External)|book {2}}{31}
+\indexentry{Entry Points (Attack Surface)|book {2}}{31}
+\indexentry{Attack Surface!Entry Points|book {2}}{31}
+
+% --- Book 2, Pages 32–33 ---
+\indexentry{SSRF (Server-Side Request Forgery)|book {2}}{32-33}
+\indexentry{Server-Side Request Forgery (SSRF)|book {2}}{32-33}
+\indexentry{OWASP Top Ten!SSRF (Server-Side Request Forgery)|book {2}}{32-33}
+\indexentry{Attacks!SSRF (Server-Side Request Forgery)|book {2}}{32-33}
+\indexentry{Vulnerabilities!SSRF (Server-Side Request Forgery)|book {2}}{32-33}
+
+% --- Book 2, Page 34 ---
+\indexentry{Vulnerabilities and Attacks|book {2}}{34}
+\indexentry{Risk Management!Vulnerabilities and Attacks|book {2}}{34}
+\indexentry{Vulnerabilities!Misconfigurations|book {2}}{34}
+\indexentry{Vulnerabilities!Weak Credentials|book {2}}{34}
+\indexentry{Attacks!Supply-Chain|book {2}}{34}
+
+% --- Book 2, Page 35 ---
+\indexentry{Real World: Attacks in the Wild|book {2}}{35}
+\indexentry{Breaches!Real World Attacks|book {2}}{35}
+\indexentry{Attacks!EC2|book {2}}{35}
+\indexentry{AWS EC2!Attacks|book {2}}{35}
+\indexentry{AWS WAF!Real World Attack|book {2}}{35}
+\indexentry{WAF!Real World Attack|book {2}}{35}
+\indexentry{SSRF!Attack|book {2}}{35}
+\indexentry{Attacks!SSRF|book {2}}{35}
+\indexentry{Breaches!SSRF (Real World)|book {2}}{35}
+\indexentry{Capital One!Breach|book {2}}{35}
+\indexentry{Breaches!Capital One|book {2}}{35}
+
+% --- Book 2, Pages 36–37 ---
+\indexentry{Threat Modeling|book {2}}{36-37}
+\indexentry{Threat Modeling!Process|book {2}}{37}
+\indexentry{Process!Threat Modeling|book {2}}{37}
+
+% --- Book 2, Page 38 ---
+\indexentry{Compliance as a Tool|book {2}}{38}
+\indexentry{Compliance!Frameworks|book {2}}{38}
+\indexentry{Compliance!Audit|book {2}}{38}
+\indexentry{Compliance!Initiatives|book {2}}{38}
+\indexentry{Compliance!Mandates|book {2}}{38}
+
+% --- Book 2, Pages 39–40 ---
+\indexentry{NIST Cybersecurity Framework (CSF)|book {2}}{39-40}
+\indexentry{Frameworks!NIST Cybersecurity Framework (CSF)|book {2}}{39-40}
+\indexentry{Compliance!NIST Cybersecurity Framework (CSF)|book {2}}{39-40}
+\indexentry{NIST CSF!Risk-Based Approach|book {2}}{39}
+\indexentry{Risk-Based Approach (NIST CSF)|book {2}}{39}
+\indexentry{NIST CSF!Core Functions|book {2}}{40}
+\indexentry{Core Functions (NIST CSF)|book {2}}{40}
+
+% --- Book 2, Page 41 ---
+\indexentry{Tools Demo|book {2}}{41}
+\indexentry{Cloud Security Posture Management (CSPM)|book {2}}{41}
+\indexentry{Tools!Cloud Security Posture Management (CSPM)|book {2}}{41}
+\indexentry{SAST (Static Application Security Testing)|book {2}}{41}
+\indexentry{Tools!SAST (Static Application Security Testing)|book {2}}{41}
+\indexentry{DAST (Dynamic Application Security Testing)|book {2}}{41}
+\indexentry{Tools!DAST (Dynamic Application Security Testing)|book {2}}{41}
+\indexentry{Zscaler for Zero Trust Network Access (ZTNA)|book {2}}{41}
+\indexentry{Tools!Zscaler for Zero Trust Network Access (ZTNA)|book {2}}{41}
+\indexentry{Zero Trust!Zscaler (ZTNA)|book {2}}{41}
+\indexentry{Endpoint Detection and Response (EDR)|book {2}}{41}
+\indexentry{Tools!Endpoint Detection and Response (EDR)|book {2}}{41}
+\indexentry{Infrastructure as Code (IaC)|book {2}}{41}
+\indexentry{Tools!Infrastructure as Code (IaC)|book {2}}{41}
+
+
+% --- Book 2, Page 42 ---
+\indexentry{Incident Response Section|book {2}}{42}
+
+% --- Book 2, Page 43 ---
+\indexentry{Incident Response|book {2}}{43}
+\indexentry{Incident Response!Preparation|book {2}}{43}
+\indexentry{Incident Response!Monitoring|book {2}}{43}
+\indexentry{Incident Response!Plan|book {2}}{43}
+\indexentry{Security Incident Response Team (SIRT)|book {2}}{43}
+\indexentry{Incident Response!Security Incident Response Team (SIRT)|book {2}}{43}
+\indexentry{Tabletop Exercise|book {2}}{43}
+\indexentry{Incident Response!Tabletop Exercise|book {2}}{43}
+
+% --- Book 2, Pages 44–49 ---
+\indexentry{Incident Response!Steps!Preparation|book {2}}{44}
+\indexentry{Incident Response!Steps!Identification|book {2}}{45}
+\indexentry{Incident Response!Steps!Containment|book {2}}{46}
+\indexentry{Incident Response!Steps!Eradication|book {2}}{47}
+\indexentry{Incident Response!Steps!Recovery|book {2}}{48}
+\indexentry{Incident Response!Steps!Lessons Learned|book {2}}{49}
+\indexentry{Indicators of Compromise (IOC)|book {2}}{45}
+\indexentry{AWS Security Blog|book {2}}{45}
+\indexentry{AWS Security Bulletin|book {2}}{45}
+
+% --- Book 2, Page 50 ---
+\indexentry{Incident Response!NIST IR Framework|book {2}}{50}
+\indexentry{NIST Incident Response Framework (SP 800-61r2)|book {2}}{50}
+\indexentry{NIST!Special Publication 800-61r2 (Incident Response)|book {2}}{50}
+\indexentry{Frameworks!NIST Incident Response (SP 800-61r2)|book {2}}{50}
+
+% --- Book 2, Page 51 ---
+\indexentry{Breaches!Equifax|book {2}}{51}
+\indexentry{Equifax!Breach|book {2}}{51}
+
+% --- Book 2, Page 52 ---
+\indexentry{Incident Response!People!Incident Manager|book {2}}{52}
+\indexentry{Incident Response!People!Technical Lead|book {2}}{52}
+\indexentry{Incident Response!People!Security Analyst|book {2}}{52}
+\indexentry{Incident Response!People!Communications Lead|book {2}}{52}
+\indexentry{Incident Manager (Incident Response)|book {2}}{52}
+\indexentry{Technical Lead (Incident Response)|book {2}}{52}
+\indexentry{Security Analyst (Incident Response)|book {2}}{52}
+\indexentry{Communications Lead (Incident Response)|book {2}}{52}
+
+% --- Book 2, Page 53 ---
+\indexentry{Playbooks!Incident Response|book {2}}{53}
+\indexentry{Incident Response!Playbooks|book {2}}{53}
+\indexentry{Decision Trees!Incident Response|book {2}}{53}
+\indexentry{Incident Response!Decision Trees|book {2}}{53}
+
+% --- Book 2, Page 54 ---
+\indexentry{Incident Response!Technical Controls|book {2}}{54}
+\indexentry{Network Segmentation (Incident Response)|book {2}}{54}
+\indexentry{Technical Controls!Network Segmentation|book {2}}{54}
+\indexentry{Automation!Recovery Mechanisms|book {2}}{54}
+\indexentry{Recovery Mechanisms!Automation|book {2}}{54}
+
+% --- Book 2, Pages 55–59 ---
+\indexentry{Playbooks!Demo (Incident Response)|book {2}}{55-59}
+\indexentry{Incident Response!Playbooks!Demo|book {2}}{55-59}
+\indexentry{Incident Response!Identification (Demo)|book {2}}{55}
+\indexentry{Incident Response!Containment (Demo)|book {2}}{56}
+\indexentry{Incident Response!Eradication and Root Cause (Demo)|book {2}}{57}
+\indexentry{Incident Response!Recovery and Education (Demo)|book {2}}{58}
+\indexentry{Incident Response!Lessons Learned (Demo)|book {2}}{59}
+
+% --- Book 2, Pages 60–61 ---
+\indexentry{Incident Response!Tools and Implementation|book {2}}{60-61}
+\indexentry{SIEM!Definition|book {2}}{60}
+\indexentry{Tools!SIEM!Splunk|book {2}}{60}
+\indexentry{Tools!SIEM!IBM QRadar|book {2}}{60}
+\indexentry{Splunk (SIEM)|book {2}}{60}
+\indexentry{IBM QRadar (SIEM)|book {2}}{60}
+\indexentry{EDR (Endpoint Detection and Response)!Definition|book {2}}{61}
+\indexentry{Tools!EDR|book {2}}{61}
+\indexentry{Network Traffic Analysis (NTA)!Definition|book {2}}{61}
+\indexentry{Tools!Network Traffic Analysis (NTA)|book {2}}{61}
+\indexentry{SOAR (Security Orchestration, Automation, and Response)!Definition|book {2}}{61}
+\indexentry{Tools!SOAR (Security Orchestration, Automation, and Response)|book {2}}{61}
+\indexentry{Threat Intelligence Platforms (TIP)!Definition|book {2}}{61}
+\indexentry{Tools!Threat Intelligence Platforms (TIP)|book {2}}{61}
+
+% --- Book 2, Page 62 ---
+\indexentry{Incident Response!Tabletop Exercises|book {2}}{62}
+\indexentry{Tabletop Exercises (Incident Response)|book {2}}{62}
+
+% --- Book 2, Page 63 ---
+\indexentry{Incident Response!Early Warning Indicators|book {2}}{63}
+\indexentry{Early Warning Indicators (Incident Response)|book {2}}{63}
+
+% --- Book 2, Pages 64–65 ---
+\indexentry{Indicators of Attack (IoA)|book {2}}{64-65}
+\indexentry{Incident Response!Indicators of Attack (IoA)|book {2}}{64-65}
+\indexentry{Web Bugs (Indicators of Attack)|book {2}}{64}
+\indexentry{Scripts (Indicators of Attack)|book {2}}{65}
+
+% --- Book 2, Page 66 ---
+\indexentry{Canary Tokens|book {2}}{66}
+\indexentry{Tripwires (Canary Tokens)|book {2}}{66}
+\indexentry{Incident Response!Canary Tokens|book {2}}{66}
+
+% --- Book 2, Page 69 ---
+\indexentry{Trust, Control, and Supply Chain!Contract Details|book {2}}{69}
+\indexentry{Contract Details (Trust and Supply Chain)|book {2}}{69}
+
+% --- Book 2, Page 70 ---
+\indexentry{Trust, Control, and Supply Chain!Breach Notifications|book {2}}{70}
+\indexentry{Breaches!Notifications|book {2}}{70}
+\indexentry{Communication!Breach Notifications|book {2}}{70}
+\indexentry{GDPR!Notification Timeline|book {2}}{70}
+
+% --- Book 2, Page 71 ---
+\indexentry{Trust, Control, and Supply Chain!Due Diligence|book {2}}{71}
+\indexentry{Due Diligence (Vendor and Supply Chain)|book {2}}{71}
+
+% --- Book 2, Pages 72–73 ---
+\indexentry{Vendors!Onboarding|book {2}}{72-73}
+\indexentry{Trust, Control, and Supply Chain!Vendor Onboarding|book {2}}{72-73}
+\indexentry{Service Level Agreements (SLAs)|book {2}}{72-73}
+\indexentry{Vendors!Service Level Agreements (SLAs)|book {2}}{72-73}
+
+% --- Book 2, Page 74 ---
+\indexentry{Vendors!Onboarding!Policy and Process|book {2}}{74}
+\indexentry{Trust, Control, and Supply Chain!Vendor Onboarding Policy and Process|book {2}}{74}
+
+% --- Book 2, Page 75 ---
+\indexentry{Vendors!Frameworks!NIST Cybersecurity Framework (CSF)|book {2}}{75}
+\indexentry{Vendors!Frameworks!Vendor Risk Management Maturity Model (VRMMM)|book {2}}{75}
+\indexentry{Vendors!Frameworks!Shared Assessments SIG Questionnaire|book {2}}{75}
+\indexentry{Vendors!Frameworks!Vendor Management Systems (VMS)|book {2}}{75}
+
+\indexentry{SAP Ariba (Vendor Management)|book {2}}{75}
+\indexentry{Coupa (Vendor Management)|book {2}}{75}
+\indexentry{Ivalua (Vendor Management)|book {2}}{75}
+
+
+
+% --- Book 2, Pages 86–90 ---
+\indexentry{Software and Data Integrity Failures|book {2}}{86}
+\indexentry{Software!Integrity Failures|book {2}}{86}
+\indexentry{Data Integrity|book {2}}{86}
+\indexentry{Integrity Failures!Software and Data|book {2}}{86}
+\indexentry{End-User Risk|book {2}}{87}
+\indexentry{Risk!End-User|book {2}}{87}
+\indexentry{Defenses in Practice|book {2}}{88-89}
+\indexentry{Vendors!Vetting|book {2}}{88-89}
+\indexentry{Vendor Vetting (Defenses)|book {2}}{88-89}
+\indexentry{Dependency Management|book {2}}{88-89}
+\indexentry{Defenses!Dependency Management|book {2}}{88-89}
+\indexentry{Software Composition Analysis (SCA)|book {2}}{88-89}
+\indexentry{Defenses!Software Composition Analysis (SCA)|book {2}}{88-89}
+\indexentry{Tools!Software Composition Analysis (SCA)|book {2}}{88-89}
+\indexentry{Runtime Protection|book {2}}{89}
+\indexentry{Content Security Policy (CSP)|book {2}}{89}
+\indexentry{Runtime Protection!Content Security Policy (CSP)|book {2}}{89}
+\indexentry{Subresource Integrity (SRI)|book {2}}{89}
+\indexentry{Runtime Protection!Subresource Integrity (SRI)|book {2}}{89}
+\indexentry{Example!SRI|book {2}}{90}
+\indexentry{Subresource Integrity (SRI)!Example|book {2}}{90}
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     THIRD BOOK SECTION
+*****************************************************************************************************}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     FOURTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     FIFTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{********************************************************************************************
+                                     SIXTH BOOK SECTION
+*****************************************************************************************************}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\comment{Pages 32 and 33 are the same}
+
+
+
+
+\comment{********************************************************************************************
+                                      CROSS-KEYS SECTION
+*****************************************************************************************************}
+% \indexentry{RFMON \goto Monitor Mode|comment}{0}
+% \indexentry{Regulatory Domain Settings \goto Domain Settings|comment}{0}
+% \indexentry{DFS \goto Dynamic Frequency Selection|comment}{0}
+% \indexentry{BPF \goto Berkeley Packet Filter|comment}{0}
+% \indexentry{WIDS \goto WLAN IDS|comment}{0}
+% \indexentry{CDP \goto Cisco Discovery Protocol|comment}{0}
+% \indexentry{KYS \goto Know Your System|comment}{0}
+% \indexentry{OTG \goto On-The-Go|comment}{0}
+% \indexentry{RTLS \goto Real-Time Location System|comment}{0}
+% \indexentry{KML \goto Keyhole Markup Language|comment}{0}
+% \indexentry{NSE \goto Nmap Scripting Engine|comment}{0}
+% \indexentry{SNR \goto Signal-to-Noise Ratio|comment}{0}
+% \indexentry{UMPC \goto Ultra Mobile PC|comment}{0}
+% \indexentry{HT \goto High Throughput|comment}{0}
+% \indexentry{PNL \goto Preferred Network List|comment}{0}
+% \indexentry{PSPF \goto Publicly Secure Packet Forwarding|comment}{0}
+% \indexentry{ACL \goto Access Control List|comment}{0}
+% \indexentry{Karmetasploit Attack \goto Karma Attack|comment}{0}
+% \indexentry{ILMN \goto I-Love-My-Neighbors|comment}{0}
+% \indexentry{IV \goto Initialization Vector|comment}{0}
+% \indexentry{ICV \goto Integrity Check Value|comment}{0}
+% \indexentry{PSK \goto Pre-Shared Key|comment}{0}
+% \indexentry{PLC \goto Programmable Logic Controller|comment}{0}
+% \indexentry{AID \goto Association IDentifier|comment}{0}
+% \indexentry{MIC \goto Message Integrity Check|comment}{0}
+% \indexentry{MFP \goto Management Frame Protection|comment}{0}
+% \indexentry{CTS \goto Clear To Send|comment}{0}
+% \indexentry{RTS \goto Ready To Send|comment}{0}
+% \indexentry{NAV \goto Network Allocator Vector|comment}{0}
+% \indexentry{Temporal Key Integrity Protocol \goto TKIP|comment}{0}
+% \indexentry{TSC \goto TKIP Sequence Counter|comment}{0}
+% \indexentry{Protocol Fuzzing \goto Fuzzing|comment}{0}
+% \indexentry{WiFi Protected Access \goto WPA(2)|comment}{0}
+% \indexentry{PMK \goto Pairwise Master Key|comment}{0}
+% \indexentry{PTK \goto Pairwise Transient Key|comment}{0}
+% \indexentry{KEK \goto Key Encryption Key|comment}{0}
+% \indexentry{WPS \goto WiFi Protected Setup|comment}{0}
+% \indexentry{SAE \goto Simultaneous Authentication of Equals|comment}{0}
+% \indexentry{PFS \goto Perfect Forward Secrecy|comment}{0}
+% \indexentry{DPP \goto Device Provisioning Protocol|comment}{0}
+% \indexentry{OWE \goto Opportunistic Wireless Encryption|comment}{0}
+% \indexentry{PEAP \goto Protected Extensible Auth Protocol|comment}{0}
+% \indexentry{MS-CHAP \goto EAP-MS-CHAP|comment}{0}
+% \indexentry{DSC \goto DECT Standard Cipher|comment}{0}
+% \indexentry{SNA \goto Sensor Network Analyzer|comment}{0}
+% \indexentry{OTA \goto Over-the-Air|comment}{0}
+% \indexentry{CCM* \goto AES-CCM*|comment}{0}
+% \indexentry{FH \goto Frequency Hopping|comment}{0}
+% \indexentry{AFH \goto Frequency Hopping / Adaptive|comment}{0}
